@@ -1909,6 +1909,21 @@ Description: Warning - This package works only in DebianDog! Fix: Force being us
  - apt2sfs, GUI using yad
  - apt2sfs-fullinst, GUI using yad, can be used on a full install
 
+Package: sfs-get-smokey-get
+Architecture: all
+Version: 1.0.4-stretch
+Maintainer: fredx181 dog@root.nl
+Installed-Size: 224
+Depends: libc6, yad, wget, elinks, gsu | gksu
+Filename: ./Included/sfs-get-smokey-get_1.0.4-stretch_all.deb
+Size: 77648
+MD5sum: f797a358f36f332da31c83ce113e0989
+SHA1: 46883c70b4d11e2f3f61e89964f8eaf1d0ddd1a4
+SHA256: 053f8da1acc879077666c4d69a564e5569723d2923961ec33a1dbaf887862471
+SHA512: 99de1cb622f6213151358b987aa9a2f22f65aecb87e8099e540c6e343ded71ec2badd3901f8e0a65ae03d4bc9b942fc98ff83e73b7b0c65897573f03d7f639e0
+Description: The sfs-get-smokey-get program downloads files from github.com or smokey01.com
+ sfs-get_smokey-get by MakeDEBPackage-GUI.
+
 Package: quick-remaster
 Architecture: amd64
 Version: 1.1.2
@@ -3840,6 +3855,21 @@ SHA256: a8ce8962d0074451d31b917ffdac1756afe5e20f043442cbb21e62403182580e
 SHA512: 8e77fe218b6aa9d4496510e80edc797102202fa9dc7a33784770853d8363218125cb0c78dd06f97ec4482f4a59322c22d8a3c44f5c53ec39975abbd1d50af111
 Description: Picdrop, resize images, by Terry (sunburnt)
 
+Package: snappie
+Architecture: amd64
+Version: 1.1
+Priority: optional
+Section: graphics
+Maintainer: rcrsn51
+Depends: netpbm
+Filename: ./Extra/snappie_1.1_amd64.deb
+Size: 20480
+MD5sum: 6ac61db28f8a2afa0e9920d03e74cf95
+SHA1: d883a5c468d5a229d8957b3059d2627a3b1f4830
+SHA256: 78b6564dcfc9a9cc91873a2073980da33ed0eac7baa034a3e127c6e800b12f9b
+SHA512: 0e372bdef529e897cca529ab515ac6d488a57297c04368da8deed5ecbfc79d825c1212a2c94222490d84356bbf1ce7018ea24d053447d121f21dc3d0a4916206
+Description: Screen snapshot
+
 Package: xvidcap
 Architecture: amd64
 Version: 1.1.7
@@ -3911,6 +3941,26 @@ SHA1: 0f46fd9a8f192427c36261d4282ad253e54548c0
 SHA256: 9f76504fd9b1dad2c0fb0f35039114743411319c77d8e9971bb6d1ec39b61961
 SHA512: b65a80eb8190d0908cd42ff8ee05fa1afde228c5cb38a4f6f92980dba763e1e49d35e96f78e442ee64d7d7474c11af5ebb34fef30258ae9ed0e4cdc16c7c1e22
 Description: mounts hand-held devices over USB
+
+Package: madedit
+Architecture: amd64
+Version: 0.2.9-1
+Priority: optional
+Section: editors
+Maintainer: Alston Chen <madedit@gmail.com>
+Installed-Size: 6000
+Depends: libc6 (>= 2.3.5-1), libgcc1 (>= 1:4.1.1-12), libglib2.0-0 (>= 2.12.0), libgtk2.0-0 (>= 2.8.0), libpango1.0-0 (>= 1.14.8), libstdc++6 (>= 4.1.1-12), libx11-6, libxext6
+Filename: ./Extra/madedit_0.2.9-1_amd64.deb
+Size: 2154358
+MD5sum: f513756214fb5ad591e2464df392c8e3
+SHA1: 4b8c6fa2a14ce38a7dd0e7d5553e19aef209c37c
+SHA256: 53e2c2a95d625bb11060d2bd91056da78c73503587c5e0ef9faea4918baecf2a
+SHA512: 36195f2b4fe5a09856fbd8358a45abb13d477f2e2c8b05003c92f70d05221ad6d6ed38c2d38500f0f7f7dcd870f4461c71526a7281a996cf669a11847e38c14c
+Description: GTK+2 based text/hex editor
+ MadEdit is a cross-platform Text/Hex Editor written in C++ & wxWidgets.
+ MadEdit supports many useful functions, e.g. SyntaxHighlightings,
+ WordWrap, Encodings, Column/Hex Modes.
+ HomePage: http://madedit.sourceforge.net
 
 Package: peasyxorburn
 Architecture: all
