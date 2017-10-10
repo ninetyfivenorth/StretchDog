@@ -923,11 +923,11 @@ Maintainer: root@jessie
 Installed-Size: 56
 Depends: libc6
 Filename: ./Included/porteusbootscripts_0.0.4_all.deb
-Size: 10962
-MD5sum: 2d38964a3b48615b87e397b9e7711540
-SHA1: 0a26b3937bda7b5553e25dd7b86e94a0f8b6e5d1
-SHA256: 0548f6974bec47f87c40a466fea14f800427583ac05af47081fabc264de0870f
-SHA512: 58f2aad6070d39f32a29e7a3eb2e7329e5f1ea3cafa839989f8b9b65f2c1272ff0735c17a5f990189bc664ff6824f0477eda5f379433a8b82b0bda3f091814ae
+Size: 10966
+MD5sum: 1379c511fba44e283ee843ba98a3ee6d
+SHA1: 6247b89e70be4d0b7b37ae2517aee392d9952255
+SHA256: b9798536ba517bf5e8eb820fd554f76b60deaa82335b5a28640207ef87469660
+SHA512: 72bc4c4209818790051dcec5554f7f22a5973e75bdc30146e7c9702f4c909e90a1c839f95ce462a6d80886a22e37a1a3c4c2f716295c0cfdc7aafb4ee5fccdc0
 Description: Porteus-boot helper-scripts (Note: works only on DebianDog)
  This version has included the scripts for the new-save-setup
  Note: Removing this package does not make any change.
