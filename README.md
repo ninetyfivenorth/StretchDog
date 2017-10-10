@@ -7,7 +7,7 @@ Md5sum: [StretchDog32-openbox_xfce-jwm-2017-10-10.md5](https://github.com/fredx1
 
 Iso 64 bit: [StretchDog64-openbox_xfce-jwm-2017-10-10.iso](https://github.com/fredx181/StretchDog/releases/download/v2.0/StretchDog64-openbox_xfce-jwm-2017-10-10.iso) **Size: 256MB**              
 Md5sum: [StretchDog64-openbox_xfce-jwm-2017-10-10.md5](https://github.com/fredx181/StretchDog/releases/download/v2.0/StretchDog64-openbox_xfce-jwm-2017-10-10.md5)      
----
+
 **Download (older) Beta versions:**    
 32-bit:    
 ISO: [StretchDog 32-bit](https://github.com/fredx181/StretchDog/releases/download/v2.0/StretchDog32-2017-07-04.iso)    
