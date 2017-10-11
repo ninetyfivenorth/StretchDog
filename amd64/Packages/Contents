@@ -6271,6 +6271,7 @@ usr/share/pixmaps/snappie.png				    snappie
 usr/share/pixmaps/suspend.png				    jwmconf,jwm-setup
 usr/share/pixmaps/swap2.png				    makeswap
 usr/share/pixmaps/switch.png				    jwmconf,jwm-setup-dd64,jwm-setup
+usr/share/pixmaps/system-users.png			    xfce4-whiskermenu-plugin-mod
 usr/share/pixmaps/term.png				    jwmconf
 usr/share/pixmaps/transmission.png			    transmission-2.60
 usr/share/pixmaps/txt2svg.svg				    txt2svg

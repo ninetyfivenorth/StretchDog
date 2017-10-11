@@ -3848,11 +3848,11 @@ Depends: libc6 (>= 2.4), libcairo2 (>= 1.2.4), libexo-1-0 (>= 0.5.0), libgarcon-
 Conflicts: xfce4-whiskermenu-plugin
 Replaces: xfce4-whiskermenu-plugin
 Filename: ./Extra/xfce4-whiskermenu-plugin-mod_1.6.2-1_amd64.deb
-Size: 163006
-MD5sum: f11459efb6637da21dbbb80dda2acaf4
-SHA1: d4258581848fde59b1f64d1dbfc02d3ccca9188e
-SHA256: 8758ce27b180b7f0897735fa6c6c5a630138ceb4b6b16ff642db88d6a735cacc
-SHA512: e58a1448231a5f2a69f5234550ecd0af19daeebd4b48a1f9218afb4ce8c420ace2467cc41ff4636ee7488af07cb3e215daac445e6d2a188e60942b35d6807d4e
+Size: 164494
+MD5sum: 1ea02160c2ee67b732062af140dd6df8
+SHA1: e97896d57663b9cd7c17c3ea6d69d189e0d942d4
+SHA256: 1c04211b01cca57d7e8cfa0c6036788aed4cd86493967d51e440ad1ddf8927bd
+SHA512: d02868b038580b20016006fb9bb10107bbf1ba7abaf7a04e939dd337489e34580febd08c0128f6174ace30724ee1f41dc64ad51ba995a4f807f4125d8678db73
 Homepage: http://gottcode.org/xfce4-whiskermenu-plugin/
 Description: Alternate menu plugin for the Xfce desktop environment
  Whisker Menu is an alternate application launcher for Xfce. When you open it
