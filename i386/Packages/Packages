@@ -4755,11 +4755,11 @@ Depends: libc6 (>= 2.4), libcairo2 (>= 1.2.4), libexo-1-0 (>= 0.5.0), libgarcon-
 Conflicts: xfce4-whiskermenu-plugin
 Replaces: xfce4-whiskermenu-plugin
 Filename: ./Extra/xfce4-whiskermenu-plugin-mod_1.6.2-1_i386.deb
-Size: 171730
-MD5sum: 5a9864872841124fae414b8078c4f914
-SHA1: 01953b020680764404a4ba7a99383d4e7a60a8b8
-SHA256: e46594b87a48fee797481558c9148a793db4fa406a6e82b09c80e2ccafc0ea4b
-SHA512: 3110df5994ad13eec0a1446776ed865107dcb32c48b4a6465fd717122dfb588887cb67eb917c6195f58744cb40e30ca426c848a6670402d607821e7862d718ff
+Size: 173318
+MD5sum: 2d52a013856c42122312e741d3fc1709
+SHA1: 1fb4322b5a428a3441b0d37ac71ee5d7b0879d4e
+SHA256: dbdda6feb0f0d8c57eb0e5f2204d674ca5a3c0542a4703cf00819f8b0ff1ea7c
+SHA512: 1393cf3ae22880b2454c7616e98e8a112883a7a9f5d3c469704d4bf7f42c8778da30ec35f0931241e206e39c61056898eadd7603a57c50b8023907eb2a4675a9
 Homepage: http://gottcode.org/xfce4-whiskermenu-plugin/
 Description: Alternate menu plugin for the Xfce desktop environment
  Whisker Menu is an alternate application launcher for Xfce. When you open it
