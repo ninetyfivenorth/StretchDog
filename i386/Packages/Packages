@@ -4612,6 +4612,22 @@ Description: Create iso, edit iso, burn iso or write (hybrid) iso to usb. Change
   - Display progress bar for writing ISO to USB
   - Changed entry box for to enter usb drive, to: display a list of available drives to choose from.
 
+Package: evince
+Architecture: i386
+Version: 1:2.32.0
+Priority: optional
+Section: utilities
+Maintainer: root
+Installed-Size: 1200
+Depends: libc6, libgconf2-4, libgnome-keyring0, libgail18
+Filename: ./Extra/evince_2.32.0_i386.deb
+Size: 331434
+MD5sum: f75fd4f4d854e3b3b41bf05858f5422a
+SHA1: 9261409f910679d5cba47be4411e03e0f5477a73
+SHA256: b56ba209da97602884717399eb5b12bd070654268085194d477128b0cd258db9
+SHA512: 8549498c1310f5cb153df378b5498db171b74ae36b86c0e0662cfe3dfd4b77918d6eacef7c43c642db3a46579c0b734e90658c4ac8af77e73f3693c9f5a76d48
+Description: evince-converted-pet-to-deb
+
 Package: ceni
 Architecture: i386
 Version: 2.31a
@@ -4831,6 +4847,83 @@ SHA1: b4f7961128bd66b668a6f5a56f162df92a12722d
 SHA256: 7208c8bd31be977ac881129a5dce38ae1196e56c63245c9d213ad316962d22a0
 SHA512: 71f2b003798f1edafcbe7d8fb262d8fe6f4dd2e5505c1dfa0bb6ac70bcda6c4af1862e0ef8126991a99db1b5e088ce90eccc2e73869a91393b236d5cfee3e676
 Description: Picdrop, resize images, by Terry (sunburnt)
+
+Package: xfce4-goodies
+Architecture: i386
+Version: 4.12.3
+Priority: optional
+Section: xfce
+Maintainer: Debian Xfce Maintainers <pkg-xfce-devel@lists.alioth.debian.org>
+Installed-Size: 10
+Depends: xfce4-battery-plugin, xfce4-clipman-plugin, xfce4-cpufreq-plugin, xfce4-cpugraph-plugin, xfce4-datetime-plugin, xfce4-diskperf-plugin, xfce4-fsguard-plugin, xfce4-genmon-plugin, xfce4-mailwatch-plugin, xfce4-mount-plugin, xfce4-netload-plugin, xfce4-notes-plugin, xfce4-places-plugin, xfce4-sensors-plugin, xfce4-smartbookmark-plugin, xfce4-systemload-plugin, xfce4-timer-plugin, xfce4-verve-plugin, xfce4-wavelan-plugin, xfce4-weather-plugin, xfce4-whiskermenu-plugin | xfce4-whiskermenu-plugin-mod, xfce4-xkb-plugin, thunar-archive-plugin, thunar-media-tags-plugin, mousepad, ristretto, xfburn, xfce4-dict, xfce4-notifyd | notification-daemon | notify-osd, xfce4-screenshooter, xfce4-taskmanager, xfce4-terminal
+Recommends: xfce4-power-manager
+Suggests: xfce4-cellmodem-plugin, xfce4-linelight-plugin, xfce4-messenger-plugin, xfce4-mpc-plugin, xfce4-radio-plugin, xfswitch-plugin, xfce4-hdaps, gigolo, parole
+Filename: ./Extra/xfce4-goodies_4.12.3_i386.deb
+Size: 4960
+MD5sum: 1f20e0b74440c490896cb7fecc364044
+SHA1: 6236b9335bd4c673042475a92fae0848066c1381
+SHA256: b3be232b0f76dd131c2a8572c85f8c475aa10b51e4f12793ebd878cc189139bf
+SHA512: d3fc99b9dad60aa433308907fc231c7b98cca38c76a5d6a96b0e63bacc4bed2c327d9bfaab4893fbc7f1e2fa93e9db2ceaeaa424ee043340b3338ffd405b34dc
+Homepage: http://goodies.xfce.org/
+Description: enhancements for the Xfce4 Desktop Environment
+ The "Goodies for Xfce" project includes additional software and artwork that
+ are related to the Xfce desktop, but not part of the official release.
+ .
+ This package will install the following Xfce4 related plugins:
+   * Extra artwork (xfce4-artwork)
+   * Battery levels monitor (xfce4-battery-plugin)
+   * Clipboard history (xfce4-clipman-plugin)
+   * CPU frequency management plugin (xfce4-cpufreq-plugin)
+   * CPU utilisation graphs (xfce4-cpugraph-plugin)
+   * Date and time plugin (xfce4-datetime-plugin)
+   * Disk performance display (xfce4-diskperf-plugin)
+   * Filesystem monitor (xfce4-fsguard-plugin)
+   * Generic monitor, for displaying any command result (xfce4-genmon-plugin)
+   * Mail watcher (xfce4-mailwatch-plugin)
+   * Mount plugin (xfce4-mount-plugin)
+   * Network load monitor (xfce4-netload-plugin)
+   * Notes plugin (xfce4-notes-plugin)
+   * Quick access to bookmarked folders, recent documents and removable
+     media (xfce4-places-plugin)
+   * Sensors plugin, frontend to lm-sensors (xfce4-sensors-plugin)
+   * Smartbookmarks plugin (xfce4-smartbookmark-plugin)
+   * System load monitor (xfce4-systemload-plugin)
+   * Timer plugin (xfce4-timer-plugin)
+   * Command line with history (xfce4-verve-plugin)
+   * Wireless lan monitor (xfce4-wavelan-plugin)
+   * Weather monitor (xfce4-weather-plugin)
+   * Keyboard configuration (xfce4-xkb-plugin)
+   * Archive management for Thunar (thunar-archive-plugin)
+   * Media tags editor for Thunar (thunar-media-tags-plugin)
+   * Alternate menu plugin (xfce4-whiskermenu-plugin)
+ .
+ It'll install some standalone applications too:
+   * Tiny text editor (mousepad)
+   * Images viewer (ristretto)
+   * CD/DVD burner (xfburn)
+   * Frontend to dictionnaries (xfce4-dict)
+   * Notification daemon (xfce4-notifyd)
+   * Tool to take screenshots (xfce4-screenshooter)
+   * Task manager (xfce4-taskmanager)
+   * Terminal emulator (xfce4-terminal)
+ .
+ Some packages are only suggested because they bring too much dependencies,
+ but you may find them interesting:
+   * Cellular modem plugin (xfce4-cellmodem-plugin)
+   * Search plugin, frontend to locate (xfce4-linelight-plugin)
+   * DBus messaging plugin (xfce4-messenger-plugin)
+   * Another commandline plugin (xfce4-minicmd-plugin)
+   * Frontends to MPD (xfce4-mpc-plugin, xfmpc)
+   * Radio plugin (xfce4-radio-plugin))
+   * Fast-user switching plugin (xfswitch-plugin)
+   * ThinkPads HDAPS plugin (xfce4-hdaps)
+   * GIO/GVfs frontend to manage connections to remote filesystems (gigolo)
+   * Media player (parole)
+   * Power Manager (xfce4-power-manager)
+ .
+ This is a metapackage to ease upgrades, installations, and provide a
+ consistent upgrade path from previous versions. It can safely be removed with
+ no ill effects.
 
 Package: filefinder
 Architecture: all
