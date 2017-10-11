@@ -19,7 +19,7 @@ ISO: [StretchDog 32-bit](https://github.com/fredx181/StretchDog/releases/downloa
 [md5sum](https://github.com/fredx181/StretchDog/releases/download/v2.0/StretchDog32-2017-07-04.md5)    
 64-bit:    
 ISO: [StretchDog 64-bit](https://github.com/fredx181/StretchDog/releases/download/v2.0/StretchDog64-2017-07-04.iso)    
-[md5sum](https://github.com/fredx181/StretchDog/releases/download/v2.0/StretchDog64-2017-07-04.md5)
+[md5sum](https://github.com/fredx181/StretchDog/releases/download/v2.0/StretchDog64-2017-07-04.md5)  
 Fixes for booting from FAT32: [initrd1.xz 32-bit](https://fredx181.github.io/StretchDog/i386/Packages/Fixes/)  [initrd1.xz 64-bit](https://fredx181.github.io/StretchDog/amd64/Packages/Fixes/)     
  
 **Screenshots version 2017-10-10:**  
