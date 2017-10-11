@@ -2452,6 +2452,83 @@ Description:  findnrun 1.10.6 (utility)
   icons, smaller English help (markdown), NLS .pot.
   https://github.com/step-/find-n-run/
 
+Package: xfce4-goodies
+Architecture: amd64
+Version: 4.12.3
+Priority: optional
+Section: xfce
+Maintainer: Debian Xfce Maintainers <pkg-xfce-devel@lists.alioth.debian.org>
+Installed-Size: 10
+Depends: xfce4-battery-plugin, xfce4-clipman-plugin, xfce4-cpufreq-plugin, xfce4-cpugraph-plugin, xfce4-datetime-plugin, xfce4-diskperf-plugin, xfce4-fsguard-plugin, xfce4-genmon-plugin, xfce4-mailwatch-plugin, xfce4-mount-plugin, xfce4-netload-plugin, xfce4-notes-plugin, xfce4-places-plugin, xfce4-sensors-plugin, xfce4-smartbookmark-plugin, xfce4-systemload-plugin, xfce4-timer-plugin, xfce4-verve-plugin, xfce4-wavelan-plugin, xfce4-weather-plugin, xfce4-whiskermenu-plugin | xfce4-whiskermenu-plugin-mod, xfce4-xkb-plugin, thunar-archive-plugin, thunar-media-tags-plugin, mousepad, ristretto, xfburn, xfce4-dict, xfce4-notifyd | notification-daemon | notify-osd, xfce4-screenshooter, xfce4-taskmanager, xfce4-terminal
+Recommends: xfce4-power-manager
+Suggests: xfce4-cellmodem-plugin, xfce4-linelight-plugin, xfce4-messenger-plugin, xfce4-mpc-plugin, xfce4-radio-plugin, xfswitch-plugin, xfce4-hdaps, gigolo, parole
+Filename: ./Extra/xfce4-goodies_4.12.3_amd64.deb
+Size: 4968
+MD5sum: 54a08c1f1c235f550c0aa562440b4bd8
+SHA1: 6796fde3a09d337e1b4a15419007285344ba4cd0
+SHA256: efb6fedafc455ac6520d43e19ce2c170012ce3c0b0d2825680a6bb9c85efb8a8
+SHA512: 410bf93318d29cf3f3ac2180f2ca47b7d8df61c3ac4bc66970cc48cdc8449af048859a85eeea3675fb44a962ae43aa692e76c387edd930c3cdec3b1d580deecf
+Homepage: http://goodies.xfce.org/
+Description: enhancements for the Xfce4 Desktop Environment
+ The "Goodies for Xfce" project includes additional software and artwork that
+ are related to the Xfce desktop, but not part of the official release.
+ .
+ This package will install the following Xfce4 related plugins:
+   * Extra artwork (xfce4-artwork)
+   * Battery levels monitor (xfce4-battery-plugin)
+   * Clipboard history (xfce4-clipman-plugin)
+   * CPU frequency management plugin (xfce4-cpufreq-plugin)
+   * CPU utilisation graphs (xfce4-cpugraph-plugin)
+   * Date and time plugin (xfce4-datetime-plugin)
+   * Disk performance display (xfce4-diskperf-plugin)
+   * Filesystem monitor (xfce4-fsguard-plugin)
+   * Generic monitor, for displaying any command result (xfce4-genmon-plugin)
+   * Mail watcher (xfce4-mailwatch-plugin)
+   * Mount plugin (xfce4-mount-plugin)
+   * Network load monitor (xfce4-netload-plugin)
+   * Notes plugin (xfce4-notes-plugin)
+   * Quick access to bookmarked folders, recent documents and removable
+     media (xfce4-places-plugin)
+   * Sensors plugin, frontend to lm-sensors (xfce4-sensors-plugin)
+   * Smartbookmarks plugin (xfce4-smartbookmark-plugin)
+   * System load monitor (xfce4-systemload-plugin)
+   * Timer plugin (xfce4-timer-plugin)
+   * Command line with history (xfce4-verve-plugin)
+   * Wireless lan monitor (xfce4-wavelan-plugin)
+   * Weather monitor (xfce4-weather-plugin)
+   * Keyboard configuration (xfce4-xkb-plugin)
+   * Archive management for Thunar (thunar-archive-plugin)
+   * Media tags editor for Thunar (thunar-media-tags-plugin)
+   * Alternate menu plugin (xfce4-whiskermenu-plugin)
+ .
+ It'll install some standalone applications too:
+   * Tiny text editor (mousepad)
+   * Images viewer (ristretto)
+   * CD/DVD burner (xfburn)
+   * Frontend to dictionnaries (xfce4-dict)
+   * Notification daemon (xfce4-notifyd)
+   * Tool to take screenshots (xfce4-screenshooter)
+   * Task manager (xfce4-taskmanager)
+   * Terminal emulator (xfce4-terminal)
+ .
+ Some packages are only suggested because they bring too much dependencies,
+ but you may find them interesting:
+   * Cellular modem plugin (xfce4-cellmodem-plugin)
+   * Search plugin, frontend to locate (xfce4-linelight-plugin)
+   * DBus messaging plugin (xfce4-messenger-plugin)
+   * Another commandline plugin (xfce4-minicmd-plugin)
+   * Frontends to MPD (xfce4-mpc-plugin, xfmpc)
+   * Radio plugin (xfce4-radio-plugin))
+   * Fast-user switching plugin (xfswitch-plugin)
+   * ThinkPads HDAPS plugin (xfce4-hdaps)
+   * GIO/GVfs frontend to manage connections to remote filesystems (gigolo)
+   * Media player (parole)
+   * Power Manager (xfce4-power-manager)
+ .
+ This is a metapackage to ease upgrades, installations, and provide a
+ consistent upgrade path from previous versions. It can safely be removed with
+ no ill effects.
+
 Package: locale-conf
 Architecture: all
 Version: 1.0.0-s

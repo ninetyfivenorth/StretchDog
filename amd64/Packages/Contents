@@ -4469,6 +4469,8 @@ usr/share/doc/wget/copyright				    wget
 usr/share/doc/x11-xserver-utils/changelog.amd64.gz	    x11-xserver-utils
 usr/share/doc/x11-xserver-utils/changelog.gz		    x11-xserver-utils
 usr/share/doc/x11-xserver-utils/copyright		    x11-xserver-utils
+usr/share/doc/xfce4-goodies/changelog.gz		    xfce4-goodies
+usr/share/doc/xfce4-goodies/copyright			    xfce4-goodies
 usr/share/doc/xfce4-whiskermenu-plugin/README		    xfce4-whiskermenu-plugin-mod
 usr/share/doc/xfce4-whiskermenu-plugin/changelog.Debian.gz  xfce4-whiskermenu-plugin-mod
 usr/share/doc/xfce4-whiskermenu-plugin/changelog.gz	    xfce4-whiskermenu-plugin-mod
