@@ -8,6 +8,10 @@ Md5sum: [StretchDog32-openbox_xfce-jwm-2017-10-10.md5](https://github.com/fredx1
 Iso 64 bit: [StretchDog64-openbox_xfce-jwm-2017-10-10.iso](https://github.com/fredx181/StretchDog/releases/download/v2.0/StretchDog64-openbox_xfce-jwm-2017-10-10.iso) **Size: 256MB**              
 Md5sum: [StretchDog64-openbox_xfce-jwm-2017-10-10.md5](https://github.com/fredx181/StretchDog/releases/download/v2.0/StretchDog64-openbox_xfce-jwm-2017-10-10.md5)  
 
+Mirrors:  
+(https://archive.org/download/Puppy_Linux_StretchDog32/StretchDog32-openbox_xfce-jwm-2017-10-10.iso)    
+(https://archive.org/download/Puppy_Linux_StretchDog64/StretchDog64-openbox_xfce-jwm-2017-10-10.iso)   
+
 DEVX and Firmware squashfs modules: [Here](https://github.com/fredx181/StretchDog/releases/v2.1)       
 
 Locales: [099-locales-stretch.squashfs](http://debiandog.github.io/Misc/Stretch/i386/Packages/SFS/099-locales-stretch.squashfs)          
@@ -15,7 +19,7 @@ Locales: [099-locales-stretch.squashfs](http://debiandog.github.io/Misc/Stretch/
 
 [Thread on Puppy Linux forum](http://murga-linux.com/puppy/viewtopic.php?t=111789)  
 
-StretchDog is a variant of DebianDog [Info and credits](index.html) based on Debian 9 "Stretch"
+StretchDog is a variant of DebianDog [Info and credits](https://debiandog.github.io/doglinux/) based on Debian 9 "Stretch"
 
 Built from scratch by using debootstrap, see also [Here](http://murga-linux.com/puppy/viewtopic.php?t=111199) and [Here](https://github.com/DebianDog/MakeLive/blob/gh-pages/README-Stretch.md#create-a-debian-9-stretch-minimal-live-iso-similar-to-debiandog)    
 
