@@ -1071,6 +1071,7 @@ usr/bin/xvidcap-dbus-client				    xvidcap
 usr/bin/xvidtune					    x11-xserver-utils
 usr/bin/yad						    yad
 usr/bin/yad-splash-frisbee				    frisbee
+usr/bin/yad-splash-notify				    PeasyWiFi
 usr/bin/yaf-splash					    sns
 usr/bin/youtube-viewer					    youtube-viewer
 usr/etc/luminaDesktop.conf.dist				    lumina-desktop-debdog
@@ -8760,9 +8761,9 @@ usr/share/pixmaps/gtk-youtube-viewer.png		    youtube-viewer
 usr/share/pixmaps/help-about.png			    sns
 usr/share/pixmaps/help-lumina.png			    lumina-desktop-debdog
 usr/share/pixmaps/hound1-r.png				    frisbee
-usr/share/pixmaps/hound1.png				    frisbee
+usr/share/pixmaps/hound1.png				    frisbee,PeasyWiFi
 usr/share/pixmaps/hound2.png				    frisbee
-usr/share/pixmaps/hound3.png				    frisbee
+usr/share/pixmaps/hound3.png				    frisbee,PeasyWiFi
 usr/share/pixmaps/icewm_32x32.xpm			    jwm-setup,jwmconf
 usr/share/pixmaps/icon_epdfview-48.png			    epdfview
 usr/share/pixmaps/input-keyboard.png			    lxinputsave
