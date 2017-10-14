@@ -3605,6 +3605,22 @@ Description: shared files for other gFTP packages
  .
   Author:   Brian Masney <masneyb@gftp.org>
 
+Package: uextract
+Architecture: amd64
+Version: 3.30
+Priority: optional
+Section: utilities
+Maintainer: root
+Installed-Size: 308
+Depends:
+Filename: ./Extra/uextract_3.30_amd64.deb
+Size: 64424
+MD5sum: 0a270db344e391d555317832ac95b0eb
+SHA1: 89519aaabc0111b21aa1ed519fd5344d62c28940
+SHA256: 87d3c5b08210979dc66c434be8bbceb0179a27ec946edae8cd8655d5418446a6
+SHA512: 8a262d8ee0cec12494e15bab7648a67e5c6af1936057a41e649b04d9d36f3c85f5c60946ec47185cbd0524505ca722b9bab5f4244f61924d891190355b043578
+Description: uextract-converted-pet-to-deb
+
 Package: peasyglue
 Architecture: all
 Version: 2.0
