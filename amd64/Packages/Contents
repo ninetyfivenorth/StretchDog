@@ -885,7 +885,6 @@ usr/bin/xsetroot					    x11-xserver-utils
 usr/bin/xstdcmap					    x11-xserver-utils
 usr/bin/xvidtune					    x11-xserver-utils
 usr/bin/yad						    yad
-usr/bin/yad-splash-notify				    PeasyWiFi
 usr/bin/youtube-viewer					    youtube-viewer
 usr/include/evince/2.32/evince-document.h		    evince
 usr/include/evince/2.32/evince-view.h			    evince
@@ -6551,8 +6550,6 @@ usr/share/pixmaps/gtk-go-back.png			    youtube-get2
 usr/share/pixmaps/gtk-go-forward.png			    youtube-get2
 usr/share/pixmaps/gtk-info.png				    youtube-get2
 usr/share/pixmaps/gtk-youtube-viewer.png		    youtube-viewer
-usr/share/pixmaps/hound1.png				    PeasyWiFi
-usr/share/pixmaps/hound3.png				    PeasyWiFi
 usr/share/pixmaps/icewm_32x32.xpm			    jwmconf,jwm-setup-dd64,jwm-setup
 usr/share/pixmaps/icon_epdfview-48.png			    epdfview
 usr/share/pixmaps/input-keyboard.png			    lxinputsave

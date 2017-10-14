@@ -3993,30 +3993,6 @@ SHA512: 93db2a05a72731cc547590f5cad3324f3e521ddce21bdb41b3b6c166b1039a99876795c5
 Description: DVD decryption library
   compiled from source in Stretch-Live-64bit
 
-Package: PeasyWiFi
-Architecture: amd64
-Version: 4.5-2
-Priority: optional
-Section: base
-Maintainer: rcrsn51
-Depends: libc6, gtkdialog, gettext-base, net-tools, wpasupplicant, wireless-tools, x11-utils
-Conflicts: ceni, dhcpcd, dhcpcd5, resolvconf, isc-dhcp-client, isc-dhcp-common, sns, xpns-tool, wifibox, wifibox-dhcpcd, frisbee
-Replaces: ceni, dhcpcd, dhcpcd5, resolvconf, isc-dhcp-client, isc-dhcp-common, sns, xpns-tool, wifibox, wifibox-dhcpcd, frisbee
-Filename: ./Extra/peasywifi_4.5-2_amd64.deb
-Size: 32554
-MD5sum: 2b71d4cde7bfd42cdbf4c1726dc33223
-SHA1: 3eb41c4cb366717e13443fa38694d76cfdd80fcd
-SHA256: 4f3efcd481439744fc0d96058d8db2014b6e8d37ec3ae82e84222b971fef25e4
-SHA512: 829e356d4ba9657e4f3026c4a195f63cf0005829d23b97ef889b88c0b518d3bd22d20e112ed41e45d527b2a238713e52b99e222631c0ed6cddc88679437a62b3
-Description: Reliable network manager
- -changes in v4.4-0 in peasywifi script by rcrsn51:
- - added option (Ethernet tab) to bring the interface down
- - added Names button (to select interface names)
- - A modification to Names. It resets the Ethernet profiles in /etc/pwf/ethernet
- - Updated Help screen
- - added multi-user support (fredx181)
- - added notification
-
 Package: firewall-ng
 Architecture: amd64
 Version: 1.0.1
