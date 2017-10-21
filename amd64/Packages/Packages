@@ -3325,13 +3325,13 @@ Priority: optional
 Section: graphics
 Maintainer: root
 Installed-Size: 1700
-Depends: libatk1.0-0, libc6, libcairo2, libfontconfig1, libfreetype6, libgdk-pixbuf2.0-0, libgif7, libglib2.0-0, libgtk2.0-0, liblcms2-2, libpango-1.0-0, libpangocairo-1.0-0, libpangoft2-1.0-0, libpng16-16, libtiff5, libx11-6
+Depends: libatk1.0-0, libc6, libcairo2, libfontconfig1, libfreetype6, libgdk-pixbuf2.0-0, libgif7, libglib2.0-0, libgtk2.0-0, liblcms2-2, libopenjp2-7, libpango-1.0-0, libpangocairo-1.0-0, libpangoft2-1.0-0, libpng16-16, libtiff5, libx11-6
 Filename: ./Extra/mtpaint_3.49.12_amd64.deb
-Size: 500000
-MD5sum: b53b532f9d46393f2b56ae1a8ef96ba4
-SHA1: 7587722085200e25b2341fc2d3f49b5f7cf5be51
-SHA256: a140bfc8e4a186ba7d4b31f6c1a3d43deca63676e50a79dbc2b732617fe84f68
-SHA512: 4a06579194f49da16817a199539fa74ea539746432422a2c3af0064579e5d26f0f069df65c954fc6c3145d9f44247207a297907d4ce8490967267d94f8767b0f
+Size: 499836
+MD5sum: 16b2d5fff675e3caca371f6afa273ff8
+SHA1: f153a65635f987845aefcb01167b5d7c7a3a6982
+SHA256: 984a7a4f16944d9a36013504e5c4ddb98f046e0af76a68ae97c6e96af0fdcb36
+SHA512: db479675e1008e3d013074917a79486fd149393e6a249313deefc52ffdaef7a55d4d568271dbab120a8d3889af27209c190b03e6360dfef61fef28732ac539af
 Description: mtpaint for stretch dog linux
 
 Package: libhogweed2
