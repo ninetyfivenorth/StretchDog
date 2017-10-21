@@ -825,6 +825,22 @@ Description: Warning - This package works only in DebianDog booted with porteus 
  Fix in v 1.0.6: skip symlinks while cleaning man and doc files
  Version 1.0.7: added option to create ISO
 
+Package: pfind
+Architecture: all
+Version: 6.3
+Priority: optional
+Section: utilities
+Maintainer: zigbert
+Installed-Size: 100
+Depends:
+Filename: ./Included/pfind_6.3_all.deb
+Size: 29118
+MD5sum: 1ba4b2c5c839c554707dbf31f6863106
+SHA1: b058c58fc0a8505253132dca26436ec3aad82a85
+SHA256: e3e417eed56bda6d8b5e907a419f3fb051f7800a44b354c6a40fcb1abb4a270b
+SHA512: 2925448b534fdd1bcab8760cb81b5f58db379d3c42dfb0841594e8a39823b8f99820e6e10c76eb194fd6a728ae70fc5c0b164195ddd7624af015c349dcc20063
+Description: pfind-converted-pet-to-deb by zigbert
+
 Package: pup-volume-monitor
 Architecture: amd64
 Version: 0.1.15-2
@@ -2275,6 +2291,48 @@ Description: colored FTP client using GLib
  .
   Author:   Brian Masney <masneyb@gftp.org>
 
+Package: deadbeef-static
+Architecture: amd64
+Version: 0.7.2-2
+Priority: optional
+Section: sound
+Maintainer: Alexey Yakovenko <waker@users.sf.net>
+Installed-Size: 18634
+Depends: libasound2 (>> 1.0.16), libc6 (>= 2.7-1), libcairo2 (>= 1.2.4), libgcc1 (>= 1:4.1.1), libglib2.0-0 (>= 2.16.0), libgtk2.0-0 (>= 2.12.0), libpango1.0-0 (>= 1.20.3), libx11-6
+Recommends: libpulse0, libdbus-1-3
+Filename: ./Extra/deadbeef-static_0.7.2-2_amd64.deb
+Size: 8560256
+MD5sum: 7ae0866d9d980f6b537a1097819011a3
+SHA1: d64a10042b806fe95262a353d941d77f209f5c66
+SHA256: 2a555f78d3f9e21475763f5e727a79d8c05eddcd2c838bea3e3550be7460ccbc
+SHA512: ee0eddae4c95a30237eaa1789fa04bad88c697373ca21d4a28463320c0ca038fef4cee9828f3bdb06180ab2bc771d54b7a24e335a9b7edfba9da1d3a1d256889
+Homepage: http://deadbeef.sourceforge.net/
+Description: The Ultimate Music Player
+ DeaDBeeF (as in 0xDEADBEEF) is a cross-platform audio player
+ .
+ Features:
+ .
+  * mp3, ogg vorbis, flac, ape, wv, wav
+  * ID3v1, ID3v2.2, ID3v2.3, ID3v2.4, APEv2, xing/info tags support
+  * character set detection for non-unicode ID3 tags - supports cp1251
+    and iso8859-1
+  * unicode tags are fully supported as well (both utf8 and ucs2)
+  * cuesheet support for mp3, ogg, flac, ape
+  * autodetection of utf8/cp1251/iso8859-1 charsets in cuesheets
+  * sid and some popular chiptune formats like nsf
+  * tracker modules like mod, s3m, it, xm, etc
+  * HVSC song length database support for sid
+  * gtk2 interface with custom highly speed/memory optimized widgets
+  * no GNOME or KDE dependencies - just gtk2 and several small libraries
+  * minimize to tray, with scrollwheel volume control
+  * drag and drop, both inside of playlist, and from filemanagers and such
+  * control playback from command line (allows global hotkeys using xbindkeys)
+  * seeking works in all supported formats
+  * plugin support; ships with several standard plugins, such as global hotkeys
+    and last.fm scrobbler; sdk is included
+  * duration calculation is as precise as possible for vbr mp3
+    files (with and without xing/info tags)
+
 Package: slim
 Architecture: amd64
 Version: 1:1.3.6-5-dd
@@ -3230,6 +3288,22 @@ Description: Reliable network manager
  - added Names button (to select interface names)
  - A modification to Names. It resets the Ethernet profiles in /etc/pwf/ethernet
  - Updated Help screen
+
+Package: mtpaint
+Architecture: amd64
+Version: 3.49.12
+Priority: optional
+Section: graphics
+Maintainer: root
+Installed-Size: 900
+Depends: libatk1.0-0, libc6, libcairo2, libfontconfig1, libfreetype6, libgdk-pixbuf2.0-0, libgif7, libglib2.0-0, libgtk2.0-0, liblcms2-2, libpango-1.0-0, libpangocairo-1.0-0, libpangoft2-1.0-0, libpng16-16, libtiff5, libx11-6
+Filename: ./Extra/mtpaint_3.49.12_amd64.deb
+Size: 498730
+MD5sum: 54fe00b4358215831381f896a0b71728
+SHA1: f7ed8133363236b26e456e7117ced14661ee4b6f
+SHA256: 6225fefeb261caedb6ef011da1301e41f6dd7d9965e6ea33bc2b5014ef15648b
+SHA512: e0562acd7fece64e924bf0f7c6666b3627d027ceffdf610202f6fdf82032ea0e9828efb5a7fbddb19938415031fb1a3c9e721b1ec4764c08b875abe7f02fb0ae
+Description: mtpaint for stretch dog linux
 
 Package: libhogweed2
 Architecture: amd64
