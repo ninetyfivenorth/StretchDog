@@ -1404,6 +1404,8 @@ usr/lib/X11/mini-icons/network_tray-xpm/wifieth-none.xpm    frisbee,ceni,wifibox
 usr/lib/X11/mini-icons/network_tray-xpm/wifieth-out.xpm	    frisbee,ceni,wifibox-dhcpcd
 usr/lib/X11/xdm/chooser					    xdm
 usr/lib/X11/xdm/libXdmGreet.so				    xdm
+usr/lib/apulse/libpulse-mainloop-glib.so		    apulse
+usr/lib/apulse/libpulse-mainloop-glib.so.0		    apulse
 usr/lib/apulse/libpulse-simple.so			    apulse
 usr/lib/apulse/libpulse-simple.so.0			    apulse
 usr/lib/apulse/libpulse.so				    apulse
@@ -5030,6 +5032,7 @@ usr/share/applications/evince.desktop			    evince
 usr/share/applications/ffconvert.desktop		    ffconvert
 usr/share/applications/filefinder.desktop		    filefinder
 usr/share/applications/findnrun.desktop			    findnrun
+usr/share/applications/firefox-apulse.desktop		    apulse
 usr/share/applications/firefox-esr.desktop		    firefox-esr
 usr/share/applications/firewall-puppy.desktop		    Firewall-Puppy
 usr/share/applications/firewall-setup.desktop		    firewall-ng
@@ -9115,6 +9118,7 @@ usr/share/pixmaps/term.png				    jwmconf
 usr/share/pixmaps/transmission.png			    transmission-2.31
 usr/share/pixmaps/txt2svg.svg				    txt2svg
 usr/share/pixmaps/unzipper.png				    unzipper
+usr/share/pixmaps/updater.png				    apulse
 usr/share/pixmaps/upgrade-kernel.png			    upgrade-kernel
 usr/share/pixmaps/xfce4-backdrop.png			    scrotdlg
 usr/share/pixmaps/xfe.png				    xfe

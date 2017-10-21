@@ -3029,6 +3029,20 @@ Description: fast, lightweight graphical web browser
   * Support for extensions (written in C).
   * Custom context menu actions.
 
+Package: apulse
+Architecture: i386
+Version: 2017.10.16
+Priority: extra
+Maintainer: rcrsn51
+Depends: libc6, alsa-utils
+Filename: ./Extra/apulse-stretch_2017.10.16_i386.deb
+Size: 50276
+MD5sum: 39acea3e7ca56ce0cf478b4754cb769d
+SHA1: 114d12e45a77be20fa6f4dcc474e870c18439ca3
+SHA256: 11a14390b8bccaf23bd2f77e72840bd680605d559f2d58454a4d39aa054a2902
+SHA512: 55e48018ca7f9147e767eee26471520db9865adf54c3733b6f80f2df4f0c3db8e3082efdca20088533367cb425e630b4245a90b43371b9d9311346b7386b072b
+Description: Pulseaudio emulator using alsa
+
 Package: dogradio
 Architecture: i386
 Version: 0.0.7
