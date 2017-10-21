@@ -951,6 +951,8 @@ root/.config/rox.sourceforge.net/ROX-Filer/pinbd-OB	    jwmconf,jwm-setup
 root/.config/rox.sourceforge.net/SendTo/.application_octet-stream/Edit with mtPaint mtpaint
 root/.config/rox.sourceforge.net/SendTo/.image_bmp/Edit with mtPaint mtpaint
 root/.config/rox.sourceforge.net/SendTo/.image_gif/Edit with mtPaint mtpaint
+root/.config/rox.sourceforge.net/SendTo/.image_j2k/Edit with mtPaint mtpaint
+root/.config/rox.sourceforge.net/SendTo/.image_jp2/Edit with mtPaint mtpaint
 root/.config/rox.sourceforge.net/SendTo/.image_jpeg/Edit with mtPaint mtpaint
 root/.config/rox.sourceforge.net/SendTo/.image_openraster/Edit with mtPaint mtpaint
 root/.config/rox.sourceforge.net/SendTo/.image_png/Edit with mtPaint mtpaint
@@ -962,11 +964,9 @@ root/.config/rox.sourceforge.net/SendTo/.image_svg+xml/SVG-viewer.sh mtpaint
 root/.config/rox.sourceforge.net/SendTo/.image_svg+xml/Trash mtpaint
 root/.config/rox.sourceforge.net/SendTo/.image_svg+xml/geeqie slideshow mtpaint
 root/.config/rox.sourceforge.net/SendTo/.image_svg/Edit with mtPaint mtpaint
+root/.config/rox.sourceforge.net/SendTo/.image_tga/Edit with mtPaint mtpaint
 root/.config/rox.sourceforge.net/SendTo/.image_tiff/Edit with mtPaint mtpaint
-root/.config/rox.sourceforge.net/SendTo/.image_x-pcx/Edit with mtPaint mtpaint
-root/.config/rox.sourceforge.net/SendTo/.image_x-tga/Edit with mtPaint mtpaint
-root/.config/rox.sourceforge.net/SendTo/.image_x-xcursor/Edit with mtPaint mtpaint
-root/.config/rox.sourceforge.net/SendTo/.image_x-xpixmap/Edit with mtPaint mtpaint
+root/.config/rox.sourceforge.net/SendTo/.image_vnd.zbrush.pcx/Edit with mtPaint mtpaint
 root/.config/rox.sourceforge.net/SendTo/.inode_directory/Search with pFind pfind
 root/.config/rox.sourceforge.net/SendTo/.inode_mount-point/Search with pFind pfind
 root/.config/rox.sourceforge.net/SendTo/Multi-Copy	    jwmconf,jwm-setup
@@ -1276,6 +1276,8 @@ usr/lib/X11/mini-icons/network_tray-xpm/wifieth-both.xpm    frisbee
 usr/lib/X11/mini-icons/network_tray-xpm/wifieth-in.xpm	    frisbee
 usr/lib/X11/mini-icons/network_tray-xpm/wifieth-none.xpm    frisbee
 usr/lib/X11/mini-icons/network_tray-xpm/wifieth-out.xpm	    frisbee
+usr/lib/apulse/libpulse-mainloop-glib.so		    apulse
+usr/lib/apulse/libpulse-mainloop-glib.so.0		    apulse
 usr/lib/apulse/libpulse-simple.so			    apulse
 usr/lib/apulse/libpulse-simple.so.0			    apulse
 usr/lib/apulse/libpulse-simple.so.0.1.0			    apulse
@@ -4282,6 +4284,7 @@ usr/share/applications/evince.desktop			    evince
 usr/share/applications/ffconvert.desktop		    ffconvert
 usr/share/applications/filefinder.desktop		    filefinder
 usr/share/applications/findnrun.desktop			    findnrun
+usr/share/applications/firefox-apulse.desktop		    apulse
 usr/share/applications/firefox-esr.desktop		    firefox-esr
 usr/share/applications/firewall-setup.desktop		    firewall-ng
 usr/share/applications/firewallstatus.desktop		    firewall-ng
@@ -6936,6 +6939,7 @@ usr/share/pixmaps/term.png				    jwmconf
 usr/share/pixmaps/transmission.png			    transmission-2.60
 usr/share/pixmaps/txt2svg.svg				    txt2svg
 usr/share/pixmaps/unzipper.png				    unzipper
+usr/share/pixmaps/updater.png				    apulse
 usr/share/pixmaps/upgrade-kernel.png			    upgrade-kernel
 usr/share/pixmaps/xfce4-backdrop.png			    scrotdlg
 usr/share/pixmaps/xhippo.xpm				    xhippo

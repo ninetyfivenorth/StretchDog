@@ -3025,6 +3025,20 @@ Description: Reliable network manager
  - A modification to Names. It resets the Ethernet profiles in /etc/pwf/ethernet
  - Updated Help screen
 
+Package: apulse
+Architecture: amd64
+Version: 2017.10.16
+Priority: extra
+Maintainer: rcrsn51
+Depends: libc6, alsa-utils
+Filename: ./Extra/apulse-stretch_2017.10.16_amd64.deb
+Size: 49272
+MD5sum: 03de6c5ac9568ff5faac645393bd4a69
+SHA1: e4901f384cb947412a0d851f97ec0bdf1ab162d0
+SHA256: 315bb48c9d41e9ca0e7cbbe1c590a112d855107242ce0934e61f57b7c822570e
+SHA512: fb40c3afcd64c4be85e903e28c2f7cb099e0eadeffce65e2d06b28f16128c88ef556e5360e09101454e1a375f03065e42b917fa95a6c5b59ef6d7d7d295fad5b
+Description: Pulseaudio emulator using alsa
+
 Package: broadcom-wl-driver-k4.9.0-3-amd64
 Architecture: amd64
 Version: 1.0
@@ -3295,14 +3309,14 @@ Version: 3.49.12
 Priority: optional
 Section: graphics
 Maintainer: root
-Installed-Size: 900
+Installed-Size: 1700
 Depends: libatk1.0-0, libc6, libcairo2, libfontconfig1, libfreetype6, libgdk-pixbuf2.0-0, libgif7, libglib2.0-0, libgtk2.0-0, liblcms2-2, libpango-1.0-0, libpangocairo-1.0-0, libpangoft2-1.0-0, libpng16-16, libtiff5, libx11-6
 Filename: ./Extra/mtpaint_3.49.12_amd64.deb
-Size: 498730
-MD5sum: 54fe00b4358215831381f896a0b71728
-SHA1: f7ed8133363236b26e456e7117ced14661ee4b6f
-SHA256: 6225fefeb261caedb6ef011da1301e41f6dd7d9965e6ea33bc2b5014ef15648b
-SHA512: e0562acd7fece64e924bf0f7c6666b3627d027ceffdf610202f6fdf82032ea0e9828efb5a7fbddb19938415031fb1a3c9e721b1ec4764c08b875abe7f02fb0ae
+Size: 500000
+MD5sum: b53b532f9d46393f2b56ae1a8ef96ba4
+SHA1: 7587722085200e25b2341fc2d3f49b5f7cf5be51
+SHA256: a140bfc8e4a186ba7d4b31f6c1a3d43deca63676e50a79dbc2b732617fe84f68
+SHA512: 4a06579194f49da16817a199539fa74ea539746432422a2c3af0064579e5d26f0f069df65c954fc6c3145d9f44247207a297907d4ce8490967267d94f8767b0f
 Description: mtpaint for stretch dog linux
 
 Package: libhogweed2

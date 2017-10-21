@@ -2,7 +2,7 @@
 
 ### Update: New Stretchdog ISO's:   
   
-####[See here for changes and fixes after 2017-10-10](Changes-and-Fixes-after-2017-10-10.md)       
+#### [See here for changes and fixes after 2017-10-10](Changes-and-Fixes-after-2017-10-10.md)       
   
 Iso 32 bit: [StretchDog32-openbox_xfce-jwm-2017-10-10.iso](https://github.com/fredx181/StretchDog/releases/download/v2.0/StretchDog32-openbox_xfce-jwm-2017-10-10.iso) **Size: 242MB**          
 Md5sum: [StretchDog32-openbox_xfce-jwm-2017-10-10.md5](https://github.com/fredx181/StretchDog/releases/download/v2.0/StretchDog32-openbox_xfce-jwm-2017-10-10.md5)      
