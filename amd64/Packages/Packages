@@ -2139,6 +2139,21 @@ Description: GNOME XML library
  This package provides a library providing an extensive API to handle
  such XML data files.
 
+Package: unzipper
+Architecture: all
+Version: 1.3
+Priority: optional
+Section: base
+Maintainer: rcrsn51
+Depends: gzip, bzip2, xz-utils, unzip, p7zip
+Filename: ./Extra/unzipper_1.3.deb
+Size: 3256
+MD5sum: e6b1818bf38b9f855abe0fbb26269a68
+SHA1: ae514a0ebc0a37b370007ab9fed42944d3de513b
+SHA256: 0839eb7c1158417d7f5cc7fde0ebd919ab33a698b2724fc6d988638ac73abc21
+SHA512: 889a07b13807abc7dc288759b64088db6530714e93419def219e57c321171382d74a584466c061fea47c396d999945f16daf8333d4e62df504261a2a550a0a0f
+Description: Extract gz, tgz, bz2, xz, zip, 7z archives
+
 Package: peasyscale
 Architecture: amd64
 Version: 2.0
