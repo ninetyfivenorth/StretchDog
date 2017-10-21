@@ -1,6 +1,8 @@
 # StretchDog 32 and 64 bit ISO's  
 
-### Update: New Stretchdog ISO's:  
+### Update: New Stretchdog ISO's:   
+  
+####[See here for changes and fixes after 2017-10-10](Changes-and-Fixes-after-2017-10-10.md)       
   
 Iso 32 bit: [StretchDog32-openbox_xfce-jwm-2017-10-10.iso](https://github.com/fredx181/StretchDog/releases/download/v2.0/StretchDog32-openbox_xfce-jwm-2017-10-10.iso) **Size: 242MB**          
 Md5sum: [StretchDog32-openbox_xfce-jwm-2017-10-10.md5](https://github.com/fredx181/StretchDog/releases/download/v2.0/StretchDog32-openbox_xfce-jwm-2017-10-10.md5)      
@@ -32,7 +34,7 @@ Built from scratch by using debootstrap, see also [Here](http://murga-linux.com/
 
 **Specifications:**          
 Kernel: 4.9.0-3      
-Choice of Boot Methods: porteus-boot and live-boot v3 (see for options [Here](https://github.com/DebianDog/Jessie/wiki/Boot-methods){:target="_blank"})      
+Choice of Boot Methods: porteus-boot and live-boot v3 (see for options [Here](https://github.com/DebianDog/Jessie/wiki/Boot-methods))         
 Default WM - OpenBox with on top xfce4-panel and xfdesktop.  
 Option to switch to JWM window-manager  
 Menu on Openbox_Xfce is (a modified) Whisker-Menu             
