@@ -1071,6 +1071,24 @@ Description: Warning - This package works only in DebianDog booted with porteus 
  Version 1.0.7: added option to create ISO
  Version 1.1.2, cleaning, do not remove /etc/rc.d
 
+Package: gnome-mplayer-1.0.7
+Architecture: i386
+Version: 1:1.0.6.3
+Priority: extra
+Section: system
+Maintainer: root@wheezy
+Installed-Size: 9500
+Depends: dbus-x11, libasound2, libatk1.0-0, libc6, libcairo2, libcurl3, libdbus-1-3, libdbus-glib-1-2, libfontconfig1, libfreetype6, libgdk-pixbuf2.0-0, libglib2.0-0, libgtk2.0-0, libmusicbrainz3-6, libpango-1.0-0, libpangocairo-1.0-0, libpangoft2-1.0-0, libx11-6, libxss1, liba52-0.7.4, libdvdread4, libenca0, libfaad2, libfribidi0, libogg0, libpng12-0, libtheora0, libvorbis0a, libxext6, libxinerama1, libxv1, libxvidcore4, libcdio-paranoia1
+Conflicts: gmplayer, gnome-mplayer, mplayer, mplayer2, gmplayer-portable
+Replaces: gmplayer, gnome-mplayer, mplayer, mplayer2, gmplayer-portable
+Filename: ./Included/gnome-mplayer-1.0.7_1.0.6.3_i386.deb
+Size: 3606488
+MD5sum: 60efa04fef0a71d8b4e1588fbdbe7db6
+SHA1: 4305c16987adc2044427634da73ef131f4a4c38d
+SHA256: b5fd967aca0cc8e28786aae8ed28114018af789edcafc66370dee45362b85e57
+SHA512: 7ad48fe40f31736367d347c7265563222cdc90f406d9ace2861666baa7fa1d9c1ea24890a4351ed45cf1698cc99a4e8f4c5b23661e5b69387191fcf8727ed426
+Description: Media player small version for DebianDog
+
 Package: fixdepinstall
 Architecture: i386
 Version: 1.0.3
@@ -2711,6 +2729,27 @@ Description: Control center
 
 Package: mpv
 Architecture: i386
+Version: 1:0.9.4-ddjessie
+Priority: optional
+Section: misc
+Maintainer: fredx181
+Installed-Size: 6900
+Depends: libc6, libenca0, libfontconfig1, libfreetype6, libfribidi0, libgmp10, libharfbuzz0b, liblua5.1-0, libx11-6, libxcb-shm0, libxcb1, libxext6, libxinerama1, libxrandr2, libxv1, oss-compat
+Filename: ./Extra/mpv_0.9.4-ddjessie_i386.deb
+Size: 7726920
+MD5sum: 08a8ffe13c3e4abab2f55d71dcbe427f
+SHA1: 92f603065a10e8bf7f64cd86b510090c8d1476bb
+SHA256: e3c14b5f19e5c53e7bd8b5e7a19b70b261549e00e6f507d0925538d340fa98be
+SHA512: 8e6159056f1a45d60dce63e303d6dd7d929214b97a9ef02a041dbac947ccefcba1fc565605ca0ce12d5d7a0e5e969ba500efae6fff376d28b9d17771b3ecc384
+Homepage: https://github.com/mpv-player/mpv-build
+Description: mplayer/mplayer2 based video player, minimal build
+ MPV is a versatile CLI movie player, based on mplayer and mplayer2.
+ .
+ This package is not part of Debian. It was created by mpv-build scripts with
+ statically linked ffmpeg (not libav) and libass from upstream.
+
+Package: mpv
+Architecture: i386
 Version: 1:0.9.2-ddjessie
 Priority: optional
 Section: misc
@@ -4303,6 +4342,27 @@ Description: FUSE filesystem for mounting files from http servers
  the filesystem. There is no notion of listable directories in http so only a
  single URL can be mounted. The server must be able to send byte ranges.
 
+Package: youtube-viewer
+Architecture: all
+Version: 3.3.1-stretch
+Priority: optional
+Section: perl
+Maintainer: fredx181
+Installed-Size: 1100
+Depends: perl, libjson-perl, libjson-xs-perl, libdata-dump-perl, libfile-sharedir-perl, libgtk2-perl, libwww-perl, libterm-readline-gnu-perl, mpv | vlc
+Recommends: youtube-get2
+Suggests: gcap, liblwp-protocol-https-perl, libtext-charwidth-perl, libterm-readkey-perl, libterm-ui-perl, wget
+Filename: ./Extra/youtube-viewer_3.3.1-stretch_all.deb
+Size: 409702
+MD5sum: 7f16bde97c0c7da260beca5c033eaa02
+SHA1: eefa4220626fa8c65820bf326d2241f26bce17e5
+SHA256: 1e182e64fe229590f930d61c295b3c23eaf67dd42fa7a96f63575b145268680d
+SHA512: 26e772bcb6fe022c3b698ff185ec1096c263233eadc56bbd8041fa77231a8f2ae22ab591381e0e2cd524218fd7da615792fbdbf36b56f7c9a08b9bb7fddf9e74
+Homepage: https://github.com/trizen/youtube-viewer
+Description: A Gtk2 application for searching and streaming videos from YouTube.
+ WWW-YoutubeViewer - a very easy interface to YouTube.
+ Highly recommended: install mpv or vlc mediaplayer and youtube-get2 (includes youtube-dl) to be able to play all videos without exceptions.
+
 Package: yassm-smbclient-mpscan
 Architecture: i386
 Version: 2:2.6-2
@@ -4607,6 +4667,21 @@ SHA1: c2d30d75872ef0e8af328b879240b65b4992dffd
 SHA256: 5143d06d7042a5f4d8af8c1cc5fa8c5b5aceb5fab1d876dcd313a5ab08a369e6
 SHA512: 0919e3701558d04602287a9c286a11adc0535222f8d2c799fb3b7c23923a90157aaaef52ac2ba51cf4b18b4d13823c517121400ec68f832562ac406e16e12e07
 Description: Make screenshot, by sklimkin
+
+Package: unzipper
+Architecture: all
+Version: 1.4
+Priority: optional
+Section: base
+Maintainer: rcrsn51
+Depends: gzip, bzip2, xz-utils, unzip, p7zip, unrar
+Filename: ./Extra/unzipper_1.4.deb
+Size: 3866
+MD5sum: 65f47474aae3dc9df337583e22ac6c6c
+SHA1: 16c30ada3cdbc00ab99a5dd420311a3d86fff60b
+SHA256: d30cb2350a8cb8cdf2da1a645c4d170d2679e929dc68dd551d909ad8b8995f7a
+SHA512: 198defc8e8cf8788756616b42f944fc672a24ffd73c6fe41935660ad57d897fd7fa0ffb6e795f172779609f6e5132ee1f2818b5331aa4294716149e7a8f529c2
+Description: Extract gz, tgz, bz2, xz, zip, 7z archives
 
 Package: ffmpeg
 Architecture: i386
