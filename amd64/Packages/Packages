@@ -436,6 +436,27 @@ SHA512: 7f2feaa0df1051095fa6f8a2f08af92da6ec814cb75108e8aa8e2ccf1adc90cc4447fc48
 Description: Mount .squashfs as unprivileged user.
  Squashfuse lets you mount SquashFS archives in user-space
 
+Package: mpv
+Architecture: amd64
+Version: 1:0.9.4-ddjessie
+Priority: optional
+Section: misc
+Maintainer: fredx181
+Installed-Size: 6900
+Depends: libc6, libenca0, libfontconfig1, libfreetype6, libfribidi0, libgmp10, libharfbuzz0b, liblua5.1-0, libx11-6, libxcb-shm0, libxcb1, libxext6, libxinerama1, libxrandr2, libxv1, libvdpau1
+Filename: ./Included/mpv_0.9.4-ddjessie_amd64.deb
+Size: 6373308
+MD5sum: 39e25c6401788be19d340d7dde22e37f
+SHA1: 48f773f7adab97dd323301b7bb83b65812ceaf15
+SHA256: 54bbc24018b2b7a4ba42df0945c4fea61d7b040bc6911a05e680b2ba1e8179da
+SHA512: 99d00becd183fb780838ebd8218e44a8995b73f4da32520faede437b675ed177dc6537698a6239f202f014af923a83e6f3f541e284cbb9684c6c52c3b11fc998
+Homepage: https://github.com/mpv-player/mpv-build
+Description: mplayer/mplayer2 based video player, minimal build
+ MPV is a versatile CLI movie player, based on mplayer and mplayer2.
+ .
+ This package is not part of Debian. It was created by mpv-build scripts with
+ statically linked ffmpeg (not libav) and libass from upstream.
+
 Package: mount
 Architecture: amd64
 Version: 2.26.2-6
@@ -1722,27 +1743,6 @@ Description: Independent JPEG Group's JPEG runtime library
  JPEG files.
  .
  This package contains the shared library.
-
-Package: youtube-viewer
-Architecture: amd64
-Version: 3.1.5.1-stretch
-Priority: optional
-Section: perl
-Maintainer: fredx181
-Installed-Size: 1100
-Depends: perl, libjson-perl, libjson-xs-perl, libdata-dump-perl, libfile-sharedir-perl, libgtk2-perl, libwww-perl, libterm-readline-gnu-perl, mpv | vlc
-Recommends: youtube-get2
-Suggests: gcap, liblwp-protocol-https-perl, libtext-charwidth-perl, libterm-readkey-perl, libterm-ui-perl, wget
-Filename: ./Included/youtube-viewer_3.1.5.1-stretch_amd64.deb
-Size: 248080
-MD5sum: 4a56d3bb3e827c1bbccde498cbed28e2
-SHA1: caf28fbddc768d8adc7949081e8d2f813508df71
-SHA256: 9c14857fe67aa9a164b504ae3403f271d0fa029a9047772f9a1a319ea199f55a
-SHA512: c91524e81ee04dd391041a7f8736158c466fe07e96ce88142cc20dbdd0a84d456c0d4b80fc84db5e9900aa506b9986a7a7485f07193b1519540f00dec0706a5b
-Homepage: https://github.com/trizen/youtube-viewer
-Description: A Gtk2 application for searching and streaming videos from YouTube.
- WWW-YoutubeViewer - a very easy interface to YouTube.
- Highly recommended: install mpv or vlc mediaplayer and youtube-get2 (includes youtube-dl) to be able to play all videos without exceptions.
 
 Package: libx264-122
 Architecture: amd64
@@ -3839,6 +3839,27 @@ SHA256: 287283c762d184708c8d11bc39fc26e18edc4e9c974426106bb84d83a68493ee
 SHA512: 0d80e7633b450b8beda300338361a8e9136b2bb49e79b9e414e11302204925e360caf5419e4be9d6dc87448d3f54dc514c89076fd835d68952192e685b26b33e
 Description: Samba share mounter
 
+Package: youtube-viewer
+Architecture: all
+Version: 3.3.1-stretch
+Priority: optional
+Section: perl
+Maintainer: fredx181
+Installed-Size: 1100
+Depends: perl, libjson-perl, libjson-xs-perl, libdata-dump-perl, libfile-sharedir-perl, libgtk2-perl, libwww-perl, libterm-readline-gnu-perl, mpv | vlc
+Recommends: youtube-get2
+Suggests: gcap, liblwp-protocol-https-perl, libtext-charwidth-perl, libterm-readkey-perl, libterm-ui-perl, wget
+Filename: ./Extra/youtube-viewer_3.3.1-stretch_all.deb
+Size: 409702
+MD5sum: 7f16bde97c0c7da260beca5c033eaa02
+SHA1: eefa4220626fa8c65820bf326d2241f26bce17e5
+SHA256: 1e182e64fe229590f930d61c295b3c23eaf67dd42fa7a96f63575b145268680d
+SHA512: 26e772bcb6fe022c3b698ff185ec1096c263233eadc56bbd8041fa77231a8f2ae22ab591381e0e2cd524218fd7da615792fbdbf36b56f7c9a08b9bb7fddf9e74
+Homepage: https://github.com/trizen/youtube-viewer
+Description: A Gtk2 application for searching and streaming videos from YouTube.
+ WWW-YoutubeViewer - a very easy interface to YouTube.
+ Highly recommended: install mpv or vlc mediaplayer and youtube-get2 (includes youtube-dl) to be able to play all videos without exceptions.
+
 Package: wex
 Architecture: all
 Version: 0.8.17
@@ -3969,6 +3990,21 @@ SHA256: ea39b03cc59d991b1d5c36c88c1be142e62afa9ab7d50c65d458ec652ea72e86
 SHA512: c108eb93855c73ed26561a76469ceba9a5d61fbd30f173214fdf861b1010c81f3263f2a5f2ffc9537b64a8f8f30f1c9bb1be74177e98e3984e4d5a159b96b668
 Description: Display Animated Gif on Desktop
 
+Package: unzipper
+Architecture: all
+Version: 1.4
+Priority: optional
+Section: base
+Maintainer: rcrsn51
+Depends: gzip, bzip2, xz-utils, unzip, p7zip, unrar
+Filename: ./Extra/unzipper_1.4.deb
+Size: 3866
+MD5sum: 65f47474aae3dc9df337583e22ac6c6c
+SHA1: 16c30ada3cdbc00ab99a5dd420311a3d86fff60b
+SHA256: d30cb2350a8cb8cdf2da1a645c4d170d2679e929dc68dd551d909ad8b8995f7a
+SHA512: 198defc8e8cf8788756616b42f944fc672a24ffd73c6fe41935660ad57d897fd7fa0ffb6e795f172779609f6e5132ee1f2818b5331aa4294716149e7a8f529c2
+Description: Extract gz, tgz, bz2, xz, zip, 7z archives
+
 Package: peasy-dvd-player
 Architecture: all
 Version: 1.4
@@ -4017,6 +4053,27 @@ SHA1: a79e59834cd848e1054aa418140eb9c55a4dde0f
 SHA256: dc7c25d6928cc4f7d41b698e52a772ab5fd9df765e6a3d729a00beb1ea85d3b5
 SHA512: c0b0fd7ceef3b0a58a2be3b87e66ba3d65526deb8db48b3bf0634b0a3f821f326abeafcd9522347a94df66e9ab05ede08cf0fcee764c409840667271c4b2a169
 Description: Text to SVG/PNG Fancy Text and Logo Generator
+
+Package: youtube-viewer
+Architecture: amd64
+Version: 3.1.5.1-stretch
+Priority: optional
+Section: perl
+Maintainer: fredx181
+Installed-Size: 1100
+Depends: perl, libjson-perl, libjson-xs-perl, libdata-dump-perl, libfile-sharedir-perl, libgtk2-perl, libwww-perl, libterm-readline-gnu-perl, mpv | vlc
+Recommends: youtube-get2
+Suggests: gcap, liblwp-protocol-https-perl, libtext-charwidth-perl, libterm-readkey-perl, libterm-ui-perl, wget
+Filename: ./Extra/youtube-viewer_3.1.5.1-stretch_amd64.deb
+Size: 248080
+MD5sum: 4a56d3bb3e827c1bbccde498cbed28e2
+SHA1: caf28fbddc768d8adc7949081e8d2f813508df71
+SHA256: 9c14857fe67aa9a164b504ae3403f271d0fa029a9047772f9a1a319ea199f55a
+SHA512: c91524e81ee04dd391041a7f8736158c466fe07e96ce88142cc20dbdd0a84d456c0d4b80fc84db5e9900aa506b9986a7a7485f07193b1519540f00dec0706a5b
+Homepage: https://github.com/trizen/youtube-viewer
+Description: A Gtk2 application for searching and streaming videos from YouTube.
+ WWW-YoutubeViewer - a very easy interface to YouTube.
+ Highly recommended: install mpv or vlc mediaplayer and youtube-get2 (includes youtube-dl) to be able to play all videos without exceptions.
 
 Package: xfce4-whiskermenu-plugin-mod
 Architecture: amd64
