@@ -1081,6 +1081,11 @@ root/.config/rox.sourceforge.net/SendTo/Multi-Paste	    jwm-setup,jwmconf
 root/.config/xfe/scripts/edit-sfs			    edit-sfs-thunar,edit-sfs-pcmanfm
 root/.config/xfe/scripts/install-deb-and-dependencies	    fixdepinstall
 root/.config/xfe/scripts/install-dir-debs-and-dependencies  fixdepinstall
+root/.config/youtube-viewer/categories-US-en_US.json	    youtube-viewer
+root/.config/youtube-viewer/categories-us.json		    youtube-viewer
+root/.config/youtube-viewer/gtk-youtube-viewer.conf	    youtube-viewer
+root/.config/youtube-viewer/youtube-viewer.conf		    youtube-viewer
+root/.config/youtube-viewer/youtube_users.txt		    youtube-viewer
 root/.face						    xfce4-whiskermenu-plugin-mod
 root/.jwm/jwm.head					    jwm-setup,jwmconf
 root/.jwm/jwm.main					    jwm-setup,jwmconf
