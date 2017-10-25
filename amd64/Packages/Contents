@@ -974,6 +974,11 @@ root/.config/rox.sourceforge.net/SendTo/Multi-Cut	    jwmconf,jwm-setup
 root/.config/rox.sourceforge.net/SendTo/Multi-Paste	    jwmconf,jwm-setup
 root/.config/rox.sourceforge.net/mtpaint		    mtpaint
 root/.config/xfe/scripts/edit-sfs			    edit-sfs-thunar,edit-sfs-pcmanfm
+root/.config/youtube-viewer/categories-US-en_US.json	    youtube-viewer
+root/.config/youtube-viewer/categories-us.json		    youtube-viewer
+root/.config/youtube-viewer/gtk-youtube-viewer.conf	    youtube-viewer
+root/.config/youtube-viewer/youtube-viewer.conf		    youtube-viewer
+root/.config/youtube-viewer/youtube_users.txt		    youtube-viewer
 root/.face						    xfce4-whiskermenu-plugin-mod
 root/.jwm/jwm.head					    jwmconf,jwm-setup-dd64,jwm-setup
 root/.jwm/jwm.main					    jwmconf,jwm-setup-dd64,jwm-setup

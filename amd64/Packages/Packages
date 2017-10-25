@@ -3850,11 +3850,11 @@ Depends: perl, libjson-perl, libjson-xs-perl, libdata-dump-perl, libfile-sharedi
 Recommends: youtube-get2
 Suggests: gcap, liblwp-protocol-https-perl, libtext-charwidth-perl, libterm-readkey-perl, libterm-ui-perl, wget
 Filename: ./Extra/youtube-viewer_3.3.1-stretch_all.deb
-Size: 409702
-MD5sum: 7f16bde97c0c7da260beca5c033eaa02
-SHA1: eefa4220626fa8c65820bf326d2241f26bce17e5
-SHA256: 1e182e64fe229590f930d61c295b3c23eaf67dd42fa7a96f63575b145268680d
-SHA512: 26e772bcb6fe022c3b698ff185ec1096c263233eadc56bbd8041fa77231a8f2ae22ab591381e0e2cd524218fd7da615792fbdbf36b56f7c9a08b9bb7fddf9e74
+Size: 412172
+MD5sum: 2ac3da867ead679c0dd37ae31b671d7d
+SHA1: 2e97fdb4bc1821678a1f719f2f7ec7ddb2664bd6
+SHA256: 555ba2e94952ec27a9a16cd68ffa1d3841107fd20f8ee4b383190c55818b3e76
+SHA512: 028261e05509be4777dec07b508e8b537c9709352b3c8ca4f39b1e3eabdfcc27e887f97413b0031e9e0ffbedbab1a9bafb33e832f75dbef18b445ac896e976f5
 Homepage: https://github.com/trizen/youtube-viewer
 Description: A Gtk2 application for searching and streaming videos from YouTube.
  WWW-YoutubeViewer - a very easy interface to YouTube.
