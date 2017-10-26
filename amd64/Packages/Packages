@@ -3939,6 +3939,20 @@ SHA256: 9a30e9bf2184e574d4f8fecc9a7ab1304c8dde92017034e7bea90673be406b2c
 SHA512: a9ef6d8374de0d80cc1cabec7310628c2c10b5fd5d91fd3fb70811a8bc510491eaa635a8ebd0fdb35d61b321f7867a9d0f7b3888cb7a3db5312daf84e42cf105
 Description: Peasy Firewall Monitor
 
+Package: sound-card-selector
+Architecture: all
+Version: 1.0
+Priority: optional
+Section: base
+Maintainer: rcrsn51
+Filename: ./Extra/sound-card-selector_1.0.deb
+Size: 3732
+MD5sum: 9e076d13231f3202db938173894a2534
+SHA1: 6001bdf564eba13c88ee98978730ddf9ace1c710
+SHA256: 7b70fb504367fd9162ca6b8caaa72824bab675e89914bf8b8e7bf028aac3047f
+SHA512: 0500cf5e14fd5b83fd3427e2c74d79ae07070357b1549a17c651546558ea9dd42328dbe67c6fe38afd6a94b2ca173f199825d60b7a9ff6d657ae87ddbeef0a59
+Description: Select a sound card and set ALSA defaults
+
 Package: xhippo
 Architecture: amd64
 Version: 1.0.1
