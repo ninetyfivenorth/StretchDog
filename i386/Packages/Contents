@@ -2338,6 +2338,7 @@ usr/local/bin/sfs-get					    sfs-get-smokey-get
 usr/local/bin/smokey-get				    sfs-get-smokey-get
 usr/local/bin/snap					    porteusbootscripts
 usr/local/bin/snappie					    snappie
+usr/local/bin/sound-card-selector			    sound-card-selector
 usr/local/bin/st-slim					    xfce4-whiskermenu-plugin-mod
 usr/local/bin/start-jwm					    jwm-setup
 usr/local/bin/start-openbox				    jwm-setup
@@ -5183,6 +5184,7 @@ usr/share/applications/slimjet.desktop			    slimjet
 usr/share/applications/smokey-get.desktop		    sfs-get-smokey-get
 usr/share/applications/snappie.desktop			    snappie
 usr/share/applications/sns.desktop			    sns
+usr/share/applications/sound-card-selector.desktop	    sound-card-selector
 usr/share/applications/start-lumina-info.desktop	    lumina-desktop-debdog
 usr/share/applications/start-stop-slim.desktop		    slim
 usr/share/applications/transmission.desktop		    transmission-2.31
@@ -9325,6 +9327,7 @@ usr/share/pixmaps/shutdown.png				    jwm-setup,jwmconf
 usr/share/pixmaps/slimjet.xpm				    slimjet
 usr/share/pixmaps/snappie.png				    snappie
 usr/share/pixmaps/sns.xpm				    sns
+usr/share/pixmaps/soundcard.png				    sound-card-selector
 usr/share/pixmaps/suspend.png				    jwm-setup,jwmconf
 usr/share/pixmaps/swap2.png				    makeswap
 usr/share/pixmaps/switch.png				    jwm-setup,jwmconf

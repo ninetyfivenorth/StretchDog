@@ -4525,6 +4525,20 @@ Description: Secure Sockets Layer toolkit - shared libraries
  .
  It provides the libssl and libcrypto shared libraries.
 
+Package: sound-card-selector
+Architecture: all
+Version: 1.0
+Priority: optional
+Section: base
+Maintainer: rcrsn51
+Filename: ./Extra/sound-card-selector_1.0.deb
+Size: 3732
+MD5sum: 9e076d13231f3202db938173894a2534
+SHA1: 6001bdf564eba13c88ee98978730ddf9ace1c710
+SHA256: 7b70fb504367fd9162ca6b8caaa72824bab675e89914bf8b8e7bf028aac3047f
+SHA512: 0500cf5e14fd5b83fd3427e2c74d79ae07070357b1549a17c651546558ea9dd42328dbe67c6fe38afd6a94b2ca173f199825d60b7a9ff6d657ae87ddbeef0a59
+Description: Select a sound card and set ALSA defaults
+
 Package: guessfstype
 Architecture: i386
 Version: 1.0.0
