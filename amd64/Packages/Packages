@@ -2270,6 +2270,20 @@ Description: highly configurable system monitor (default version - debug)
  .
  This package contains debugging symbols only.
 
+Package: apulse
+Architecture: amd64
+Version: 20171016-1
+Priority: extra
+Maintainer: rcrsn51
+Depends: libc6, alsa-utils
+Filename: ./Extra/apulse_20171016-1_amd64.deb
+Size: 37160
+MD5sum: 0155eb8ea4ca3797238366055259a872
+SHA1: 370aacc306e5d4901b034a69df96c8e00651a726
+SHA256: 8d546bec63c7dc0ad5044542c2d0f7336b68ee8fb60209614b611d285b477da1
+SHA512: 93cbe5d8b9b1093538bcdcca96eb22ba7e591d681492cf4f71790648e2d5630e10a2b9d5862929655a11d7dca42455cedf5404658fa301166afabac283bbe882
+Description: Pulseaudio emulator using alsa
+
 Package: gftp-text
 Architecture: amd64
 Version: 2.0.19-4
@@ -3085,20 +3099,6 @@ Description: Reliable network manager
  - added Names button (to select interface names)
  - A modification to Names. It resets the Ethernet profiles in /etc/pwf/ethernet
  - Updated Help screen
-
-Package: apulse
-Architecture: amd64
-Version: 2017.10.16
-Priority: extra
-Maintainer: rcrsn51
-Depends: libc6, alsa-utils
-Filename: ./Extra/apulse-stretch_2017.10.16_amd64.deb
-Size: 49272
-MD5sum: 03de6c5ac9568ff5faac645393bd4a69
-SHA1: e4901f384cb947412a0d851f97ec0bdf1ab162d0
-SHA256: 315bb48c9d41e9ca0e7cbbe1c590a112d855107242ce0934e61f57b7c822570e
-SHA512: fb40c3afcd64c4be85e903e28c2f7cb099e0eadeffce65e2d06b28f16128c88ef556e5360e09101454e1a375f03065e42b917fa95a6c5b59ef6d7d7d295fad5b
-Description: Pulseaudio emulator using alsa
 
 Package: broadcom-wl-driver-k4.9.0-3-amd64
 Architecture: amd64
