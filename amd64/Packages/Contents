@@ -32,7 +32,7 @@ etc/init/slim.conf					    slim
 etc/inittab-auto					    slim
 etc/inittab-noauto					    slim
 etc/logrotate.d/slim					    slim
-etc/modprobe.d/wl.conf					    broadcom-wl-driver-k4.9.0-3-amd64
+etc/modprobe.d/broadcom.conf				    broadcom-wifi
 etc/mpv/encoding-profiles.conf				    mpv
 etc/pam.d/slim						    slim
 etc/pavrecord/.pavrecordrc				    pavrecord
@@ -149,7 +149,7 @@ home/puppy/startup-jwm					    jwmconf,jwm-setup-dd64,jwm-setup
 lib/dhcpcd/dhcpcd-hooks					    frisbee
 lib/dhcpcd/dhcpcd-run-hooks				    frisbee
 lib/ld-linux-x86-64.so.2				    redshiftgui
-lib/modules/4.9.0-3-amd64/kernel/drivers/net/wl.ko	    broadcom-wl-driver-k4.9.0-3-amd64
+lib/modules/4.9.0-3-amd64/kernel/drivers/net/wireless/wl.ko broadcom-wifi
 lib/systemd/system/slim.service				    slim
 lib/x86_64-linux-gnu/libpcre.so.1			    evince
 lib/x86_64-linux-gnu/libpng12.so.0			    libpng12-0

@@ -3100,20 +3100,6 @@ Description: Reliable network manager
  - A modification to Names. It resets the Ethernet profiles in /etc/pwf/ethernet
  - Updated Help screen
 
-Package: broadcom-wl-driver-k4.9.0-3-amd64
-Architecture: amd64
-Version: 1.0
-Priority: optional
-Section: base
-Maintainer: rcrsn51
-Filename: ./Extra/broadcom-wl-driver-k4.9.0-3-amd64_1.0.deb
-Size: 1439532
-MD5sum: 40c70b4f1bd59286c1b3d6496d486134
-SHA1: cfc06cc53ac2178fd03c2aa9cd8637a595b7677e
-SHA256: 9d2780f95f43d1cfd20c33f96b094b15d8f10b3bad2d2cf69280c6c0a1b76e41
-SHA512: 9751b86279e82066415dd0db0b16bc2ad1192b9aa0096755761ece6dea46a05f9d009f82be97061a526456ca911486d35eed0c49af7c39094534ae213648f3d5
-Description: Broadcom PCI WiFi kernel module
-
 Package: libmusicbrainz3-6
 Architecture: amd64
 Version: 3.0.2-2.1
@@ -4197,6 +4183,20 @@ Description: X/GTK+ and console FTP client (metapackage)
   * version for the console, using only GLib
  .
  This is an upgrade convenience package, it's only useful for depending on.
+
+Package: broadcom-wifi
+Architecture: amd64
+Version: 4.9.0
+Priority: optional
+Section: base
+Maintainer: rcrsn51
+Filename: ./Extra/broadcom-wifi_4.9.0_amd64.deb
+Size: 1441104
+MD5sum: 6e15e5e11f6539704728a04ffea62ec6
+SHA1: f499b452d07a8db974471a5002e2ac4e3ff61765
+SHA256: 409b0da89b83e4501c89323a017d634e3d9a5c0c28edc9ca22644a4a29666e6c
+SHA512: a038a315985bff2d11751ce8b9c9f04d28ef30fab59e511cf785ad6ddc0773e8add1717e94652798a48a5473e2a3448c884091b4f883883310c2e4021c18ee14
+Description: Broadcom PCI WiFi kernel module
 
 Package: scrotdlg
 Architecture: amd64
