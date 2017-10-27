@@ -2648,20 +2648,6 @@ SHA256: f950e47ba5c18ad2d2de6b87ab736b7ae4ad7ea6b1a1b5dd0588a304b41eb86f
 SHA512: e7c95fdf2447926bb431d171e5e64d7d39db1819e3126e265c4570f68b12fb489e02e36bd9e7801ff5768a17f5c422e8bb5a3fe81a496c5e07e8c34a19b4b9c5
 Description: uextract-converted-pet-to-deb
 
-Package: broadcom-wl-driver-k4.9.0-3-686-pae
-Architecture: i386
-Version: 1.0
-Priority: optional
-Section: base
-Maintainer: rcrsn51
-Filename: ./Extra/broadcom-wl-driver-k4.9.0-3-686-pae_1.0.deb
-Size: 1410462
-MD5sum: de501fb293878f638f745e99a9d0f05b
-SHA1: 83c45eefa4847c86e2afc92172e39a79cd5b72dc
-SHA256: 8fb4cd852d5f56e0b65bf331743ba8c3b123d15dc5cf7989c5365fb30ebf2173
-SHA512: 25f38ff98df093b1099e73bf0d2e0eb444090fca7656877245da7d980187f469b25a2180f9fe8a6e1eda5330ed14ada89abd2c7757542c6c741742469161bdf8
-Description: Broadcom PCI WiFi kernel module
-
 Package: midori
 Architecture: i386
 Version: 0.5.2
@@ -3348,6 +3334,20 @@ SHA1: cbaf1e93a00b53d8adebced60325711dbe4a9898
 SHA256: 7f9a78fa191b7138f3401ce9562b2bd50fee59626c182bb1d5a78bd4035c3e73
 SHA512: 98c60dbc8d064a2ad1eb516f8120b03d2fd3de54f07db97c3707b6834bca9d52e9dee3cf3792d1fc0d5b5300544f8008bd9367c9c2afdc73798c038762040d27
 Description: Media player, CD player, Carousel
+
+Package: broadcom-wifi
+Architecture: i386
+Version: 4.9.0
+Priority: optional
+Section: base
+Maintainer: rcrsn51
+Filename: ./Extra/broadcom-wifi_4.9.0_i386.deb
+Size: 1418024
+MD5sum: a6d62f465866011d17722afa8231e45b
+SHA1: ccba91c04dc1f210f5d4282be32d0500991d71db
+SHA256: 2183cc5b1dfaf70e89273bc6ea792c4d106588f0d3ac6f23a58fa215995ce790
+SHA512: a42f2fe996bf6bce42df3dd62a6d9e78fbed9d076cd2f92df3d2bc0f0461d6cdc518b5ed0b8340913b6e12bc7ef9baf927905d29aded988602a062b9eb487fb4
+Description: Broadcom PCI WiFi kernel module
 
 Package: gifdance
 Architecture: i386

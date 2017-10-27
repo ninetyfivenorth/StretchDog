@@ -68,9 +68,9 @@ etc/logrotate.d/slim					    slim
 etc/logrotate.d/xdm					    xdm
 etc/menu-methods/jwm					    jwm
 etc/menu-methods/jwm-debdog				    jwm
+etc/modprobe.d/broadcom.conf				    broadcom-wifi
 etc/modprobe.d/rtl8192cu.conf				    realtek-wifi-drivers-k4.9.0-i386
 etc/modprobe.d/rtl8xxxu.conf				    realtek-wifi-drivers-k4.9.0-i386
-etc/modprobe.d/wl.conf					    broadcom-wl-driver-k4.9.0-3-686-pae
 etc/mpv/encoding-profiles.conf				    mpv
 etc/network.conf					    wifibox-dhcpcd,wifibox
 etc/networkmodules					    sns
@@ -261,7 +261,7 @@ lib/modules/4.9.0-3-686-pae/kernel/drivers/net/wireless/8192cu.ko realtek-wifi-d
 lib/modules/4.9.0-3-686-pae/kernel/drivers/net/wireless/8192du.ko realtek-wifi-drivers-k4.9.0-i386
 lib/modules/4.9.0-3-686-pae/kernel/drivers/net/wireless/8192eu.ko realtek-wifi-drivers-k4.9.0-i386
 lib/modules/4.9.0-3-686-pae/kernel/drivers/net/wireless/8812au.ko realtek-wifi-drivers-k4.9.0-i386
-lib/modules/4.9.0-3-686-pae/kernel/drivers/net/wl.ko	    broadcom-wl-driver-k4.9.0-3-686-pae
+lib/modules/4.9.0-3-686-pae/kernel/drivers/net/wireless/wl.ko broadcom-wifi
 lib/systemd/system/slim.service				    slim
 opt/apps/scrotdlg/Makefile				    scrotdlg
 opt/apps/scrotdlg/scrot-howto.txt			    scrotdlg
