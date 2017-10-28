@@ -3480,6 +3480,22 @@ Description: Alternate menu plugin for the Xfce desktop environment
  switch between. Additionally, Whisker Menu keeps a list of the last ten
  applications that you've launched from it.
 
+Package: abiword-portable
+Architecture: i386
+Version: 3.0.0
+Priority: optional
+Section: utilities
+Maintainer: root
+Installed-Size: 6700
+Depends: libatk1.0-0, libc6, libcairo2, libenchant1c2a, libfontconfig1, libfribidi0, libgcc1, libgdk-pixbuf2.0-0, libglib2.0-0, libgsf-1-114, libgtk2.0-0, libpango-1.0-0, libpangocairo-1.0-0, librsvg2-2, libstdc++6, libwv-1.2-4, libx11-6, libxml2, libxslt1.1, libpng12-0
+Filename: ./Extra/abiword-portable_3.0.0_i386.deb
+Size: 6416008
+MD5sum: 28f4cfba20a7b85f3359fbaef2f08d2a
+SHA1: 5ccbdd098f59ee2bbee2cb1c9eb612dee83b74cb
+SHA256: 6b8dc3f0539d0d2cea392283e34df7d33932e73c6684c5409793057a08319a5f
+SHA512: fa6b38da5c1f661274c0a6065c96352374cb21e1c540953ea33d011b695bff8486694703c73d157efca90f4296666df91c68c9d00b4aecfa30e3a7f4177ad7cd
+Description: Abiword portable version 3.0.0
+
 Package: libhogweed2
 Architecture: i386
 Version: 2.7.1-5+deb8u1
