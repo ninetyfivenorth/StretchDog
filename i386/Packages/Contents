@@ -1121,6 +1121,7 @@ root/.xhippo/winstate					    xhippo
 root/.xsession						    jwmconf
 root/.xsession-jwm					    jwm-setup
 root/.xsession-openbox					    jwm-setup,jwmconf
+root/Startup/CPUtemp_tray				    cputemp
 root/Startup/exec_fwstatus-autostart			    firewall-ng
 root/Startup/exec_lxinput-autostart			    lxinputsave
 root/Startup/exec_lxrandr-autostart			    lxrandr-save-fix
@@ -2210,6 +2211,8 @@ usr/local/apps/zenity/zen/usr/share/zenity/zenity-text.png  zenity-portable
 usr/local/apps/zenity/zen/usr/share/zenity/zenity.png	    zenity-portable
 usr/local/apps/zenity/zen/usr/share/zenity/zenity.ui	    zenity-portable
 usr/local/apps/zenity/zenity				    zenity-portable
+usr/local/bin/CPUtemp					    cputemp
+usr/local/bin/CPUtemp.hlp				    cputemp
 usr/local/bin/QtWeb					    qtweb
 usr/local/bin/Readme_loadsfs-fuse-writesfs		    portablesfs-loadsfs-fuse
 usr/local/bin/SaveFolderBackup				    SaveFolderBackup
@@ -9236,6 +9239,7 @@ usr/share/pixmaps/filled-xterm_48x48.xpm		    xterm
 usr/share/pixmaps/firefox-esr.png			    firefox-esr
 usr/share/pixmaps/firewall-24.png			    peasyfwmon
 usr/share/pixmaps/firewall-48.png			    peasyfwmon
+usr/share/pixmaps/flame.png				    cputemp
 usr/share/pixmaps/flash.png				    flashplayerchoice
 usr/share/pixmaps/floppy24.png				    mount-wizard
 usr/share/pixmaps/folder24.png				    jwm-setup,jwmconf

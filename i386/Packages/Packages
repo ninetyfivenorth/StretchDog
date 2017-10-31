@@ -4060,6 +4060,21 @@ SHA512: e1490c50fe489c45b8a0932511a329a818b9ac56f20cda33329402299fa9507c4efd0a15
 Description: flite-hts-engine for DebianDog:
  stdout patched version by mcewanw with 1kB buffer
 
+Package: cputemp
+Architecture: i386
+Version: 3.0
+Priority: optional
+Section: base
+Maintainer: rcrsn51
+Depends: lm-sensors, cpufrequtils
+Filename: ./Extra/cputemp_3.0_i386.deb
+Size: 4884
+MD5sum: ad87f71e62669445071310dc2a7b3b42
+SHA1: 75c59fa317b99a3635dd2aa00656d997cd1e9cce
+SHA256: 98fecf48bc95a79dfee55ebe35e311a1469a16a87a8482a8a2fba048284d7cc5
+SHA512: 798da7ad19efb7ec537a39bc80708728f7db734a8f866c0c8bbff9407323fcc1aa108444d8aaf6239326a5c510f3efaa69e85e41ee6a785217d84cefcdfb87ed
+Description: CPU temperature monitor
+
 Package: PeasyWiFi
 Architecture: i386
 Version: 4.5-1
