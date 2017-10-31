@@ -2888,6 +2888,21 @@ Description: YouTube Downloader, frontend for youtube-dl
  - Gives choice which quality to download, e.g. 360p or 720p, Audio streams, etc...
  - Extra addition: m-play script + menu entry for playing YouTube url with mplayer or mpv
 
+Package: cputemp
+Architecture: amd64
+Version: 3.0
+Priority: optional
+Section: base
+Maintainer: rcrsn51
+Depends: lm-sensors, cpufrequtils
+Filename: ./Extra/cputemp_3.0_amd64.deb
+Size: 4980
+MD5sum: 95b4c783b9ae1e4bd98a6664a867ac61
+SHA1: 24a1d5c49c339da42aea0c289b7cbd72935f3754
+SHA256: 80c43a28c3c3b19133ec2c96ddaadf946879e8214aa34e2bfb1afc84325d7d23
+SHA512: fd3ab2cdfa99802a47e55154b7693dfa3b8294a7886fece058fe19b9bfdb50acef47eb74f16cab9c188ae39657222575230e1bb3b26fcff0db187a0c4b2dba5c
+Description: CPU temperature monitor
+
 Package: findnrun-doc
 Architecture: all
 Version: 1.10.6-1
