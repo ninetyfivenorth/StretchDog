@@ -2955,6 +2955,20 @@ Description: Jwm custom setup for Debiandog, includes:
  - jwm-obmenu script for the Jwm window manager. It provides
  a dynamic menu listing of installed applications.
 
+Package: peasyclock
+Architecture: all
+Version: 1.0
+Priority: optional
+Maintainer: rcrsn51
+Depends: tzdata
+Filename: ./Extra/peasyclock_1.0.deb
+Size: 4614
+MD5sum: b06db66a9b6c469fdebc171419016ed9
+SHA1: 31995b7906c0f41873d0a5c2e7cdfbab29d98d4b
+SHA256: de76e239b69386108959bcb5e2df293b91cd10da36bc3ac397c8173d1db80e73
+SHA512: 10736f196fda2ab8d2789fe46f133196cce1c6f8ec5b37ab1de76f87bf7b13b0f105040ba9fb8342c70ed9d3e96ea35a545785b7508d2422a9ae7db56f2e9e4b
+Description: Sets system date, time, zone
+
 Package: bacon
 Architecture: amd64
 Version: 3.5.4-1
