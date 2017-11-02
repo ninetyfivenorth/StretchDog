@@ -2903,6 +2903,20 @@ SHA256: 80c43a28c3c3b19133ec2c96ddaadf946879e8214aa34e2bfb1afc84325d7d23
 SHA512: fd3ab2cdfa99802a47e55154b7693dfa3b8294a7886fece058fe19b9bfdb50acef47eb74f16cab9c188ae39657222575230e1bb3b26fcff0db187a0c4b2dba5c
 Description: CPU temperature monitor
 
+Package: peasyclock
+Architecture: all
+Version: 1.1
+Priority: optional
+Maintainer: rcrsn51
+Depends: tzdata
+Filename: ./Extra/peasyclock_1.1.deb
+Size: 4726
+MD5sum: 22426e84b07871db693480053ebed363
+SHA1: c94f27aec867b30903511d5a9dff26d204b3faa8
+SHA256: fc6b6f9d052148c517ddf0d546e7aad975e0b9c5f648b41ed184b1ff7ba54f2f
+SHA512: 854c5bd547360f39b678d0acc432f0e791cd0bdb354cd0d56ccaa5e8894fe06e35b7b03c79dee5988b18b1330a5129b5b6546a085525420387cc1a0de2f2642b
+Description: Sets system date, time, zone
+
 Package: findnrun-doc
 Architecture: all
 Version: 1.10.6-1
