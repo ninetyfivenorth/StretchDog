@@ -3208,6 +3208,20 @@ Description: Dogradio is a GUI displaying icons for playing radio streams.
  - Using conky for 'conky ticker', showing metadata
  (can be enabled/disabled from tray icon menu + other settings)
 
+Package: peasyclock
+Architecture: all
+Version: 1.1
+Priority: optional
+Maintainer: rcrsn51
+Depends: tzdata
+Filename: ./Extra/peasyclock_1.1.deb
+Size: 4726
+MD5sum: 22426e84b07871db693480053ebed363
+SHA1: c94f27aec867b30903511d5a9dff26d204b3faa8
+SHA256: fc6b6f9d052148c517ddf0d546e7aad975e0b9c5f648b41ed184b1ff7ba54f2f
+SHA512: 854c5bd547360f39b678d0acc432f0e791cd0bdb354cd0d56ccaa5e8894fe06e35b7b03c79dee5988b18b1330a5129b5b6546a085525420387cc1a0de2f2642b
+Description: Sets system date, time, zone
+
 Package: madedit
 Architecture: i386
 Version: 0.2.9-1
