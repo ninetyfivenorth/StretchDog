@@ -2604,6 +2604,20 @@ SHA256: c57cf010917b899e57698da3d7f8cbd9b9f9e7caec65b5937bc8fed7e389a0b2
 SHA512: c47627f5d4c6e379b7b0ca0d166d55e514e36b881513602824f9cb9f8c9c9e88a29b20a175dac62ab6bfda8d95a8cb0933e11eb9b511b53f13c46116745e4d0b
 Description: greybird-theme-dd-jessie: A minimal greybird theme
 
+Package: peasyclock
+Architecture: all
+Version: 1.2
+Priority: optional
+Maintainer: rcrsn51
+Depends: tzdata
+Filename: ./Extra/peasyclock_1.2.deb
+Size: 4756
+MD5sum: 58113fead3a3a437cd80c52af069dca8
+SHA1: 093765ca2de5ed15cf49c17f7e37e1b6bba4305c
+SHA256: f997447c8cd88ef9858a6c8f352ed3af1ddf3bcfe04bca9d661538d2c9d1cf30
+SHA512: 8f6b66a86ab8e91b6aaa8e8155641e10f9609148c95eccf58772bfb78b9cbd8ac4288e08811cd49f896471e4d0e303d89d957393dc72865443ec7d25306adedf
+Description: Sets system date, time, zone
+
 Package: grub4dosconfig
 Architecture: i386
 Version: 1.8.9b
