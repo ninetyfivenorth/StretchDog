@@ -2384,6 +2384,20 @@ Description: The Ultimate Music Player
   * duration calculation is as precise as possible for vbr mp3
     files (with and without xing/info tags)
 
+Package: peasyclock
+Architecture: all
+Version: 1.2
+Priority: optional
+Maintainer: rcrsn51
+Depends: tzdata
+Filename: ./Extra/peasyclock_1.2.deb
+Size: 4756
+MD5sum: 58113fead3a3a437cd80c52af069dca8
+SHA1: 093765ca2de5ed15cf49c17f7e37e1b6bba4305c
+SHA256: f997447c8cd88ef9858a6c8f352ed3af1ddf3bcfe04bca9d661538d2c9d1cf30
+SHA512: 8f6b66a86ab8e91b6aaa8e8155641e10f9609148c95eccf58772bfb78b9cbd8ac4288e08811cd49f896471e4d0e303d89d957393dc72865443ec7d25306adedf
+Description: Sets system date, time, zone
+
 Package: slim
 Architecture: amd64
 Version: 1:1.3.6-5-dd
