@@ -1020,6 +1020,7 @@ root/Startup/exec_lxrandr-autostart			    lxrandr-save-fix
 root/Startup/killmenu-cached				    jwmconf,jwm-setup
 root/Startup/peasyfwmon_tray				    peasyfwmon
 root/Startup/peasywifi_tray				    PeasyWiFi
+root/Startup/start-ntpdate				    tzupdate
 root/fisherman.jpg					    jwmconf
 root/sand.jpg						    jwmconf
 root/startup-jwm					    jwmconf,jwm-setup-dd64,jwm-setup
@@ -2192,6 +2193,7 @@ usr/local/bin/transmission-gtk				    transmission-2.60
 usr/local/bin/transmission-remote			    transmission-2.60
 usr/local/bin/transmission-show				    transmission-2.60
 usr/local/bin/txt2svg					    txt2svg
+usr/local/bin/tzupdate.py				    tzupdate
 usr/local/bin/uextract					    uextract
 usr/local/bin/unzipper					    unzipper
 usr/local/bin/update-menus				    jwm-setup-dd64

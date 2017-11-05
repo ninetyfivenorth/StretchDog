@@ -4218,6 +4218,22 @@ SHA256: 91aaccacda59f857d19996a87f9127e1148b55e12e04c69ab7d53ea142413cf8
 SHA512: b1970cbf26592ae73d3df80d73da0723548e3573d66e1907ef7f29838fbde9fd6f6e0acd42c8078c2791fe054de74af868ed53c416d1933b77bc847124760782
 Description: Pulseaudio emulator using alsa
 
+Package: tzupdate
+Architecture: all
+Version: 1.0.0
+Priority: optional
+Section: utilities
+Maintainer: root
+Installed-Size: 10
+Depends: libc6, python-requests, ntpdate
+Filename: ./Extra/tzupdate_1.0.0_all.deb
+Size: 3824
+MD5sum: 641e7e3713312a13de07c6b785347a6a
+SHA1: 79cebd6979aa93ca3cf488317efe982401f81108
+SHA256: 3e75c16d9c7a33a75c26e8f235f1929231004937196d8cfb5bd892de5ca9290d
+SHA512: e1a1064c24382a9df598528e3169d854dcf561543ed417e5f6923d27c1d8889ff41a1706b8c08b5ddbe185bcba717185f10836644b3eb43bdbab7b614715cf2c
+Description: Automatically detect timezone
+
 Package: unzipper
 Architecture: all
 Version: 1.2
