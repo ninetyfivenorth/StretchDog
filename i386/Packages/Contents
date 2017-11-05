@@ -1132,6 +1132,7 @@ root/Startup/network_tray.sh				    frisbee,ceni,wifibox-dhcpcd,sns
 root/Startup/peasyfwmon_tray				    peasyfwmon
 root/Startup/peasywifi_tray				    PeasyWiFi
 root/Startup/samba-autostart				    samba4-control
+root/Startup/start-ntpdate				    tzupdate
 root/fisherman.jpg					    jwmconf
 root/sand.jpg						    jwmconf
 root/startup-jwm					    jwm-setup,jwmconf
@@ -2379,6 +2380,7 @@ usr/local/bin/start-stop-slim				    slim
 usr/local/bin/transmission				    transmission-2.31
 usr/local/bin/transmission-gtk				    transmission-2.31
 usr/local/bin/txt2svg					    txt2svg
+usr/local/bin/tzupdate.py				    tzupdate
 usr/local/bin/uextract					    uextract
 usr/local/bin/unzipper					    unzipper
 usr/local/bin/upgrade-kernel				    upgrade-kernel
