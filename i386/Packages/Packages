@@ -5094,6 +5094,22 @@ SHA256: 3e75c16d9c7a33a75c26e8f235f1929231004937196d8cfb5bd892de5ca9290d
 SHA512: e1a1064c24382a9df598528e3169d854dcf561543ed417e5f6923d27c1d8889ff41a1706b8c08b5ddbe185bcba717185f10836644b3eb43bdbab7b614715cf2c
 Description: Automatically detect timezone
 
+Package: tzupdate
+Architecture: all
+Version: 1.1.0
+Priority: optional
+Section: utilities
+Maintainer: root
+Installed-Size: 47
+Depends: libc6, python-requests, ntpdate, gtkdialog
+Filename: ./Extra/tzupdate_1.1.0_all.deb
+Size: 10310
+MD5sum: 5847ebaf057026c66028414712299848
+SHA1: 9b63e5c1ca87e279380d6dd8e3ff525a91845ab6
+SHA256: 857c5acc720cf64fcc8e3f63112bcf5ad9f51ec4638503cbcbe3dec8e1b94fe1
+SHA512: 01d7e372942ab5b514c08d713e68f3817c914c54b2d2997b0e7257d910591567c39a8f084cc83a1bcd42eef0d955b4bb7aec458d30a825a184c9b8d9fda4659c
+Description: Automatically detect timezone
+
 Package: unzipper
 Architecture: all
 Version: 1.2
