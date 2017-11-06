@@ -4076,6 +4076,20 @@ SHA256: d30cb2350a8cb8cdf2da1a645c4d170d2679e929dc68dd551d909ad8b8995f7a
 SHA512: 198defc8e8cf8788756616b42f944fc672a24ffd73c6fe41935660ad57d897fd7fa0ffb6e795f172779609f6e5132ee1f2818b5331aa4294716149e7a8f529c2
 Description: Extract gz, tgz, bz2, xz, zip, 7z archives
 
+Package: peasyclock
+Architecture: all
+Version: 1.4
+Priority: optional
+Maintainer: rcrsn51
+Depends: tzdata, ntpdate, gsu
+Filename: ./Extra/peasyclock_1.4_all.deb
+Size: 4844
+MD5sum: c7fbc9ab04399b44d2105c2d9ad67ef2
+SHA1: d55b303ddad4997180c416bffbe7bb336aeb9281
+SHA256: 4adf94ec609d8608ffe384bbe5642d2ecf6f3d17470b9f613c6d8fd94ec39a89
+SHA512: 660ae18bb935e707a32fabf0f77a2dfa3c993ef5a8c53d6fb3f74d9d3285267113ee9fdb4d83a1afa51e0bab02552ad679acdbe559573167d40310a28420a6ee
+Description: Sets system date, time, zone
+
 Package: peasy-dvd-player
 Architecture: all
 Version: 1.4
