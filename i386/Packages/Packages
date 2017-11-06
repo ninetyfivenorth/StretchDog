@@ -4871,6 +4871,20 @@ SHA256: 4295012752535123f8db66c989d3c33e11800963dd8f788166d7e25b94bdd9a6
 SHA512: 50e7967358647f8b1adc9d11acbceae487e5ffdfdb47515f61dc202c0dca051aa567c77b5fe5a2c71305dd6a73072fde6e18e2f7fe93f3a3479ab64bc079bafc
 Description: Convert video (or portion of video) to Animated GIF
 
+Package: peasyclock
+Architecture: all
+Version: 1.4
+Priority: optional
+Maintainer: rcrsn51
+Depends: tzdata, ntpdate, gsu
+Filename: ./Extra/peasyclock_1.4_all.deb
+Size: 4844
+MD5sum: c7fbc9ab04399b44d2105c2d9ad67ef2
+SHA1: d55b303ddad4997180c416bffbe7bb336aeb9281
+SHA256: 4adf94ec609d8608ffe384bbe5642d2ecf6f3d17470b9f613c6d8fd94ec39a89
+SHA512: 660ae18bb935e707a32fabf0f77a2dfa3c993ef5a8c53d6fb3f74d9d3285267113ee9fdb4d83a1afa51e0bab02552ad679acdbe559573167d40310a28420a6ee
+Description: Sets system date, time, zone
+
 Package: peasy-dvd-player
 Architecture: all
 Version: 1.4
