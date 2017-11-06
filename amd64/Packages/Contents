@@ -28,6 +28,7 @@ etc/init.d/rc.yassm					    yassm
 etc/init.d/slim						    slim
 etc/init.d/snapexit					    porteusbootscripts
 etc/init.d/start-pup-volume-monitor			    pup-volume-monitor
+etc/init.d/start-tzupdate				    tzupdate
 etc/init/slim.conf					    slim
 etc/inittab-auto					    slim
 etc/inittab-noauto					    slim
@@ -2182,9 +2183,11 @@ usr/local/bin/snappie					    snappie
 usr/local/bin/sound-card-selector			    sound-card-selector
 usr/local/bin/st-slim					    xfce4-whiskermenu-plugin-mod
 usr/local/bin/start-jwm					    jwm-setup,jwm-setup-dd64
+usr/local/bin/start-ntpdate				    tzupdate
 usr/local/bin/start-openbox				    jwm-setup,jwm-setup-dd64
 usr/local/bin/start-redshiftgui				    redshiftgui
 usr/local/bin/start-stop-slim				    slim
+usr/local/bin/start-stop-tzupdate			    tzupdate
 usr/local/bin/transmission-cli				    transmission-2.60
 usr/local/bin/transmission-create			    transmission-2.60
 usr/local/bin/transmission-daemon			    transmission-2.60
@@ -4434,6 +4437,7 @@ usr/share/applications/snappie.desktop			    snappie
 usr/share/applications/sound-card-selector.desktop	    sound-card-selector
 usr/share/applications/start-stop-slim.desktop		    slim
 usr/share/applications/transmission.desktop		    transmission-2.60
+usr/share/applications/tzupdate.desktop			    tzupdate
 usr/share/applications/unzipper.desktop			    unzipper
 usr/share/applications/upgrade-kernel.desktop		    upgrade-kernel
 usr/share/applications/weav.desktop			    weav
@@ -7171,6 +7175,7 @@ usr/share/pixmaps/system-users.png			    xfce4-whiskermenu-plugin-mod
 usr/share/pixmaps/term.png				    jwmconf
 usr/share/pixmaps/transmission.png			    transmission-2.60
 usr/share/pixmaps/txt2svg.svg				    txt2svg
+usr/share/pixmaps/tzupdate.png				    tzupdate
 usr/share/pixmaps/unzipper.png				    unzipper
 usr/share/pixmaps/updater.png				    apulse
 usr/share/pixmaps/upgrade-kernel.png			    upgrade-kernel
