@@ -689,6 +689,25 @@ SHA512: 612805dbd80043aa2712168b50edb49d9cc734a31ebd41c8bcf8d861e0f745031c3645cf
 Description: Wireless Network manager
  Fixed refreshing network_tray icon, e.g. when plugging the cable in/out and when connecting to wireless
 
+Package: porteusbootscripts
+Architecture: all
+Version: 0.0.5
+Section: checkinstall
+Maintainer: root@jessie
+Installed-Size: 56
+Depends: libc6
+Filename: ./Included/porteusbootscripts_0.0.5_all.deb
+Size: 11576
+MD5sum: dac0c6e13e0b92572bcf71daad6fd9cb
+SHA1: df0369ca6cf490b892d15d1971197c6cd78ce9e8
+SHA256: 8e924a3fc6a286ce3a80a69d3606ea8f1412090bd29ecef5b85262ab50bd354a
+SHA512: e8311b224dc84c96dad8bf6df86adeb1b3bfc95223087432c0098357fd02c24adfa8cb16da9b7308706650ad15f22c1f3ab4e950dab8211e7349422179d4d8d8
+Description: Porteus-boot helper-scripts (Note: works only on DebianDog)
+ This version has included the scripts for the new-save-setup
+ Note: Removing this package does not make any change.
+ This is on purpose because the scrips are essential for porteus-boot to work
+ Bug fix: set the correct permissions for /tmp (save2flash script)
+
 Package: makeswap
 Architecture: all
 Version: 1.0.2
