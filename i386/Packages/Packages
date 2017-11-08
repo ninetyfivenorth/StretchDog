@@ -4131,6 +4131,23 @@ SHA256: 98fecf48bc95a79dfee55ebe35e311a1469a16a87a8482a8a2fba048284d7cc5
 SHA512: 798da7ad19efb7ec537a39bc80708728f7db734a8f866c0c8bbff9407323fcc1aa108444d8aaf6239326a5c510f3efaa69e85e41ee6a785217d84cefcdfb87ed
 Description: CPU temperature monitor
 
+Package: peasyglue
+Architecture: all
+Version: 2.1
+Priority: optional
+Section: Graphics;
+Maintainer: root
+Installed-Size: 268
+Provides: pictures-joiner
+Depends: libc6, gtkdialog, netpbm, libnetpbm10, bc, poppler-utils
+Filename: ./Extra/peasyglue_2.1.deb
+Size: 6600
+MD5sum: b10759cbcc39de1d08ebc74ff7c19515
+SHA1: 12b373eafa273bcaba6f1e859b89a808f69a290c
+SHA256: d6220096d94dbf7371cee559697a56e20e82f29f50aca2693865aaef321ebb5c
+SHA512: a6b4ed69737403c5b1541e184a9452931111b44a62115e7cbcc2784c0d956069e512e7c6a4222dae6b753bc6d4a784267a083623e4c225e2bcc9d61a6423e301
+Description: graphic-utility
+
 Package: PeasyWiFi
 Architecture: i386
 Version: 4.5-1
