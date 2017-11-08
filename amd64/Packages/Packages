@@ -4097,11 +4097,11 @@ Priority: optional
 Maintainer: rcrsn51
 Depends: tzdata, ntpdate, gsu
 Filename: ./Extra/peasyclock_1.4_all.deb
-Size: 4844
-MD5sum: c7fbc9ab04399b44d2105c2d9ad67ef2
-SHA1: d55b303ddad4997180c416bffbe7bb336aeb9281
-SHA256: 4adf94ec609d8608ffe384bbe5642d2ecf6f3d17470b9f613c6d8fd94ec39a89
-SHA512: 660ae18bb935e707a32fabf0f77a2dfa3c993ef5a8c53d6fb3f74d9d3285267113ee9fdb4d83a1afa51e0bab02552ad679acdbe559573167d40310a28420a6ee
+Size: 4872
+MD5sum: 09d109c54f1e2ff08a95c37eca605e83
+SHA1: bcc1a3244c05aadf4303414ad85e9fa8fd7907c1
+SHA256: f83254af0b2479ff0710e9356b5f16ac8305c3a34d5c4fce165f5951334f56ad
+SHA512: f34a3313c7e4e2a855a416dcb2605b04094abb801460678e75d053196348df49e4ef6310cd2287a0e1c6e73169915d5b3812c7cd48472910672c04b04c3ddf7d
 Description: Sets system date, time, zone
 
 Package: peasy-dvd-player
