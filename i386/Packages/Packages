@@ -677,25 +677,6 @@ SHA256: fe878b6595a57dfe02d94b5adc45cb68ac50cc872365c59bed767da99bdadfbb
 SHA512: f08f87963d8ec24e3ae40db4ba0f0a5a258a7001e13d97fa969433d141eafce4a53e6aeba69ac6f98c1fe84dfda87240c97c9832bd74446e269dfdf49713e773
 Description: Mount images, savefile, modules
 
-Package: porteusbootscripts
-Architecture: all
-Version: 0.0.5
-Section: checkinstall
-Maintainer: root@jessie
-Installed-Size: 56
-Depends: libc6
-Filename: ./Included/porteusbootscripts_0.0.5_all.deb
-Size: 11576
-MD5sum: dac0c6e13e0b92572bcf71daad6fd9cb
-SHA1: df0369ca6cf490b892d15d1971197c6cd78ce9e8
-SHA256: 8e924a3fc6a286ce3a80a69d3606ea8f1412090bd29ecef5b85262ab50bd354a
-SHA512: e8311b224dc84c96dad8bf6df86adeb1b3bfc95223087432c0098357fd02c24adfa8cb16da9b7308706650ad15f22c1f3ab4e950dab8211e7349422179d4d8d8
-Description: Porteus-boot helper-scripts (Note: works only on DebianDog)
- This version has included the scripts for the new-save-setup
- Note: Removing this package does not make any change.
- This is on purpose because the scrips are essential for porteus-boot to work
- Bug fix: set the correct permissions for /tmp (save2flash script)
-
 Package: firefox-esr
 Architecture: i386
 Version: 24.8.0esr-1~deb8u2
@@ -1870,6 +1851,20 @@ SHA256: bdef29143d774a569da8a654bb2ff57a77ee7a1368f5c69db6bfc53181d60704
 SHA512: dccedff0cf8b555d0327569caff3714902117dbd72f11e2759f51c244433e996a11ff4a0bbf8615be81c4a1be57124a5c4d2fe4e66f65a8ef57145cf8f5314e4
 Description: Wireless Network manager
  Fixed refreshing network_tray icon, e.g. when plugging the cable in/out and when connecting to wireless
+
+Package: debdogmountscripts
+Architecture: all
+Version: 1.0.5
+Maintainer: root
+Installed-Size: 73
+Depends: libc6
+Filename: ./Included/debdogmountscripts_1.0.5_all.deb
+Size: 3066
+MD5sum: 4d25ff598ca9f40359cb67cbcfd2e2a3
+SHA1: e2f822dfeb373ea86b5ad37cbb0b2a372940d86b
+SHA256: e0d3afc233be36dbc13ea003afccfa9b14a484f771288e10eeb2f64aec4d14da
+SHA512: c0d3b1c842459e12fb2a240f09a58a135e3e3e210b4574c403db1eccd1cf0374ff05edf3192935e24201abe99e586f727e2da76ac92ea79943a1cbffd38ec28d
+Description: Special DebianDog mount and drive information scripts.
 
 Package: xfe
 Architecture: i386
