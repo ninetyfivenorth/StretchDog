@@ -339,27 +339,6 @@ Description: Warning - This package works only in DebianDog! In ver. 1.0.3 fixed
  .
  For creating a *.squashfs module from changes (from /live/cow directory) or full system remaster (from / directory).
 
-Package: mpv
-Architecture: amd64
-Version: 1:0.9.3-ddjessie
-Priority: optional
-Section: misc
-Maintainer: fredx181
-Installed-Size: 6900
-Depends: libc6, libenca0, libfontconfig1, libfreetype6, libfribidi0, libgmp10, libharfbuzz0b, liblua5.1-0, libx11-6, libxcb-shm0, libxcb1, libxext6, libxinerama1, libxrandr2, libxv1, libvdpau1
-Filename: ./Included/mpv_0.9.3-ddjessie_amd64.deb
-Size: 6378826
-MD5sum: d56878c99c5ba96f5bd3a6832fda1d06
-SHA1: 6260de8bb075628f5a674fa804f3a8dff3fea4b1
-SHA256: e91a8b483259c49d4b175b025bb99f7ac871cd1588745b9f17e8ec9f30efca53
-SHA512: 1001e9c663b32e51e9458399a447c8528aae7d3753dc2a6d2c36cca5d0e5b8fcf7712faec88eb6ceb82dc28514612f4b9013c9c82b405f7edbb5b598029912da
-Homepage: https://github.com/mpv-player/mpv-build
-Description: mplayer/mplayer2 based video player, minimal build
- MPV is a versatile CLI movie player, based on mplayer and mplayer2.
- .
- This package is not part of Debian. It was created by mpv-build scripts with
- statically linked ffmpeg (not libav) and libass from upstream.
-
 Package: apt2sfs
 Architecture: amd64
 Version: 1.0.6
@@ -435,27 +414,6 @@ SHA256: e011f062be46fb09fe20f9a8c4de218b249dab6a1acaf1ed9aa9ed5cf591eb0a
 SHA512: 7f2feaa0df1051095fa6f8a2f08af92da6ec814cb75108e8aa8e2ccf1adc90cc4447fc482dc9163349623485c774f27e97d787413e6ee544f2b9107b1abef385
 Description: Mount .squashfs as unprivileged user.
  Squashfuse lets you mount SquashFS archives in user-space
-
-Package: mpv
-Architecture: amd64
-Version: 1:0.9.4-ddjessie
-Priority: optional
-Section: misc
-Maintainer: fredx181
-Installed-Size: 6900
-Depends: libc6, libenca0, libfontconfig1, libfreetype6, libfribidi0, libgmp10, libharfbuzz0b, liblua5.1-0, libx11-6, libxcb-shm0, libxcb1, libxext6, libxinerama1, libxrandr2, libxv1, libvdpau1
-Filename: ./Included/mpv_0.9.4-ddjessie_amd64.deb
-Size: 6373308
-MD5sum: 39e25c6401788be19d340d7dde22e37f
-SHA1: 48f773f7adab97dd323301b7bb83b65812ceaf15
-SHA256: 54bbc24018b2b7a4ba42df0945c4fea61d7b040bc6911a05e680b2ba1e8179da
-SHA512: 99d00becd183fb780838ebd8218e44a8995b73f4da32520faede437b675ed177dc6537698a6239f202f014af923a83e6f3f541e284cbb9684c6c52c3b11fc998
-Homepage: https://github.com/mpv-player/mpv-build
-Description: mplayer/mplayer2 based video player, minimal build
- MPV is a versatile CLI movie player, based on mplayer and mplayer2.
- .
- This package is not part of Debian. It was created by mpv-build scripts with
- statically linked ffmpeg (not libav) and libass from upstream.
 
 Package: mount
 Architecture: amd64
@@ -955,27 +913,6 @@ SHA512: ecbf81da7201a8667cd7a5e0f90a6af7b7315856de2e1af5df5f7d15d3e440a4cf95ccd4
 Description: The flashplayerchoice script gives choice of several options to install flashplayer :
  - version 11 from https://dl.dropboxusercontent.com (= 19 Mb uncompressed)
  - Install flashplugin-nonfree with apt-get (= 25 Mb uncompressed)
-
-Package: mpv
-Architecture: amd64
-Version: 1:0.9.2-ddjessie
-Priority: optional
-Section: misc
-Maintainer: fredx181
-Installed-Size: 6900
-Depends: libc6, libenca0, libfontconfig1, libfreetype6, libfribidi0, libgmp10, libgnutls-deb0-28, libharfbuzz0b, liblua5.1-0, libx11-6, libxcb-shm0, libxcb1, libxext6, libxinerama1, libxrandr2, libxv1, libvdpau1
-Filename: ./Included/mpv_0.9.2-ddjessie_amd64.deb
-Size: 5773224
-MD5sum: 497127b2fae3fabf918570be2f0ea173
-SHA1: 6a1452c2bf6123771e6d5641886b88bdfb68ebbb
-SHA256: 9182cbe9fd256e8ff6643a48882cf9d6bdf0798aee4dc2104d7b441fda3e4ddc
-SHA512: 67ccdd98171f48dd19aaba62a794ac7d910ab3509f4e73b9cc453c3925c28ac0c9246a72589ec1973f8b2805806d0f44342e76ca36a73a80e4b471b6da470be5
-Homepage: https://github.com/mpv-player/mpv-build
-Description: mplayer/mplayer2 based video player, minimal build
- MPV is a versatile CLI movie player, based on mplayer and mplayer2.
- .
- This package is not part of Debian. It was created by mpv-build scripts with
- statically linked ffmpeg (not libav) and libass from upstream.
 
 Package: pavrecord
 Architecture: all
@@ -2542,6 +2479,27 @@ SHA256: 246e11ce1050cd0f8ace0491679198341a0b6bf3c78d6cb88d44c82590c003c3
 SHA512: 029710e5956491180d9a680b1a6ae6f87dc894ff3d21fcb1e91c201ac93e8b5777d71e6f57a1687289017d42acac43d76805dfb1c6b03153dbe7fe67693ce4f0
 Description: Convert video (or portion of video) to Animated GIF
 
+Package: mpv
+Architecture: amd64
+Version: 1:0.9.3-ddjessie
+Priority: optional
+Section: misc
+Maintainer: fredx181
+Installed-Size: 6900
+Depends: libc6, libenca0, libfontconfig1, libfreetype6, libfribidi0, libgmp10, libharfbuzz0b, liblua5.1-0, libx11-6, libxcb-shm0, libxcb1, libxext6, libxinerama1, libxrandr2, libxv1, libvdpau1
+Filename: ./Extra/mpv_0.9.3-ddjessie_amd64.deb
+Size: 6378826
+MD5sum: d56878c99c5ba96f5bd3a6832fda1d06
+SHA1: 6260de8bb075628f5a674fa804f3a8dff3fea4b1
+SHA256: e91a8b483259c49d4b175b025bb99f7ac871cd1588745b9f17e8ec9f30efca53
+SHA512: 1001e9c663b32e51e9458399a447c8528aae7d3753dc2a6d2c36cca5d0e5b8fcf7712faec88eb6ceb82dc28514612f4b9013c9c82b405f7edbb5b598029912da
+Homepage: https://github.com/mpv-player/mpv-build
+Description: mplayer/mplayer2 based video player, minimal build
+ MPV is a versatile CLI movie player, based on mplayer and mplayer2.
+ .
+ This package is not part of Debian. It was created by mpv-build scripts with
+ statically linked ffmpeg (not libav) and libass from upstream.
+
 Package: roxterm-common
 Architecture: all
 Version: 2.9.5-1
@@ -2682,6 +2640,27 @@ SHA256: 6bb4106724ed48a5fa0c91f863596297395839af8cf52949bcbc67826197e0cd
 SHA512: b5bdef0db9488c55a32f4c172b5347bdf5ce56cbf456461e45fe3397409c1e872321339f59ce24372c8438057a6c10da6e35fc713e1d92a927c6ca1eda9cde64
 Description: Set system locale
 
+Package: mpv
+Architecture: amd64
+Version: 1:0.9.4-ddjessie
+Priority: optional
+Section: misc
+Maintainer: fredx181
+Installed-Size: 6900
+Depends: libc6, libenca0, libfontconfig1, libfreetype6, libfribidi0, libgmp10, libharfbuzz0b, liblua5.1-0, libx11-6, libxcb-shm0, libxcb1, libxext6, libxinerama1, libxrandr2, libxv1, libvdpau1
+Filename: ./Extra/mpv_0.9.4-ddjessie_amd64.deb
+Size: 6373308
+MD5sum: 39e25c6401788be19d340d7dde22e37f
+SHA1: 48f773f7adab97dd323301b7bb83b65812ceaf15
+SHA256: 54bbc24018b2b7a4ba42df0945c4fea61d7b040bc6911a05e680b2ba1e8179da
+SHA512: 99d00becd183fb780838ebd8218e44a8995b73f4da32520faede437b675ed177dc6537698a6239f202f014af923a83e6f3f541e284cbb9684c6c52c3b11fc998
+Homepage: https://github.com/mpv-player/mpv-build
+Description: mplayer/mplayer2 based video player, minimal build
+ MPV is a versatile CLI movie player, based on mplayer and mplayer2.
+ .
+ This package is not part of Debian. It was created by mpv-build scripts with
+ statically linked ffmpeg (not libav) and libass from upstream.
+
 Package: gtkdesklet
 Architecture: amd64
 Version: 1.0.1
@@ -2771,6 +2750,27 @@ Description: spell checker and morphological analyzer (shared library)
     forbidden words, pseudoroots and homonyms.
  .
  This package contains the shared library.
+
+Package: mpv
+Architecture: amd64
+Version: 1:0.27.0-ddstretch
+Priority: optional
+Section: misc
+Maintainer: fredx181
+Installed-Size: 21000
+Depends: libasound2, libbluray1, libc6, libcaca0, libdrm2, libegl1-mesa, libfontconfig1, libfreetype6, libfribidi0, libgbm1, libgl1-mesa-glx, libgnutls30, libharfbuzz0b, libjack0, libjpeg62-turbo, liblcms2-2, liblua5.2-0, libpulse0, librubberband2, libuchardet0, libva1, libva-drm1, libva-x11-1, libvdpau1, libx11-6, libxcb1, libxcb-shape0, libxcb-xfixes0, libxext6, libxinerama1, libxrandr2, libxss1, libxv1, zlib1g
+Filename: ./Extra/mpv_0.27.0-ddstretch_amd64.deb
+Size: 7121374
+MD5sum: be817500ace3463b0576641fdf62fbb1
+SHA1: 21ab53a7b2ece3342f8c155e64fe2e382985ae13
+SHA256: adb17b5758b75f970a1bcdcc6042ee09d22d6594b684696140b9190dfa9f77b7
+SHA512: e7f4ec441f45a4be8312ebf02c126d4ada8906d9bf59a291c76afc112e3489ac0210da0834b5757f72111578bfbce142b7e2f4463cf21ba16f831624d9e721ed
+Homepage: https://github.com/mpv-player/mpv-build
+Description: mplayer/mplayer2 based video player, minimal build
+ MPV is a versatile CLI movie player, based on mplayer and mplayer2.
+ .
+ This package is not part of Debian. It was created by mpv-build scripts with
+ statically linked ffmpeg (not libav) and libass from upstream.
 
 Package: evince
 Architecture: amd64
@@ -3150,6 +3150,27 @@ SHA1: 1c4d3818c719555e9af9fbaaf138672ce6cb0814
 SHA256: e154fee04e53d1d8cf032f82e013d420283ae391d3d1c2756606f58d5657eddc
 SHA512: ae7285e6dcf4c5d58a963ddbb23efdbdbddc055415e169d95a683165d6a7a793228ce04af00df65335cbb3a57b936814df1f6b1077af3e5805305abae2180b40
 Description: Mounts ISO/SFS files
+
+Package: mpv
+Architecture: amd64
+Version: 1:0.9.2-ddjessie
+Priority: optional
+Section: misc
+Maintainer: fredx181
+Installed-Size: 6900
+Depends: libc6, libenca0, libfontconfig1, libfreetype6, libfribidi0, libgmp10, libgnutls-deb0-28, libharfbuzz0b, liblua5.1-0, libx11-6, libxcb-shm0, libxcb1, libxext6, libxinerama1, libxrandr2, libxv1, libvdpau1
+Filename: ./Extra/mpv_0.9.2-ddjessie_amd64.deb
+Size: 5773224
+MD5sum: 497127b2fae3fabf918570be2f0ea173
+SHA1: 6a1452c2bf6123771e6d5641886b88bdfb68ebbb
+SHA256: 9182cbe9fd256e8ff6643a48882cf9d6bdf0798aee4dc2104d7b441fda3e4ddc
+SHA512: 67ccdd98171f48dd19aaba62a794ac7d910ab3509f4e73b9cc453c3925c28ac0c9246a72589ec1973f8b2805806d0f44342e76ca36a73a80e4b471b6da470be5
+Homepage: https://github.com/mpv-player/mpv-build
+Description: mplayer/mplayer2 based video player, minimal build
+ MPV is a versatile CLI movie player, based on mplayer and mplayer2.
+ .
+ This package is not part of Debian. It was created by mpv-build scripts with
+ statically linked ffmpeg (not libav) and libass from upstream.
 
 Package: PeasyWiFi
 Architecture: amd64
