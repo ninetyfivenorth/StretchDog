@@ -3191,6 +3191,21 @@ Description: Firefox-based, efficient and easy to use web browser
  Run /proc/cpuinfo in a terminal, and look for sse2 in the flags to ensure
  that your processor supports it.
 
+Package: touchpad
+Architecture: all
+Version: 1.0
+Priority: optional
+Section: base
+Maintainer: rcrsn51
+Depends: xserver-xorg-input-libinput, xinput
+Filename: ./Extra/touchpad_1.0.deb
+Size: 5082
+MD5sum: 967bb1acd8a8ee559a43480e409f4da5
+SHA1: f90634f1c82cd8a0b2247e0deb9144618a26444b
+SHA256: 2f6e4b1b866785f9c1c211b3cefb99e7dc7541dd294fa56e5607ca138cc9905a
+SHA512: 07ce5763cbf4c05556c66672c9014caa36404659b63c11b8063230f56e037dfc77e1503567c1b9ab9ecd857b655c9f50b0d3faa6ba5d29b78ce8de8ddc9ede08
+Description: Basic touchpad setup
+
 Package: roxterm-gtk2
 Architecture: i386
 Version: 2.9.5-1
