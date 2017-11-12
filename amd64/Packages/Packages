@@ -2931,6 +2931,21 @@ SHA256: 80c43a28c3c3b19133ec2c96ddaadf946879e8214aa34e2bfb1afc84325d7d23
 SHA512: fd3ab2cdfa99802a47e55154b7693dfa3b8294a7886fece058fe19b9bfdb50acef47eb74f16cab9c188ae39657222575230e1bb3b26fcff0db187a0c4b2dba5c
 Description: CPU temperature monitor
 
+Package: touchpad
+Architecture: all
+Version: 1.0
+Priority: optional
+Section: base
+Maintainer: rcrsn51
+Depends: xserver-xorg-input-libinput, xinput
+Filename: ./Extra/touchpad_1.0.deb
+Size: 5082
+MD5sum: 967bb1acd8a8ee559a43480e409f4da5
+SHA1: f90634f1c82cd8a0b2247e0deb9144618a26444b
+SHA256: 2f6e4b1b866785f9c1c211b3cefb99e7dc7541dd294fa56e5607ca138cc9905a
+SHA512: 07ce5763cbf4c05556c66672c9014caa36404659b63c11b8063230f56e037dfc77e1503567c1b9ab9ecd857b655c9f50b0d3faa6ba5d29b78ce8de8ddc9ede08
+Description: Basic touchpad setup
+
 Package: peasyclock
 Architecture: all
 Version: 1.1
