@@ -2380,7 +2380,6 @@ usr/local/bin/start-openbox				    jwm-setup
 usr/local/bin/start-redshiftgui				    redshiftgui
 usr/local/bin/start-stop-slim				    slim
 usr/local/bin/start-stop-tzupdate			    tzupdate
-usr/local/bin/touchpad					    touchpad
 usr/local/bin/transmission				    transmission-2.31
 usr/local/bin/transmission-gtk				    transmission-2.31
 usr/local/bin/txt2svg					    txt2svg
@@ -5227,7 +5226,6 @@ usr/share/applications/sns.desktop			    sns
 usr/share/applications/sound-card-selector.desktop	    sound-card-selector
 usr/share/applications/start-lumina-info.desktop	    lumina-desktop-debdog
 usr/share/applications/start-stop-slim.desktop		    slim
-usr/share/applications/touchpad.desktop			    touchpad
 usr/share/applications/transmission.desktop		    transmission-2.31
 usr/share/applications/tzupdate.desktop			    tzupdate
 usr/share/applications/unzipper.desktop			    unzipper
@@ -9378,7 +9376,6 @@ usr/share/pixmaps/swap2.png				    makeswap
 usr/share/pixmaps/switch.png				    jwm-setup,jwmconf
 usr/share/pixmaps/system-users.png			    xfce4-whiskermenu-plugin-mod
 usr/share/pixmaps/term.png				    jwmconf
-usr/share/pixmaps/touchpad.png				    touchpad
 usr/share/pixmaps/transmission.png			    transmission-2.31
 usr/share/pixmaps/txt2svg.svg				    txt2svg
 usr/share/pixmaps/tzupdate.png				    tzupdate
