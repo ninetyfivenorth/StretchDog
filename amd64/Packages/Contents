@@ -2188,7 +2188,6 @@ usr/local/bin/start-openbox				    jwm-setup,jwm-setup-dd64
 usr/local/bin/start-redshiftgui				    redshiftgui
 usr/local/bin/start-stop-slim				    slim
 usr/local/bin/start-stop-tzupdate			    tzupdate
-usr/local/bin/touchpad					    touchpad
 usr/local/bin/transmission-cli				    transmission-2.60
 usr/local/bin/transmission-create			    transmission-2.60
 usr/local/bin/transmission-daemon			    transmission-2.60
@@ -4437,7 +4436,6 @@ usr/share/applications/smokey-get.desktop		    sfs-get-smokey-get
 usr/share/applications/snappie.desktop			    snappie
 usr/share/applications/sound-card-selector.desktop	    sound-card-selector
 usr/share/applications/start-stop-slim.desktop		    slim
-usr/share/applications/touchpad.desktop			    touchpad
 usr/share/applications/transmission.desktop		    transmission-2.60
 usr/share/applications/tzupdate.desktop			    tzupdate
 usr/share/applications/unzipper.desktop			    unzipper
@@ -7175,7 +7173,6 @@ usr/share/pixmaps/swap2.png				    makeswap
 usr/share/pixmaps/switch.png				    jwmconf,jwm-setup-dd64,jwm-setup
 usr/share/pixmaps/system-users.png			    xfce4-whiskermenu-plugin-mod
 usr/share/pixmaps/term.png				    jwmconf
-usr/share/pixmaps/touchpad.png				    touchpad
 usr/share/pixmaps/transmission.png			    transmission-2.60
 usr/share/pixmaps/txt2svg.svg				    txt2svg
 usr/share/pixmaps/tzupdate.png				    tzupdate

@@ -18,6 +18,23 @@ Description: graphical frontend to sudo - this version is fix for Jessie and SID
   More information available here:
   http://www.murga-linux.com/puppy/viewtopic.php?p=829680#829680
 
+Package: edit-sfs-thunar
+Architecture: all
+Version: 2.4
+Priority: extra
+Section: x11
+Maintainer: root
+Installed-Size: 134
+Depends: libc6 (>= 2.7-1), squashfs-tools (>= 4.2-1), bash, x11-utils, thunar|pcmanfm, disktype, coreutils, xterm
+Replaces: edit-sfs-rox, edit-sfs-pcmanfm
+Filename: ./Included/edit-sfs-thunar_2.4_all.deb
+Size: 6568
+MD5sum: e9ba21c96d9fbb1d0de38da0f24a16c6
+SHA1: 9cfc086962dc9abea2ecfdd17ceeb10dd17f8208
+SHA256: 2daec92bdcd35b328a7e2107695a7c4f9dee9b83e3025b3b02ed3b37741590a3
+SHA512: 389994c6cbe5d330eacee4126475796133aa7046b2af030bf4def85433eb4cd9dbe5aae1e7850dbaace93fa411e20bb551c7245bde14bb674d148b25a6c42316
+Description: squashfs editor, converter
+
 Package: flashplayerchoice
 Architecture: all
 Version: 1.0.1
@@ -1734,6 +1751,23 @@ SHA256: 00cf05e2b2f4e920b075aec611b7d44e43b63d0ac52535c11e58f68ca3230bf3
 SHA512: 6ddaefb51682705e91c6a619dfc1038d90f506d096fdb94bcb5f7dddb1bec2494ba87ff93365e59347e2fd237e8fa5387ec45f13a8b550ffff5e62017d4009b2
 Description: Load a *.squashfs or *.sfs module.
 
+Package: edit-sfs-pcmanfm
+Architecture: all
+Version: 2.4
+Priority: extra
+Section: x11
+Maintainer: root
+Installed-Size: 134
+Depends: libc6 (>= 2.7-1), squashfs-tools (>= 4.2-1), bash, x11-utils, pcmanfm, disktype, coreutils, xterm
+Replaces: edit-sfs-rox, edit-sfs-thunar
+Filename: ./Included/edit-sfs-pcmanfm_2.4_all.deb
+Size: 6558
+MD5sum: bb30be5503396a7094f9aa31ac1711a7
+SHA1: a98938f3b3822274ed387a46a0340b4dd976eff4
+SHA256: c426dd3bc7dcf2565c5a1b77b829ffc556f73f25208fa9b0efebca58245114c2
+SHA512: c40d4982eef191c8a4f06d59a8f8102082e5ca8072673ba5dccd4863069a27181a09e9d95acc7dfbc43ddef7436bf8a12dbe348f21294f90d86f58a38b4f3de4
+Description: squashfs editor, converter
+
 Package: conky
 Architecture: all
 Version: 1.10.1-3
@@ -2930,21 +2964,6 @@ SHA1: 24a1d5c49c339da42aea0c289b7cbd72935f3754
 SHA256: 80c43a28c3c3b19133ec2c96ddaadf946879e8214aa34e2bfb1afc84325d7d23
 SHA512: fd3ab2cdfa99802a47e55154b7693dfa3b8294a7886fece058fe19b9bfdb50acef47eb74f16cab9c188ae39657222575230e1bb3b26fcff0db187a0c4b2dba5c
 Description: CPU temperature monitor
-
-Package: touchpad
-Architecture: all
-Version: 1.0
-Priority: optional
-Section: base
-Maintainer: rcrsn51
-Depends: xserver-xorg-input-libinput, xinput
-Filename: ./Extra/touchpad_1.0.deb
-Size: 5082
-MD5sum: 967bb1acd8a8ee559a43480e409f4da5
-SHA1: f90634f1c82cd8a0b2247e0deb9144618a26444b
-SHA256: 2f6e4b1b866785f9c1c211b3cefb99e7dc7541dd294fa56e5607ca138cc9905a
-SHA512: 07ce5763cbf4c05556c66672c9014caa36404659b63c11b8063230f56e037dfc77e1503567c1b9ab9ecd857b655c9f50b0d3faa6ba5d29b78ce8de8ddc9ede08
-Description: Basic touchpad setup
 
 Package: peasyclock
 Architecture: all
