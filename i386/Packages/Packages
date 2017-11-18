@@ -2638,6 +2638,21 @@ Description: YouTube Downloader, frontend for youtube-dl
  - Extra addition: m-play script + menu entry for playing YouTube url with mplayer or mpv
  - Download from Playlist supports channel download also now (version 0.1.8)
 
+Package: touchpad
+Architecture: all
+Version: 1.2
+Priority: optional
+Section: base
+Maintainer: rcrsn51
+Depends: xserver-xorg-input-libinput, xinput
+Filename: ./Extra/touchpad_1.2.deb
+Size: 5752
+MD5sum: 7de773758d5057eb7a90c085f90f1853
+SHA1: 49bce84b81fc06d307a3ea97d8119d3b135e35d8
+SHA256: 31ae8cd79c666571c2d9f4e62d209fad2857ed212a12dac21d0237168262fe12
+SHA512: a5e44ca803c44ba79f7cf453139522fec04ae506131ea25cc18aa787e8f208c1e1ccadefd93cd7df2cddebd3ad59ec7a29125836b7c03cc35fba8b888e851536
+Description: Touchpad/mouse/touchscreen setup
+
 Package: greybird-theme-dd-stretch
 Architecture: all
 Version: 0.0.1
