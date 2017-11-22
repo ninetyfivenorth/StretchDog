@@ -3506,6 +3506,21 @@ Description: Reliable network manager
  - A modification to Names. It resets the Ethernet profiles in /etc/pwf/ethernet
  - Updated Help screen
 
+Package: peasy-dvd-player
+Architecture: all
+Version: 1.5
+Priority: optional
+Section: base
+Maintainer: rcrsn51
+Depends: xterm, eject, gmplayer | gnome-mplayer-1.0.7, libdvdcss
+Filename: ./Extra/peasy-dvd-player_1.5.deb
+Size: 6206
+MD5sum: b1ad20a001b491cf9a2cb4db7df3500c
+SHA1: ccce308b966a9269f9677e4c41d939e75376dfa5
+SHA256: 35fbcff8cfb5e9797c8bf29f1e3f9227cd79ab2e2c2493ba6ed7fbbb5fa68ce9
+SHA512: a3b0ae1d08ad318f1347f2802c599381dcd13d613847264e548a7905a833ceece473640101993bf2bdc2a9a9db14d74ead2d531c82cc45983ec48a22821b1d11
+Description: DVD movie player
+
 Package: mtpaint
 Architecture: amd64
 Version: 3.49.12
@@ -3671,6 +3686,21 @@ SHA1: 4c54ba28c3806204b3d46b419c831e0ec6bc4a68
 SHA256: b218a34f6a6da03e116556e337aa5ecda27982fa130d2f6a78727b3105bd40f0
 SHA512: f7e544d3b860f0a74560cd54cb27928eac2e15f566556c5926d5823368d022c18167283a27ca32dc6de505810ff85cd3e426f68e3bac1dbd2fd4676ef0f88a9f
 Description: Manipulate PDF documents
+
+Package: unzipper
+Architecture: all
+Version: 1.5
+Priority: optional
+Section: base
+Maintainer: rcrsn51
+Depends: gzip, bzip2, xz-utils, unzip, p7zip, unrar
+Filename: ./Extra/unzipper_1.5.deb
+Size: 3834
+MD5sum: 796bdc6377940286f30520376b1da2f6
+SHA1: bca84031528d5ad68b715fda8fccf516b76ed0fb
+SHA256: 6bae72423635d11e292cc1296a6691174c080007d8e58709371d444afd6d3128
+SHA512: 44b1f6f88f414450739e28a1a957c8fd694e2fabde18832f1cec03fa2d44b66a85eddbbb4adabe9f612476fe699b074c3b7ba5961ecd226860ce6334b6964081
+Description: Extract gz, tgz, bz2, xz, zip, 7z archives
 
 Package: libnettle4
 Architecture: amd64
