@@ -964,6 +964,22 @@ Description: Warning - This package works only in DebianDog! In ver. 1.0.3 fixed
  .
  For creating a *.squashfs module from changes (from /live/cow directory) or full system remaster (from / directory).
 
+Package: flashplayerchoice
+Architecture: all
+Version: 1.0.3
+Maintainer: root
+Installed-Size: 38
+Depends: libc6, wget, yad, sed, menu, tar, gsu | gksu
+Filename: ./Included/flashplayerchoice_1.0.3_all.deb
+Size: 5840
+MD5sum: 8d42e5404a9ce4bb4581433c9b392f12
+SHA1: bcae968f562033dc6f04bc57a154bb5267409b2e
+SHA256: 201f9f4e417111ebdd991ecd29e8dd2c984fd07f4aefacce71d2c58d0259862c
+SHA512: 861e839278d770ebc25eb7fbae20c7b0c1565a088b355d6ff7cdde385387c44d3eed5095d0c776cd5d308b545fa42c16ac0db8e514b22ebe8ef63e2114d9bb3e
+Description: The flashplayerchoice script gives choice of several options to install flashplayer :
+ - Latest version from Adobe (= 16 Mb uncompressed)
+ - version 11 from http://www.smokey01.com/OscarTalks/ (= 18 Mb uncompressed)
+
 Package: pfind
 Architecture: all
 Version: 1.0.0-1
