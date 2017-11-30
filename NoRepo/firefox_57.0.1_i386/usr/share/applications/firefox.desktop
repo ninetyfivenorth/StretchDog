@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Firefox
+Comment=Firefox-apulse
+GenericName=Web Browser
+Exec=firefox
+Terminal=false
+Type=Application
+Icon=firefox
+Categories=Network;WebBrowser;

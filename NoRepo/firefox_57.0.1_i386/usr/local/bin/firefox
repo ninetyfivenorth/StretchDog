@@ -1,0 +1,3 @@
+#!/bin/sh
+
+exec apulse /opt/firefox/firefox "$@"
