@@ -9,34 +9,34 @@ Codename: stretch
 Architectures: i386
 Components: main
 Description: DebianDog repository
-Date: Thu, 30 Nov 2017 01:09:43 +0000
+Date: Thu, 30 Nov 2017 01:15:20 +0000
 MD5Sum:
  c726db04935c58e1ef48821934ebec36           253719 Packages
- 9f9a18a4570277f19e74c3d6a8d1a575            88942 Packages.gz
- 3a244ba7f165babc4c1c8dee94b5a94b              187 Release
- 9f9a18a4570277f19e74c3d6a8d1a575            88942 Translation-en.gz
+ dcc0f1d87ee1266d0d64c46ad9974d99            88942 Packages.gz
+ 46140cb5e3e21c96c79d8b478dda59c5              187 Release
+ dcc0f1d87ee1266d0d64c46ad9974d99            88942 Translation-en.gz
 SHA1:
  1e1a08221889acfa475e1e140ede7a2a4070f30e           253719 Packages
- bf305b0930d8d5c6cc87d8d8766c121448cd79e9            88942 Packages.gz
- 2664e5a3ce2d1aeea8d0cf03f1a546903a14303e              187 Release
- bf305b0930d8d5c6cc87d8d8766c121448cd79e9            88942 Translation-en.gz
+ 7a48bc7dd2d074f30d46dadfc505ea18d22c2e67            88942 Packages.gz
+ b5238392371ed3dd1a91ee531143046e0448ca0c              187 Release
+ 7a48bc7dd2d074f30d46dadfc505ea18d22c2e67            88942 Translation-en.gz
 SHA256:
  f11e869a5d23e6e9a07f6c998821d3d684eec390dac4749f08f9c18023952df4           253719 Packages
- 649d4d9af049e01268bcbbd11d68b4365fee1ce7fadf8d46505c70fd8f0d1606            88942 Packages.gz
- ce293e70fe5372a98980f1bed6d236864e2ea79e10fec2b407a77de671683851              187 Release
- 649d4d9af049e01268bcbbd11d68b4365fee1ce7fadf8d46505c70fd8f0d1606            88942 Translation-en.gz
+ 80b4f04e1f1bf6ccc562f61ee5c08981bed89e0fb90e9b521a18f2e43f0932c8            88942 Packages.gz
+ 3f4806f4a6bd38158e461be7259d417c73a4e954c2534b5606abad1fea668ec6              187 Release
+ 80b4f04e1f1bf6ccc562f61ee5c08981bed89e0fb90e9b521a18f2e43f0932c8            88942 Translation-en.gz
 SHA512:
  c5676e2262d4b91bab9d3ee6e49d6957fc65e9b76b5f3aa0854796c909c8d08e73b59e1f902a8fbcc3d3d569c9369a7cea73645c617b7eaa28c79382e5207bfe           253719 Packages
- fcf2a685c468d146bebb460e557ee06e29abfd88c57b9d432dab1f5a01f2eeb33ba279b20a176e0e407ce5bed1a306d9f11663c2dc52f383d9eb58ca2ccd0f48            88942 Packages.gz
- 9e1fb2293ee62e6bf0d70166bf757dd37f2d6715885355a8c8f50fe496f20266566cc4bfe3c024e04db19c442be52a40c84a0cab6197df256c3903c76a5c49dd              187 Release
- fcf2a685c468d146bebb460e557ee06e29abfd88c57b9d432dab1f5a01f2eeb33ba279b20a176e0e407ce5bed1a306d9f11663c2dc52f383d9eb58ca2ccd0f48            88942 Translation-en.gz
+ 9314f7ce90d7e045deb14c399c58c9e90e08e2979386faec083eaf2ad8cc6fbc7ae6ac88ddc9735c772e6e0df7c6a8ba254fd326e959fbb8178eaf5582d98076            88942 Packages.gz
+ 49feb7093a160ab5a4025ef2bb72bef2a18c22f8c711cdac12496e8e93c29b1bfb6497f52e81a16bb1c2284338597349d88acd68d11a475337ac12705026da73              187 Release
+ 9314f7ce90d7e045deb14c399c58c9e90e08e2979386faec083eaf2ad8cc6fbc7ae6ac88ddc9735c772e6e0df7c6a8ba254fd326e959fbb8178eaf5582d98076            88942 Translation-en.gz
 -----BEGIN PGP SIGNATURE-----
 
-iQEcBAEBCAAGBQJaH1pjAAoJEK2HvHp9cwgdTskH/RaT69tua7brGoPzIcfWpMPg
-I+/WfpzUaxwzX/MnrlH/ACZTTZUriRW9uWYm4clXo6bmLDkNjlHZgXzghqcwtWvr
-6Ov0wOHSWQaZOBGpVBOJBM+HBghUYNHgCSOZre6wwDHs8VpdBEdaMALhlO1/7bjN
-TDzlI5BHHJULmMmSxYbbcptgQ2w4y4XeI/kLdh558TJ3OP6IdDBW6nAK5eAXfvVb
-aw7qT3/FY37tzTZiVIKKsGRmETdf7x7jPgWOYzUpRhBi96vZHlIbwlo7GdvNcqnM
-poiojb51B4QyO/+vbTpfpLvXpIAIkQ6W2RGk7aft1cv/cGGlYcubYR5OTk1+5Rc=
-=3VSL
+iQEcBAEBCAAGBQJaH1uyAAoJEK2HvHp9cwgd42cIAJdscuUUYFaGttt5i6SUITZp
+5OHceDboMTl0ob6Z2SAFq+CcqLVcgkt++ySS3ZbepJEDoBJZ6g4Olr3g68Kl1KsC
+J8potWiVXU4CfdWkd3H9gFIV1HzSCEzFSR6lngBtId6a5eEImKIIoGayKHV/0zV8
+2VhWyLTPBWznO1M5+J6+XL3oAfC3kUMMy0wmJlfjD4Rd1JEsVjwheOq0tjCHLOOO
+rKXA26NJVtZ305HyyYk6jD9NU5OmzZS4m0v8EOTLbElFZ8zvJ6FPotRi5X1NWhRw
+gxjpfQ5iJqESU0SrfddhMre+3g91NiCj48BnTJXCvtgx9QAg5va5by6QjJl/xOU=
+=cJTC
 -----END PGP SIGNATURE-----
