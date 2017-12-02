@@ -126,8 +126,15 @@ VERNEWKERNEL=$(ls /lib/modules | tail -1)
 VERUNAME=$(uname -r)
 	if [ "$(uname -m)" = "i686" ]; then
 ARCH=i386
+if [ -z "$(uname -r | grep pae)" ]; then
+KERNEL="linux-image-686"
+echo "Booted with no-pae kernel ?, will upgrade linux-image-686"
+export NOPAE="yes"
+LINUX=$(apt-get -s install $KERNEL | grep -o "linux-image-.*-686" | grep -v $KERNEL | head -1)
+else
 KERNEL="linux-image-686-pae"
 LINUX=$(apt-get -s install $KERNEL | grep -o "linux-image-.*-686-pae" | grep -v $KERNEL | head -1)
+fi
 if [[ "$VERNEWKERNEL" != "$VERUNAME" ]]; then
 echo "Reinstalling..."
 apt-get purge $KERNEL -y --assume-yes
@@ -237,8 +244,13 @@ VERNEWKERNEL=$(grep " install " /var/log/dpkg.log | sort -r |  cut -d " " -sf4 |
 
 mkdir -p /lib/modules/$VERNEWKERNEL/kernel/fs/aufs
 if [ "$ARCH" = "i386" ]; then
+  if [ "$NOPAE" = "yes" ]; then
+wget -N https://fredx181.github.io/StretchDog/aufs_squashfs-k4.9.0-4/aufs-nopae/aufs.ko -O /lib/modules/$VERNEWKERNEL/kernel/fs/aufs/aufs.ko
+wget -N https://fredx181.github.io/StretchDog/aufs_squashfs-k4.9.0-4/squashfs-nopae/squashfs.ko -O /lib/modules/$VERNEWKERNEL/kernel/fs/squashfs/squashfs.ko
+  else
 wget -N https://fredx181.github.io/StretchDog/aufs_squashfs-k4.9.0-4/aufs32/aufs.ko -O /lib/modules/$VERNEWKERNEL/kernel/fs/aufs/aufs.ko
 wget -N https://fredx181.github.io/StretchDog/aufs_squashfs-k4.9.0-4/squashfs32/squashfs.ko -O /lib/modules/$VERNEWKERNEL/kernel/fs/squashfs/squashfs.ko
+  fi
 elif [ "$ARCH" = "amd64" ]; then
 wget -N https://fredx181.github.io/StretchDog/aufs_squashfs-k4.9.0-4/aufs64/aufs.ko -O /lib/modules/$VERNEWKERNEL/kernel/fs/aufs/aufs.ko
 wget -N https://fredx181.github.io/StretchDog/aufs_squashfs-k4.9.0-4/squashfs64/squashfs.ko -O /lib/modules/$VERNEWKERNEL/kernel/fs/squashfs/squashfs.ko
