@@ -4092,6 +4092,22 @@ SHA256: 0050cd2138f3ad2113b0702ff98f11e236c91584fe0ce4474c21d38b03c3829a
 SHA512: 04c34ebf5d17e09622bfe685fbe08ca4679dd77cf016fa177150a34121abd51e850e58132dcb6be538f7183ba78cf0778d0985ff77d1e52dcd7a703b9d8a3df6
 Description: mount drives utility
 
+Package: dropboxgui
+Architecture: all
+Version: 1.0.2
+Priority: optional
+Section: utilities
+Maintainer: root
+Installed-Size: 87
+Depends: libc6, gtkdialog, gxmessage
+Filename: ./Extra/dropboxgui_1.0.2_all.deb
+Size: 16556
+MD5sum: 5b4517cef4f8d8230e11d1147910e080
+SHA1: 6327bc0da32aa8a649a08cb9412b022185ccbc5a
+SHA256: 86c32ab31d49053c314c75ac1bd68e6158900d1400255f9a3bb52d57419539e4
+SHA512: b0d090cf48bd2d3a9deb91dc08cc93c3688799c4c88080fbf5b8ae19e972438f3b77c6cd23603023b53a35c0b1b14175a6c9f4cc4d79e3fde1ed763d85144b79
+Description: DropboxGUI, by mikeb
+
 Package: peasyport
 Architecture: all
 Version: 2.3
