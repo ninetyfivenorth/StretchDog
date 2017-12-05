@@ -3651,6 +3651,22 @@ Description: low level cryptographic library (public-key cryptos)
  require the GNU multiple precision arithmetic library (libgmp) for
  their large integer computations.
 
+Package: dropboxgui
+Architecture: all
+Version: 1.0.2
+Priority: optional
+Section: utilities
+Maintainer: root
+Installed-Size: 87
+Depends: libc6, gtkdialog, gxmessage
+Filename: ./Extra/dropboxgui_1.0.2_all.deb
+Size: 16556
+MD5sum: 5b4517cef4f8d8230e11d1147910e080
+SHA1: 6327bc0da32aa8a649a08cb9412b022185ccbc5a
+SHA256: 86c32ab31d49053c314c75ac1bd68e6158900d1400255f9a3bb52d57419539e4
+SHA512: b0d090cf48bd2d3a9deb91dc08cc93c3688799c4c88080fbf5b8ae19e972438f3b77c6cd23603023b53a35c0b1b14175a6c9f4cc4d79e3fde1ed763d85144b79
+Description: DropboxGUI, by mikeb
+
 Package: x11-xserver-utils
 Architecture: amd64
 Version: 7.7+2+b1
