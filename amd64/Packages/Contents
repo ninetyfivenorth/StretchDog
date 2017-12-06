@@ -2055,6 +2055,7 @@ usr/local/bin/CPUtemp					    cputemp
 usr/local/bin/CPUtemp.hlp				    cputemp
 usr/local/bin/Readme_loadsfs-fuse-writesfs		    portablesfs-loadsfs-fuse
 usr/local/bin/SaveFolderBackup				    SaveFolderBackup
+usr/local/bin/alsamixertray				    alsamixer-tray
 usr/local/bin/apt2sfs					    apt2sfs
 usr/local/bin/apt2sfs-cli				    apt2sfs
 usr/local/bin/apt2sfs-cli-fullinst			    apt2sfs
@@ -6957,6 +6958,7 @@ usr/share/pixmaps/BaCon.png				    bacon
 usr/share/pixmaps/BaCon24.png				    bacon
 usr/share/pixmaps/MPlayer.png				    gmplayer
 usr/share/pixmaps/UExtract.png				    uextract
+usr/share/pixmaps/alsamixertray.png			    alsamixer-tray
 usr/share/pixmaps/application-x-squashfs.png		    sfs-get-smokey-get
 usr/share/pixmaps/application-x-squashfs2.png		    remaster-scripts
 usr/share/pixmaps/application-x-squashfs3.png		    quick-remaster
