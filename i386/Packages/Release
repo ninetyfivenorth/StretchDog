@@ -6,24 +6,24 @@ Codename: stretch
 Architectures: i386
 Components: main
 Description: DebianDog repository
-Date: Wed, 06 Dec 2017 20:34:38 +0000
+Date: Thu, 07 Dec 2017 10:06:09 +0000
 MD5Sum:
- f3e66b528452ead81fe8c5439b82f640           256490 Packages
- 9263301151fc2b25c21597fe5c22fee5            94332 Packages.gz
- 5c68b6df30b1f865f12e4b16da74c5d3              187 Release
- 9263301151fc2b25c21597fe5c22fee5            94332 Translation-en.gz
+ 31ca161bd157a9c9030823fe6ec3ac82           257530 Packages
+ 7135dc3cf16fc62f6d23f5d3b0bd7215            94790 Packages.gz
+ d50a04d708480e5d299238254d090caf              187 Release
+ 7135dc3cf16fc62f6d23f5d3b0bd7215            94790 Translation-en.gz
 SHA1:
- 4632c24641111b1ae4973a849223dbe49f67234f           256490 Packages
- bc6fc07cf871dc60410b7943ecf6c086a8789b72            94332 Packages.gz
- 3da6bdbcfc919b781a72825a60cca60dd0f3036b              187 Release
- bc6fc07cf871dc60410b7943ecf6c086a8789b72            94332 Translation-en.gz
+ 3728b4293db2cc827c55fcbea23ded8e7179254f           257530 Packages
+ aff6bd591ba4b7ca717d9d8c257f2c448b1ebad9            94790 Packages.gz
+ a9c628c01cea1604044865d26ef7d490e365105c              187 Release
+ aff6bd591ba4b7ca717d9d8c257f2c448b1ebad9            94790 Translation-en.gz
 SHA256:
- 3695e8507c56a666d507ffe31e458e382083138f3eb4b454f064a61578786425           256490 Packages
- 97fd9a8b916cd453049e65199d51234473dea73ea5e0163a6bd7a778dfb0d79c            94332 Packages.gz
- 767ebd0cfe9705281b7d472afcbbf5b6dbbae26ce25e793411d881a410477ba4              187 Release
- 97fd9a8b916cd453049e65199d51234473dea73ea5e0163a6bd7a778dfb0d79c            94332 Translation-en.gz
+ 6b8ef7d42f16c3f784c158afaccd2d3d2338b9a3a3f3397aa2f3a3c8078442fc           257530 Packages
+ bb45e67c0fb9b6c6132fcd14fff76c6d61ca232dd86bf7b4e0a5935c0e40f94f            94790 Packages.gz
+ af3264522a6ba0bf109e12f9bfae8ecc5f7762715781bc01f5e03768c6535a52              187 Release
+ bb45e67c0fb9b6c6132fcd14fff76c6d61ca232dd86bf7b4e0a5935c0e40f94f            94790 Translation-en.gz
 SHA512:
- 0b9e8521017425ec748a38b1d23c6f6452bca48944802f5eaa07ed0c9fb1392f07099e7f034b32693cc5c84c086d1f28c21bd75e48d6396de11fdfe2be6b04e4           256490 Packages
- 1bfcf8264540bbee1db4714c84d88dc1d31445e91b3b556667919ab05086f607201b3eec96dd85e44144d81f227f5f39ff82b2a1901a0556c34ee9632539a3fa            94332 Packages.gz
- d8e481add6ac614e65dd0cda95568dafa43908e438f48759f873d96b64989920e36aab7c279436757286b878d794cce607efb50648596ea0d1c16c07b0a15925              187 Release
- 1bfcf8264540bbee1db4714c84d88dc1d31445e91b3b556667919ab05086f607201b3eec96dd85e44144d81f227f5f39ff82b2a1901a0556c34ee9632539a3fa            94332 Translation-en.gz
+ 67deecd9e653472e1cafdc932e174e428f34976dd7c99edc22aae817e7dde23baf9e3d4a1ca646de55cff3a7c43ced724031d1fa59a6b2b42f4046ae617693e2           257530 Packages
+ cb4e307365b31b61ecac37c6f3d79e6632f119d5a4f1237dfa8e498929db7de88820ba9167cc57df28fd29ed9cdf658dc2bed58dcd0226f2bbe63fcf941e47a0            94790 Packages.gz
+ ac83f8cb9e7a846530afe09962477bd9a86a6fa8833ca246b3abbee0f0c48a8c131314645bc1da8476bddea82ddcb8229497624f9c1294f3efeaac00ed51156d              187 Release
+ cb4e307365b31b61ecac37c6f3d79e6632f119d5a4f1237dfa8e498929db7de88820ba9167cc57df28fd29ed9cdf658dc2bed58dcd0226f2bbe63fcf941e47a0            94790 Translation-en.gz

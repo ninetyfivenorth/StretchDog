@@ -3152,6 +3152,24 @@ Description: X server initialisation tool
  xinit and startx are programs which facilitate starting an X server, and
  loading a base X session.
 
+Package: gmplayer
+Architecture: i386
+Version: 37926-6.3.1
+Priority: optional
+Section: utilities
+Maintainer: root
+Installed-Size: 1700
+Depends: libsndio6.1, libbluray1, libdvdread4, libcdio-cdda1, libcdio13, libcdio-paranoia1, libfribidi0, libass5, libenca0, libmad0, libvorbisenc2, libvorbis0a, libogg0, libgsm1, libtheora0, liba52-0.7.4, libmpeg2-4, libdca0, libopus0, libbs2b0, libopencore-amrnb0, libopencore-amrwb0, libxvidcore4, libvpx4, libdvdnav4, libdirectfb-1.2-9, libvdpau1, libesd0, libaudio2, libjack0, libopenal1, libdvdcss, peasy-dvd-player
+Conflicts: gnome-mplayer-1.0.7, mplayer
+Replaces: gnome-mplayer-1.0.7, mplayer
+Filename: ./Extra/gmplayer_37926-6.3.1_i386.deb
+Size: 6239920
+MD5sum: 2461d05f63272e78f3e234b9d7dc3ead
+SHA1: 1a32ea0e6d639f80d0542d8a9f67636c1fdd587e
+SHA256: c405f37cc03f55c5d36c77c9dd75489b06c61b0c67d98b8aa7753ddbd8d26fe9
+SHA512: 3604d53a14e62214a02815a7ba68f33bf311868dcb96696ff538350ce9ebcc1512efdc863f95c02aa901b940b9bc755dc9754987a43cc2254b33b8ff7f134ead
+Description: Mplayer SVN-r37926, mediaplayer
+
 Package: upgrade-kernel
 Architecture: all
 Version: 1.0.2
