@@ -6,24 +6,24 @@ Codename: stretch
 Architectures: i386
 Components: main
 Description: DebianDog repository
-Date: Thu, 07 Dec 2017 10:08:33 +0000
+Date: Tue, 12 Dec 2017 16:54:31 +0000
 MD5Sum:
- af9c07b0564be9cd543377faaaea6f3d           214309 Packages
- 16d67f166a2f0d61909112b0499d7655            78241 Packages.gz
- dffce4b733f9cd1a063b4b1ff9965e7f              187 Release
- 16d67f166a2f0d61909112b0499d7655            78241 Translation-en.gz
+ 1e6434fdec4cd9cdda8bb65ff60bd713           216088 Packages
+ 70d821c25a460ec05324cc6db86d2693            78791 Packages.gz
+ 1d75fabb6c5229d8f511ef5436f19d9a              187 Release
+ 70d821c25a460ec05324cc6db86d2693            78791 Translation-en.gz
 SHA1:
- 38099a2d69f09ac3d3070ef2b4168394b53749c8           214309 Packages
- 3d82f008f3a036325b9449da04f0df3fad3987ef            78241 Packages.gz
- 9e3d808d51994b2c75246acb91338266b0732fd7              187 Release
- 3d82f008f3a036325b9449da04f0df3fad3987ef            78241 Translation-en.gz
+ f2cf69f78e3684bcf932367ad464b9dc97f5b7c2           216088 Packages
+ ba05dc3791e4b116859cdac6314d2f3a2a27055a            78791 Packages.gz
+ cef35154583ef57819a71a85c5bbb3791e576885              187 Release
+ ba05dc3791e4b116859cdac6314d2f3a2a27055a            78791 Translation-en.gz
 SHA256:
- 7a1f0b9c4eff42db261cd2111c18d5bcd6014ec0d4a48b2bc64656293bb7a5fc           214309 Packages
- 8e3b75f10a95e9972338ed2f926cb367e422c44a937390af366aeb9a6c54d3ca            78241 Packages.gz
- 9540d444d73972920110fbb161bb2fed2de485aae277e31ca4d66448e8fd89fe              187 Release
- 8e3b75f10a95e9972338ed2f926cb367e422c44a937390af366aeb9a6c54d3ca            78241 Translation-en.gz
+ ee5685daf74a72d004642b231f7cbb745d33b0f0a0f583fef248bb49ba587e9b           216088 Packages
+ 3405f8b1071d5ef9e5c389ef497fe4285b42760e06e37bd97f5bfe25ac3f501f            78791 Packages.gz
+ 126b6336e32691f10a38291fe6c2e0048bea0d72f2aff5e1a0366a42239d545d              187 Release
+ 3405f8b1071d5ef9e5c389ef497fe4285b42760e06e37bd97f5bfe25ac3f501f            78791 Translation-en.gz
 SHA512:
- dd9cd9d6bea4b7c1ef41a865a2a8aeb842e6cbf1caa9a248bbaaea3d33d0abb78ce0db54e9c3e62f04809c34891c3193de714cf7dcedfbbb5eef6ce62c0b2074           214309 Packages
- 8dd50c259fc840aac3f35972d89f01c7179948a40ed6fe416f85233c8b507e0cf91ec08d801ff2fa2417b01de8d0f5bede8fb254ab19dac63b810b49393315ff            78241 Packages.gz
- 7b87afb3c3bcd396edd68fd7d024d169b4905b0dd89796e7da0924411ac78b569a532743ebd005ab1b0a35ab40f9f13717352d267cc7a51fe6b8552ed3a1f0f8              187 Release
- 8dd50c259fc840aac3f35972d89f01c7179948a40ed6fe416f85233c8b507e0cf91ec08d801ff2fa2417b01de8d0f5bede8fb254ab19dac63b810b49393315ff            78241 Translation-en.gz
+ 2da42df7f221e481f21b833d97948da012cca68cfffa41be55fca5580e2489a1f66069e7d43f12b1fe47fdd160553b7942056eb9790f1a24b87d0c85103508bf           216088 Packages
+ fd72e0f01a881e3510b7c0452eece45e1a93db883f96b037b750cc20fd48f0b52ef10800f086b0f874aca4e9b7a52d316b98842ab009e5314be0f7c02bcc9c9c            78791 Packages.gz
+ 50af66ca510dc95e2ce71f4885f7b6e892f1b71a2e2d56bab8da36df32592fff2e076478e38ef40add281807e73b5379d405df956b9efe35051b9f45fbceb24e              187 Release
+ fd72e0f01a881e3510b7c0452eece45e1a93db883f96b037b750cc20fd48f0b52ef10800f086b0f874aca4e9b7a52d316b98842ab009e5314be0f7c02bcc9c9c            78791 Translation-en.gz

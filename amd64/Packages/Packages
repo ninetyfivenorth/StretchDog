@@ -3464,6 +3464,30 @@ SHA256: 7760d85632120dbecd4bd5a6146129ac602932c36328477fb9d64d3129734652
 SHA512: e12217a00929d9f0326169e1c6a65f38489c967a1460293ba272c4a609f4ac74e0dbe2157b3c246a9e49c560e0dfb9da54a54505e634895481737a73e1525188
 Description: weav commandline processor
 
+Package: PeasyWiFi
+Architecture: amd64
+Version: 4.6
+Priority: optional
+Section: base
+Maintainer: rcrsn51
+Depends: libc6, gtkdialog, gettext-base, net-tools, wpasupplicant, wireless-tools, x11-utils, ccrypt
+Conflicts: ceni, dhcpcd, dhcpcd5, resolvconf, isc-dhcp-client, isc-dhcp-common, sns, xpns-tool, wifibox, wifibox-dhcpcd, frisbee
+Replaces: ceni, dhcpcd, dhcpcd5, resolvconf, isc-dhcp-client, isc-dhcp-common, sns, xpns-tool, wifibox, wifibox-dhcpcd, frisbee
+Filename: ./Extra/peasywifi_4.6_amd64.deb
+Size: 18966
+MD5sum: d49b04aceaa4365b0a5aa506d50b6dd9
+SHA1: 699865e471be360a4bc54eab81d52eda8c0cb98b
+SHA256: 2fd26d0326d8679f85da9cb3a48f8f98206439adfe9c59b98f34ed20eb0ada43
+SHA512: 49a9832e8ce545f181ed636f9cbe48b774621bf5efc6463532bf2da0c9adbf00c4f1efebafa8fe0e390b683750714f61fb1e1fed9f35008494275f2f1af27328
+Description: Reliable network manager
+ -changes in v4.4-0 in peasywifi script by rcrsn51:
+ - added option (Ethernet tab) to bring the interface down
+ - added Names button (to select interface names)
+ - A modification to Names. It resets the Ethernet profiles in /etc/pwf/ethernet
+ - Updated Help screen
+ - added multi-user support (fredx181)
+ - changed bcrypt to ccrypt
+
 Package: redshiftgui
 Architecture: amd64
 Version: 0.2.1-ddjessie
@@ -4787,6 +4811,21 @@ Description: GTK+2 based text/hex editor
  MadEdit supports many useful functions, e.g. SyntaxHighlightings,
  WordWrap, Encodings, Column/Hex Modes.
  HomePage: http://madedit.sourceforge.net
+
+Package: peasymp3
+Architecture: amd64
+Version: 4.1-1
+Priority: optional
+Section: base
+Maintainer: rcrsn51
+Depends: gmplayer | gnome-mplayer-1.0.6, icedax, eject, xterm, libasound2-plugin-equal
+Filename: ./Extra/peasymp3_4.1-1_amd64.deb
+Size: 7722
+MD5sum: 0c43594d9edd237a64d231e840edcae1
+SHA1: 08e45c7bfedae8b531a16a79a79876977a52fb42
+SHA256: 0d7e8890c345e5eaaf943b0fd57ff60fe57eec4debbbe73771ad8b5e03ca306b
+SHA512: b6da309d18171fc981f8a262ee40b3b3624a060d9a6e0f614befa71b34cc889123859c86b1d9e692c5087e5297bd46152e29c8dac347b14603eae8a2dd2a3e21
+Description: Media player, CD player, Carousel
 
 Package: peasyxorburn
 Architecture: all
