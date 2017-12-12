@@ -4778,6 +4778,21 @@ Description: mplayer/mplayer2 based video player, minimal build
  This package is not part of Debian. It was created by mpv-build scripts with
  statically linked ffmpeg (not libav) and libass from upstream.
 
+Package: peasymp3
+Architecture: all
+Version: 4.1
+Priority: optional
+Section: base
+Maintainer: rcrsn51
+Depends: gmplayer, icedax, eject, xterm, libasound2-plugin-equal
+Filename: ./Extra/peasymp3_4.1-1.deb
+Size: 8258
+MD5sum: 35d1ac94f7118e5e8bfcfa0befe0e177
+SHA1: 07e5ffe2006291aba074fce5a83eb50b385c6315
+SHA256: e1804d4302395d77f917656723c5276170520c2b835d78c88c44766e70bf29c8
+SHA512: 9ad19bde6941130bcc14eb094d697d47e39d7bd53fcea35ca891819c30a70b2b2fd62a1f5713e6c3bc2d2db0c7dc79a316e7f03aa2303fa11388d4c646f6dccc
+Description: Media player, CD player, Carousel
+
 Package: xvidcap
 Architecture: i386
 Version: 1.1.7
@@ -5427,6 +5442,30 @@ SHA1: 1de27b7b32997414fae377975beb1a93c164f4a0
 SHA256: d5989b179ccfc76533e652e2240d65a1d6d0c2f237b37e115a64a1380da0b8ca
 SHA512: a0b2ad29eeb265382d39f1ee6ab1b5a39daffabdf9e9073253d39ea34fe483a385fc1363b6d9e1ff60c1bdf68c6af778c5d7381f0db60d6a54b8f2860721181e
 Description: Extract gz, tgz, bz2, xz, zip, 7z archives
+
+Package: PeasyWiFi
+Architecture: i386
+Version: 4.6
+Priority: optional
+Section: base
+Maintainer: rcrsn51
+Depends: libc6, gtkdialog, gettext-base, net-tools, wpasupplicant, wireless-tools, x11-utils, ccrypt
+Conflicts: ceni, dhcpcd, dhcpcd5, resolvconf, isc-dhcp-client, isc-dhcp-common, sns, xpns-tool, wifibox, wifibox-dhcpcd, frisbee
+Replaces: ceni, dhcpcd, dhcpcd5, resolvconf, isc-dhcp-client, isc-dhcp-common, sns, xpns-tool, wifibox, wifibox-dhcpcd, frisbee
+Filename: ./Extra/peasywifi_4.6_i386.deb
+Size: 18510
+MD5sum: b6692733f2539cd33a0aed1162607c45
+SHA1: 352adf398b36be9bcc4a40060669d5082f7f67d3
+SHA256: 0df57fc8b3748fc0f814c6919243059ae2cdbaeac43fb76851407e1f6efaca45
+SHA512: e5c0ad709540df4ad966baa2b4132f9659357920ce51a45233c199b02d548218d6f6ff535a1ecc76b7f06e85d082b78c2a7509a0d9f2abd23b630b36d6937070
+Description: Reliable network manager
+ -changes in v4.4-0 in peasywifi script by rcrsn51:
+ - added option (Ethernet tab) to bring the interface down
+ - added Names button (to select interface names)
+ - A modification to Names. It resets the Ethernet profiles in /etc/pwf/ethernet
+ - Updated Help screen
+ - added multi-user support (fredx181)
+ - changed bcrypt to ccrypt
 
 Package: ceni
 Architecture: i386
