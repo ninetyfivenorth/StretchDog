@@ -2891,6 +2891,21 @@ Description: Multi-tabbed GTK+/VTE terminal emulator - common files
  This package contains files used by both the GTK+2 (roxterm-gtk2) and
  GTK+3 (roxterm-gtk3) versions.
 
+Package: peasymp3
+Architecture: i386
+Version: 4.2
+Priority: optional
+Section: base
+Maintainer: rcrsn51
+Depends: gmplayer | gnome-mplayer-1.0.7, icedax, eject, xterm, libasound2-plugin-equal
+Filename: ./Extra/peasymp3_4.2_i386.deb
+Size: 7714
+MD5sum: 71c27bc8eeb80c1a44ea22e1c47b88be
+SHA1: 99a907da2a2fb7a79ce9111ba7cfe50591da6fee
+SHA256: 9f776116371c42b450206a6c88a6cef8e24dfa249d32af6a2c80b98572fea02c
+SHA512: c95dc536ca11b343b31eb6b48d11ebb92bd2c1d106bb8628e06f6d9224fef38fc46ecfcbb9f9f6e0f0caf2c5bb50613a28825ef99203390a052f2e5153d6262f
+Description: Media player, CD player, Carousel
+
 Package: PeasyWiFi
 Architecture: i386
 Version: 4.4-1
@@ -4777,21 +4792,6 @@ Description: mplayer/mplayer2 based video player, minimal build
  .
  This package is not part of Debian. It was created by mpv-build scripts with
  statically linked ffmpeg (not libav) and libass from upstream.
-
-Package: peasymp3
-Architecture: all
-Version: 4.1
-Priority: optional
-Section: base
-Maintainer: rcrsn51
-Depends: gmplayer, icedax, eject, xterm, libasound2-plugin-equal
-Filename: ./Extra/peasymp3_4.1-1.deb
-Size: 8258
-MD5sum: 35d1ac94f7118e5e8bfcfa0befe0e177
-SHA1: 07e5ffe2006291aba074fce5a83eb50b385c6315
-SHA256: e1804d4302395d77f917656723c5276170520c2b835d78c88c44766e70bf29c8
-SHA512: 9ad19bde6941130bcc14eb094d697d47e39d7bd53fcea35ca891819c30a70b2b2fd62a1f5713e6c3bc2d2db0c7dc79a316e7f03aa2303fa11388d4c646f6dccc
-Description: Media player, CD player, Carousel
 
 Package: xvidcap
 Architecture: i386
