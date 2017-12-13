@@ -4029,6 +4029,22 @@ SHA256: 35fbcff8cfb5e9797c8bf29f1e3f9227cd79ab2e2c2493ba6ed7fbbb5fa68ce9
 SHA512: a3b0ae1d08ad318f1347f2802c599381dcd13d613847264e548a7905a833ceece473640101993bf2bdc2a9a9db14d74ead2d531c82cc45983ec48a22821b1d11
 Description: DVD movie player
 
+Package: googledrivegui
+Architecture: i386
+Version: 0.1.0
+Priority: optional
+Section: utilities
+Maintainer: fredx181
+Installed-Size: 5400
+Depends: gtkdialog
+Filename: ./Extra/googledrivegui_0.1.0_i386.deb
+Size: 1524072
+MD5sum: 5a55c65f01f7fdda6792870eed7adb07
+SHA1: 742f50e2f87d032e8bbbe07a2a062c8f7cd951f6
+SHA256: 5c672f0480409b7bff88505fb5a7422fa66236b31b483052e437b7c2995484e9
+SHA512: 4a9a97f89f73cfa99c5692ccd3affdc578411d5100d250e38e338a36214d315e3251787fb0d405e1b97d5aeab4ba953bc52c8ce9ee7677e93b0c84eadef48a1f
+Description: Google-drive Filemanager
+
 Package: dogradio
 Architecture: i386
 Version: 0.0.7b
@@ -4561,6 +4577,20 @@ SHA1: 5938570762c1542bf057823251acd31a58f75606
 SHA256: df953b561ef3447ee911d71f4e4d932baf5a54d126637788c3d52f295a1ba3d5
 SHA512: 57e39db58081b8491a4aae66aa0060726b1d5c703981ebd0ce88de8a612eab8dcb1875899b9e8e797ebd301ac5ed553012926e708afb19a7451128d8534f570e
 Description: DropboxGUI, by mikeb
+
+Package: batterup
+Architecture: i386
+Version: 1.2
+Priority: optional
+Section: base
+Maintainer: rcrsn51
+Filename: ./Extra/batterup_1.2_i386.deb
+Size: 7264
+MD5sum: c0d45a3070974b2eedc07706724d7af3
+SHA1: 4b654d53c5b27ab3b2c435781466bc98409f16f3
+SHA256: 7163eb7ef64bb4373f7ccd581e472bf7b160ec9761a9dff50842930cd5ba02eb
+SHA512: 4bcf7049de516444e1b0b314b7f1e6fe0c035bcc31f1eefca0609f4a452b4dd136772a6b52ae3c13c6dec9b34c0d635a7e5bf608c5dd7b273bbf72d0f3617f86
+Description: Batterup battery monitor
 
 Package: dogradio
 Architecture: i386

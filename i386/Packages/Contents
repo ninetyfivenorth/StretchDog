@@ -1123,6 +1123,7 @@ root/.xsession						    jwmconf
 root/.xsession-jwm					    jwm-setup
 root/.xsession-openbox					    jwm-setup,jwmconf
 root/Startup/CPUtemp_tray				    cputemp
+root/Startup/batterup_start				    batterup
 root/Startup/exec_fwstatus-autostart			    firewall-ng
 root/Startup/exec_lxinput-autostart			    lxinputsave
 root/Startup/exec_lxrandr-autostart			    lxrandr-save-fix
@@ -2224,6 +2225,10 @@ usr/local/bin/apt2sfs					    apt2sfs
 usr/local/bin/apt2sfs-fullinst				    apt2sfs
 usr/local/bin/av-conv					    ffmpeg
 usr/local/bin/avconv					    ffmpeg
+usr/local/bin/batterup					    batterup
+usr/local/bin/batterup_restart				    batterup
+usr/local/bin/batterup_tray				    batterup
+usr/local/bin/beep.wav					    batterup
 usr/local/bin/camphonetab				    camphonetab
 usr/local/bin/ch-face					    xfce4-whiskermenu-plugin-mod
 usr/local/bin/chpupsocket				    chpupsocket
@@ -2246,6 +2251,7 @@ usr/local/bin/desktop_drive_icons			    desktop-drive-icons
 usr/local/bin/dog-ctrl-center				    dog-control-center
 usr/local/bin/dogradio					    dogradio
 usr/local/bin/dogradiorip				    dogradio
+usr/local/bin/drive					    googledrivegui
 usr/local/bin/drive-info				    debdogmountscripts
 usr/local/bin/dropbox_gui				    dropboxgui
 usr/local/bin/dropbox_uploader.sh			    dropboxgui
@@ -2267,6 +2273,7 @@ usr/local/bin/flitetf2wav				    flite-hts-engine
 usr/local/bin/freememapplet_start			    freememapplettray
 usr/local/bin/freememapplet_stop			    freememapplettray
 usr/local/bin/freememapplet_tray			    freememapplettray
+usr/local/bin/gdrive_gui				    googledrivegui
 usr/local/bin/geany					    geany
 usr/local/bin/gethosts					    debdog-advert-blocker
 usr/local/bin/gifdance					    gifdance
@@ -5137,6 +5144,7 @@ usr/share/applications/apt2sfs-fullinst.desktop		    apt2sfs
 usr/share/applications/apt2sfs.desktop			    apt2sfs
 usr/share/applications/azpainter.desktop		    azpainter
 usr/share/applications/bacongui.desktop			    bacon
+usr/share/applications/batterup_restart.desktop		    batterup
 usr/share/applications/camphonetab.desktop		    camphonetab
 usr/share/applications/ceni.desktop			    ceni
 usr/share/applications/clear-changes.desktop		    quick-remaster
@@ -5171,6 +5179,7 @@ usr/share/applications/freememapplet-on.desktop		    freememapplettray
 usr/share/applications/frisbee.desktop			    frisbee
 usr/share/applications/geany.desktop			    geany
 usr/share/applications/gnome-mplayer.desktop		    gnome-mplayer-1.0.7
+usr/share/applications/googledrivegui.desktop		    googledrivegui
 usr/share/applications/gtk-youtube-viewer.desktop	    youtube-viewer
 usr/share/applications/jwm-theme-change.desktop		    jwm-setup,jwmconf
 usr/share/applications/jwm.desktop			    jwm-setup
@@ -9111,6 +9120,7 @@ usr/share/pixmaps/application-x-squashfs3.png		    quick-remaster
 usr/share/pixmaps/apt2sfs.png				    apt2sfs
 usr/share/pixmaps/azpainter.png				    azpainter
 usr/share/pixmaps/backup-restore.png			    SaveFolderBackup
+usr/share/pixmaps/batterup.png				    batterup
 usr/share/pixmaps/browser-dload.png			    sfs-get-smokey-get
 usr/share/pixmaps/camphonetab.png			    camphonetab
 usr/share/pixmaps/card24.png				    mount-wizard
@@ -9269,6 +9279,7 @@ usr/share/pixmaps/gifencc.png				    gifenc
 usr/share/pixmaps/gnibbles.png				    grub4dosconfig
 usr/share/pixmaps/go-next.png				    youtube-get2
 usr/share/pixmaps/go-previous.png			    youtube-get2
+usr/share/pixmaps/google-drive-128.png			    googledrivegui
 usr/share/pixmaps/gtk-about.png				    sns
 usr/share/pixmaps/gtk-go-back.png			    youtube-get2
 usr/share/pixmaps/gtk-go-forward.png			    youtube-get2
