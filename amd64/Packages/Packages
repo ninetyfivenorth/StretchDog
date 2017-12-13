@@ -2224,6 +2224,20 @@ Description: FUSE filesystem for mounting files from http servers
  the filesystem. There is no notion of listable directories in http so only a
  single URL can be mounted. The server must be able to send byte ranges.
 
+Package: batterup
+Architecture: amd64
+Version: 1.2
+Priority: optional
+Section: base
+Maintainer: rcrsn51
+Filename: ./Extra/batterup_1.2_amd64.deb
+Size: 7136
+MD5sum: 87be2621c498a9b1777d475e90b3a993
+SHA1: 4d0036a8a6b169822a1bcb0fa524adfdd367495f
+SHA256: ca19e83d47469dc271f9aad74676fe7658bb31c94c2a73472f911ec51625e186
+SHA512: 3a78ec682234b331a38223ed6bdf6ed2fb655e621abf30f0b278644825f17a4acd886a9dd8cc9871d285807800a8a9b9ea6643410cfe87d90a7fd028b3a5503f
+Description: Batterup battery monitor
+
 Package: dog-control-center
 Architecture: amd64
 Version: 1.0.0
@@ -2402,6 +2416,22 @@ Description: The Ultimate Music Player
     and last.fm scrobbler; sdk is included
   * duration calculation is as precise as possible for vbr mp3
     files (with and without xing/info tags)
+
+Package: googledrivegui
+Architecture: amd64
+Version: 0.1.0
+Priority: optional
+Section: utilities
+Maintainer: fredx181
+Installed-Size: 6700
+Depends: gtkdialog
+Filename: ./Extra/googledrivegui_0.1.0_amd64.deb
+Size: 1695720
+MD5sum: f574307189e16ce94ea913a1b8db73aa
+SHA1: d0c1e27078b8e6c4bcc7be7b7efe849f64d899d0
+SHA256: 1e43c6f7877d858402ca158ec7bc08764b0d9a20935a3b721b21e81c6c89247f
+SHA512: 1cf7f347c2ff228979451cd590eed543edbeb351894cc4a521f061980b76b264c4c416b68749e4d7c541f905fe7827dc30abaeb605f2a0220ddfc881e085a813
+Description: Google-drive Filemanager
 
 Package: touchpad
 Architecture: all
