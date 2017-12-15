@@ -2576,6 +2576,22 @@ SHA512: 97cf11ea342d7b525a6a44b8660678ee713d97863ae3b434fdfb477e87040f66d50dfb5e
 Description: Document scanning tool
 	contains the binary xscanimage-peasy
 
+Package: dropboxgui
+Architecture: all
+Version: 1.0.4
+Priority: optional
+Section: utilities
+Maintainer: root
+Installed-Size: 87
+Depends: libc6, gtkdialog, gxmessage
+Filename: ./Extra/dropboxgui_1.0.4_all.deb
+Size: 16724
+MD5sum: 7378563a9b1495ba936b0ca575903ef9
+SHA1: 97c0b21bf014ebfeb259edb55dc7cd36004b92b1
+SHA256: f984ef089563e9d49743f83ffcc150901612bc51874275ac27c910f3a00d8992
+SHA512: 48c210fc18a1436ae3937eac78b92bae2fd97d96a9947beaea25adaf3194b37eb8112323bc9fc4e44909eafc202617f363afa846b7e92b69f967b4e483f93085
+Description: DropboxGUI, by mikeb
+
 Package: gifenc
 Architecture: all
 Version: 1.0.1
@@ -4219,6 +4235,22 @@ SHA1: 939386965a922d3813ddf3ffa7067b863bd1755a
 SHA256: 287283c762d184708c8d11bc39fc26e18edc4e9c974426106bb84d83a68493ee
 SHA512: 0d80e7633b450b8beda300338361a8e9136b2bb49e79b9e414e11302204925e360caf5419e4be9d6dc87448d3f54dc514c89076fd835d68952192e685b26b33e
 Description: Samba share mounter
+
+Package: googledrivegui
+Architecture: amd64
+Version: 0.2.0
+Priority: optional
+Section: utilities
+Maintainer: fredx181
+Installed-Size: 6700
+Depends: gtkdialog
+Filename: ./Extra/googledrivegui_0.2.0_amd64.deb
+Size: 1700432
+MD5sum: 0553d0b24046bba461608e493ec52094
+SHA1: 548d52fc8424ea575bd3e637f3c86b09b111ea15
+SHA256: ac2cb19e5515606c76ae3c9b2f5e0cfaa9d7df70bdc84ff7f83d49ba47692c48
+SHA512: 1b065b64a2dcf3da050cef970f73cc39601d90e5f00a141aa5a32e453fbf416d9c2af2b8854bb14dac0f60bb7fabb6694b9c3189b91d36a1f67d533534c37166
+Description: Google-drive Filemanager
 
 Package: youtube-viewer
 Architecture: all
