@@ -4433,6 +4433,7 @@ usr/local/share/perl/5.24.1/auto/share/dist/WWW-YoutubeViewer/icons/gtk-youtube-
 usr/local/share/perl/5.24.1/auto/share/dist/WWW-YoutubeViewer/icons/spinner.gif youtube-viewer
 usr/local/share/perl/5.24.1/auto/share/dist/WWW-YoutubeViewer/icons/user.png youtube-viewer
 usr/local/share/pixmaps/gtk-close.png			    dogradio
+usr/local/share/pixmaps/gtk-help.png			    googledrivegui
 usr/local/share/pixmaps/gtk-info.png			    dogradio
 usr/local/share/pixmaps/gtk-media-play.png		    dogradio
 usr/local/share/pixmaps/gtk-new.png			    dogradio

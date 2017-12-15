@@ -2791,6 +2791,22 @@ Description: fast, lightweight graphical web browser
   * Support for extensions (written in C).
   * Custom context menu actions.
 
+Package: dropboxgui
+Architecture: all
+Version: 1.0.4
+Priority: optional
+Section: utilities
+Maintainer: root
+Installed-Size: 87
+Depends: libc6, gtkdialog, gxmessage
+Filename: ./Extra/dropboxgui_1.0.4_all.deb
+Size: 16724
+MD5sum: 7378563a9b1495ba936b0ca575903ef9
+SHA1: 97c0b21bf014ebfeb259edb55dc7cd36004b92b1
+SHA256: f984ef089563e9d49743f83ffcc150901612bc51874275ac27c910f3a00d8992
+SHA512: 48c210fc18a1436ae3937eac78b92bae2fd97d96a9947beaea25adaf3194b37eb8112323bc9fc4e44909eafc202617f363afa846b7e92b69f967b4e483f93085
+Description: DropboxGUI, by mikeb
+
 Package: gifondesktop
 Architecture: i386
 Version: 1.0.0
@@ -5425,6 +5441,22 @@ Description: Alternate menu plugin for the Xfce desktop environment
  buttons on the side. Top level categories make browsing fast, and simple to
  switch between. Additionally, Whisker Menu keeps a list of the last ten
  applications that you've launched from it.
+
+Package: googledrivegui
+Architecture: i386
+Version: 0.2.0
+Priority: optional
+Section: utilities
+Maintainer: fredx181
+Installed-Size: 5400
+Depends: gtkdialog
+Filename: ./Extra/googledrivegui_0.2.0_i386.deb
+Size: 1530114
+MD5sum: 429ce6f6851e7e2b43850c445306aa93
+SHA1: 832a93e29b2ff0f515033b736cc6613cf0ecbdd8
+SHA256: acd7f9f5748dbb3f72d5526d3c55934209909dea7a044408f4f60f4321e6a542
+SHA512: aa2e3090446eeaca287daf7515f478bf848d353736e9d42c430012673b792d7c33d5a11f2c3df903be6d18ecae0cbac9f220dceccd183c078359df72dfb6cb6e
+Description: Google-drive Filemanager
 
 Package: tzupdate
 Architecture: all
