@@ -3084,6 +3084,20 @@ SHA256: 46d334dd3a4d0b960298fc6917c41f67c66cc640fc09b49134e2c344110d87eb
 SHA512: 7098032b45715065e393fb44b47c40d69952e7780057704636262a70dcbcde4d1ab89ea462cd24fe4ed45dc31a930f3e9b12d86a5f3c7e276d16965fc0eb361d
 Description: Screen snapshot
 
+Package: batterup
+Architecture: i386
+Version: 1.3
+Priority: optional
+Section: base
+Maintainer: rcrsn51
+Filename: ./Extra/batterup_1.3_i386.deb
+Size: 7464
+MD5sum: 88990e986384054d70ea66fb86cdaba6
+SHA1: 165e2416aac8f20ea607fa7e9ff298cf5bf83f4c
+SHA256: 86a0ba10e48ba0e7d2b98d28f0d7af83392ceff3c22ce0441dd174bb3aa1aa04
+SHA512: 5c3e7696b348626c77f6257e39167bf23f95a41f91a96bea7422be4f3f59ed524c7d16713e81c9ba6e04acbc7cec1d74cffd9ff07a12cc535f380c24d4a902af
+Description: Batterup battery monitor
+
 Package: samba4-control
 Architecture: i386
 Version: 2.0
