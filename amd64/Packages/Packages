@@ -4401,6 +4401,20 @@ Description:  findnrun 1.10.6 (i18n)
   Files in this add-on package: localized runtime messages.
   https://github.com/step-/find-n-run/
 
+Package: batterup
+Architecture: amd64
+Version: 1.3
+Priority: optional
+Section: base
+Maintainer: rcrsn51
+Filename: ./Extra/batterup_1.3_amd64.deb
+Size: 7330
+MD5sum: 213254436461e74df25ad6d9a9ba8ae8
+SHA1: 5eeabaa3f15667703787b0e2e7927c581ccf31fe
+SHA256: c4b8c2055186d9783467c6c97315c428ee1dccbb3df8cf3605514aa75ed4b4eb
+SHA512: b701ef9423c38a966484deabfc845162d58608649d2526bd4359af3949efae71486e9da1e1bce5613ff6496f3a8437c0fb850fa45d9d5971015b0a72a029813c
+Description: Batterup battery monitor
+
 Package: gifondesktop
 Architecture: all
 Version: 1.0.0
