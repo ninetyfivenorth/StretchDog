@@ -3935,6 +3935,22 @@ Description: Jwm custom setup for Debiandog, includes:
  - jwm-obmenu script for the Jwm window manager. It provides
  a dynamic menu listing of installed applications.
 
+Package: googledrivegui
+Architecture: amd64
+Version: 0.3.0
+Priority: optional
+Section: utilities
+Maintainer: fredx181
+Installed-Size: 6700
+Depends: gtkdialog, yad
+Filename: ./Extra/googledrivegui_0.3.0_amd64.deb
+Size: 1700200
+MD5sum: 0dafef4470732a643cc6fb4c6aa7d13e
+SHA1: d539a65bb66c9c27150ef5be1f3103a8995aecfa
+SHA256: 1a09ff80e30c1a77c3214a7e8569eaba93ba0b8c8e9f53e702d82f0ec51a1c8c
+SHA512: 9d03eb1a47f7a20717e0a17233208ae05ce90409e8efa2c80a67409e97dbf78cfe46e33a43962847246d24329229377cc25d65cbc33dd6cf6e5e42ff59eb1eca
+Description: Google-drive Filemanager
+
 Package: xfce4-whiskermenu-plugin
 Architecture: amd64
 Version: 1.6.2-1
