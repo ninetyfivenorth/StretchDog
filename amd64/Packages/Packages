@@ -2158,6 +2158,20 @@ SHA256: d45c4fff85bd9eb542bfd23531410c8743e9647a6fd48ff84ac301da38409e4a
 SHA512: 4e2f54bad9e5f1494b3235912983aff451515e3592c2ec06c509c6ce00d9df7cb56c8c16e3d89893579c23bb427026846b75bac64ea240e80947e4b3c17ee6dd
 Description: DVD movie player
 
+Package: upgrade-kernel
+Architecture: all
+Version: 1.0.4
+Maintainer: fredx181 dog@root.nl
+Installed-Size: 20
+Depends: libc6, dpkg, findutils, cpio, xz-utils, gzip, gsu | gksu, live-tools
+Filename: ./Extra/upgrade-kernel_1.0.4_all.deb
+Size: 10664
+MD5sum: 34b6ad44d10237618b096f680b030bad
+SHA1: db377c89655a5922f4cb45e6aa3d7928abca9106
+SHA256: e64c4b0a5a6d76d389704aaec79af2428c1bc9f6f0857f99d41aaeb7168919aa
+SHA512: 22d453b0aeb06a6eba8ba1a52efdd2b94615684296b55ab8a129dca8d5173dccd4d6d296a004833eb88b6811013d0e632f4241f3bb1b8b3346d11e03936317ab
+Description: Warning - This package works only in DebianDog!
+
 Package: unzipper
 Architecture: all
 Version: 1.3
