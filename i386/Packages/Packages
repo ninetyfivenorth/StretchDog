@@ -2501,6 +2501,20 @@ Description: Debian package management system
  .
  For Debian package development tools, install dpkg-dev.
 
+Package: upgrade-kernel
+Architecture: all
+Version: 1.0.4
+Maintainer: fredx181 dog@root.nl
+Installed-Size: 20
+Depends: libc6, dpkg, findutils, cpio, xz-utils, gzip, gsu | gksu, live-tools
+Filename: ./Extra/upgrade-kernel_1.0.4_all.deb
+Size: 10664
+MD5sum: 34b6ad44d10237618b096f680b030bad
+SHA1: db377c89655a5922f4cb45e6aa3d7928abca9106
+SHA256: e64c4b0a5a6d76d389704aaec79af2428c1bc9f6f0857f99d41aaeb7168919aa
+SHA512: 22d453b0aeb06a6eba8ba1a52efdd2b94615684296b55ab8a129dca8d5173dccd4d6d296a004833eb88b6811013d0e632f4241f3bb1b8b3346d11e03936317ab
+Description: Warning - This package works only in DebianDog!
+
 Package: libmusicbrainz3-6
 Architecture: i386
 Version: 3.0.2-2.1

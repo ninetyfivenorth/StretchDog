@@ -9,35 +9,35 @@ Codename: stretch
 Architectures: i386
 Components: main
 Description: DebianDog repository
-Date: Tue, 19 Dec 2017 16:10:29 +0000
+Date: Wed, 20 Dec 2017 21:08:07 +0000
 MD5Sum:
- a3bf39704a0703680d6d8485a3424af8           262512 Packages
- 349e2ab72157cc319d8b1b2c5ab126db            96783 Packages.gz
- 6b48380cd0c26fbd7a1afeeb2de40037              187 Release
- 349e2ab72157cc319d8b1b2c5ab126db            96783 Translation-en.gz
+ 0e4d341d603f5e2aa48a139101651ad6           263118 Packages
+ 43848f2759d92344eb40aa56da1a0555            96990 Packages.gz
+ 75279a80c7f52bc79a228f6009eb7933              187 Release
+ 43848f2759d92344eb40aa56da1a0555            96990 Translation-en.gz
 SHA1:
- 9c00bb8fa31296ea7c987fb18c228aacd6367d2b           262512 Packages
- c0a4cb4c821839341e2769d2d319fc013bd2098e            96783 Packages.gz
- 627e54c5851f7353edfe2895965ce853ec81b85e              187 Release
- c0a4cb4c821839341e2769d2d319fc013bd2098e            96783 Translation-en.gz
+ 298de45ce3c4306c5d3280b8b5f98867218b2722           263118 Packages
+ 7f975aa4ddd5bc95784dd3b0693faf78c97118d0            96990 Packages.gz
+ b2d88d8efc1e46e05b869cf4f49d56196a964311              187 Release
+ 7f975aa4ddd5bc95784dd3b0693faf78c97118d0            96990 Translation-en.gz
 SHA256:
- f1bf38527d4a91724ab70914291a8b3928362dc52669b71c9e65a3a9ba357e64           262512 Packages
- 944d99ca333dad9173430a879c33a57c0eea570e0d27ab10462292612fee68a5            96783 Packages.gz
- 18d29d1170de632049a285102290752560427ab4a362038dab589f48b5662536              187 Release
- 944d99ca333dad9173430a879c33a57c0eea570e0d27ab10462292612fee68a5            96783 Translation-en.gz
+ fc1fab03d60c86a62d2214057f8a775433ec405b6d3685f29476329f720d9c4e           263118 Packages
+ 099eae5ac783142dced86fd94b8e5e3801c462ac64fa0e3aa84e2402f7eb5208            96990 Packages.gz
+ 3a9b22f877ad281c7e98f15eb0270f16655bd3e0138e188ca93fe0a1500bca49              187 Release
+ 099eae5ac783142dced86fd94b8e5e3801c462ac64fa0e3aa84e2402f7eb5208            96990 Translation-en.gz
 SHA512:
- 4035cbdbe41a2548ae8b1cdb8c19fdbec84a89ca8baf1b1ccb4b865899cdc3411abd553d7662ece0a2ff2e5c3878124898478cddf24e1a9409c4b50ce50a541b           262512 Packages
- cfa8ba9f110970d51323e59b9be139cb8804709fbdf2ba24ad94196d046da123bc0707fd04e2c090791773def644433f1afcab2620d48c1a3cd398c7344cdf53            96783 Packages.gz
- 9bfd608e1b562c4d791aedcacbd10e5f76ab32d02bcb106fac7de2cc19ac761ede002bc102be0104763749a7d8be38379583d38bbbed87cfb87f13b8e03b3486              187 Release
- cfa8ba9f110970d51323e59b9be139cb8804709fbdf2ba24ad94196d046da123bc0707fd04e2c090791773def644433f1afcab2620d48c1a3cd398c7344cdf53            96783 Translation-en.gz
+ 3d11a4484f50260e6277b04afba6da89b68f27d9ba8bfc0be2224932d5d891bd522960e4e2773c47dd9a0f2c80a5bfbf8d00de4cdf087b8d7695d75a0053942c           263118 Packages
+ 3d4b38b53fef4aacbdce22e61ef17a1f1d31d600da9b4a4ce1e0a4cdab39110a15901cdaa73d24ba51bafc619093b7d7283d02d85a3a5e44c570ee098eae4150            96990 Packages.gz
+ f6fb80177f11e40ea28d859e42a193dfef04932eae7d24ed93a822cf50ffb449308e4a8c6d00e4a36321687e7a8f26a1ae8e3fc7b64009fb122d7da6365bb6d5              187 Release
+ 3d4b38b53fef4aacbdce22e61ef17a1f1d31d600da9b4a4ce1e0a4cdab39110a15901cdaa73d24ba51bafc619093b7d7283d02d85a3a5e44c570ee098eae4150            96990 Translation-en.gz
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAEBCAAdFiEEEzvZDupk2V//eP5nrYe8en1zCB0FAlo5OgYACgkQrYe8en1z
-CB01Zwf/SqJY9BJ5L2A2Z1ZLH+cbpR5nrnCktrpojNko5XKhxQ/M5FYQKxgysqa6
-WL19r4UDjfUgRsCwzrh6TzRNw18dZ4rA3Hz5fNwGYd0xRi3pLEU2hlxANl+7pbqE
-AiMUth0akwDAgXjFViWVLc+cnbx9Eus69E7TIqihojBBGzvnpH3kgW+e4nUPaWdT
-1x2Wcv6HEvtRrqtUoe2nH99+brhrgmgXq83v8jt0mULatewACFytt/bsOFqe6Mu0
-Hl8uYe6czfASG7X1mdnsbNzTjofYoGO3DzWenPofpyiONZWlTmjARA+veEH4sK52
-0Y47Aj2VKhTYpaqLYu6ga6YRw1yaqQ==
-=jjOg
+iQEzBAEBCAAdFiEEEzvZDupk2V//eP5nrYe8en1zCB0FAlo60VAACgkQrYe8en1z
+CB0vJAf+Lw9sjw2VX4uF//z4zup2Eqcug80mbdm5971P6mHuBgUhvKoNB4HnkKGa
+BQ2zqP8uvbp8CSJyGIycw15j2fmOG0X8cxLUAwJjzIP4hIRQ0AE1fGlKSQ4PgDdd
+jiQFiUgYnJz1a1YBxeviPk60+3fmF2pvwFH4pOANligGyPjReHunu4rKP0JIcqHo
+cDw4ONoipkgpyRo1paG0ZOeS8bR7x+IZ4AvkCIv1gWALVNKByGrI2UuGxcllzezl
++VLalBDPEt5XHTod5IYqmP33GkyWUDKtd2tLu9MOKwEfhWV1h1YN/nUVqXNZkWPF
+NVZWue2dpB0Hw8KoYZSnrWuW5kAIVg==
+=99fx
 -----END PGP SIGNATURE-----
