@@ -2781,11 +2781,11 @@ Maintainer: fredx181
 Installed-Size: 5400
 Depends: gtkdialog, yad
 Filename: ./Extra/googledrivegui_0.3.2_i386.deb
-Size: 1530540
-MD5sum: faf37e07327e3acf3814b477f9f4d4bd
-SHA1: fd1f828a1ea1b69bb06eceaaf3a5cb66692a9a60
-SHA256: c2c4a31be848c8c17fb24d98e5e42db1926a1b6e94431239a62c764e05c56bfb
-SHA512: 6c700c8e3070c759b683e2b742c07d33def60001f331151974c8340c2691b036c05ca7ced3b292f6225d4747d15c1ff9e97e905c8be464cb1a9dda5d60da64c7
+Size: 1530744
+MD5sum: 2b375c60a0eb3843f3d955098e011597
+SHA1: 459215a0fb6f204b5eb9aff6cfd5cf6ce1c0eb76
+SHA256: 9a991020097ec7287d294c2735b5c871c7fba6ba739d760dd8f9e7f47d14804b
+SHA512: b2c16d001a5e1fd306afb35fe17d14dfcf5b526ff698bfb7d27662d07dd65c958ebe80e6af6d5c8af83edcafe28eccd4fe580213f6fba6012bd26fe5c339a97a
 Description: Google-drive Filemanager
 
 Package: midori
