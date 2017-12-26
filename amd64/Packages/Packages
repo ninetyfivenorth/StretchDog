@@ -3469,11 +3469,11 @@ Maintainer: root
 Installed-Size: 87
 Depends: libc6, gtkdialog, gxmessage, yad
 Filename: ./Extra/dropboxgui_1.0.5_all.deb
-Size: 17580
-MD5sum: 83e7e04717f727155f25acb367f9f8fc
-SHA1: ff2d18d062554ad317afd24004a2c1af9f5e87cc
-SHA256: 5a57f3df306970e5cc28e89408edc575fb85b240bb00f3434a8c04c4c95ea1d6
-SHA512: 40f34df1b9b464d83aeb997442fab45107c264110e3b542e41e6bcea52c8e1989675f8f1474f3b847ba82109fb1c57d549dd9143a136dfb5c45e22a1c429214c
+Size: 17622
+MD5sum: 9be6bd27819e18ae61f0e799d0294e42
+SHA1: 8c9931833f61d8885a6eeb3a345e27fb0adaee05
+SHA256: a3cf7701c2e394f5a8ef195a8015e9f56d449d8503b80cb9141ae5ce37153270
+SHA512: d1a0af229aaf16c5518efdbb631c198822f7554064318a26b1bb2b5bc97b75352cf91feacbc9d7df780e5f115451dd7bdc988c430a43f25404ad18761c200480
 Description: DropboxGUI, by mikeb
 
 Package: unzipper
@@ -4131,6 +4131,21 @@ Description: desktop-independent graphical login manager for X11
  desktop environments. Although completely configurable through
  themes and an option file. It is particularly suitable for machines
  that don't require remote logins.
+
+Package: hplip-print-scan
+Architecture: amd64
+Version: 3.17.9
+Priority: optional
+Section: base
+Maintainer: rcrsn51
+Depends: cups, sane-utils, peasyscan, libjpeg8
+Filename: ./Extra/hplip-print-scan_3.17.9_amd64.deb
+Size: 771654
+MD5sum: a5ccd906bf5135ecb1bfa2121182e3e5
+SHA1: e993719809afe8e40dca10c731c43f12ced1e646
+SHA256: f623d002b3a93cd5cc74e3a10e17923f3dbf7b3b5aef33a3a1ad1e122e1a887b
+SHA512: 7d39561f75753224f4d6e077af0e8ded23606669417feaa95e072b43d58eea960ad4cb250616a33a81647b41b47bee949abf8510c3b804d531f4375ac2033215
+Description: HP print/scan driver
 
 Package: dropboxgui
 Architecture: all
