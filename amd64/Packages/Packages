@@ -2643,6 +2643,22 @@ Description: mplayer/mplayer2 based video player, minimal build
  This package is not part of Debian. It was created by mpv-build scripts with
  statically linked ffmpeg (not libav) and libass from upstream.
 
+Package: googledrivegui
+Architecture: amd64
+Version: 0.3.2
+Priority: optional
+Section: utilities
+Maintainer: fredx181
+Installed-Size: 6700
+Depends: gtkdialog, yad
+Filename: ./Extra/googledrivegui_0.3.2_amd64.deb
+Size: 1701228
+MD5sum: 21aa90ac1174de7945cf5a661f55a43c
+SHA1: 9237580ac2e85904e1c8a20ad52bb8a49a6fdb35
+SHA256: f56b76b53f3849a9e5646b437f4ba6af40964cbbfaab5919b95b575f02a3259f
+SHA512: f41270833483bb7b295ac043305e202ff60d316101a6803b2b01d0bf184c9635fed2468424f98a8652de266e106572694bba0edb7480fc92286b366543002aac
+Description: Google-drive Filemanager
+
 Package: roxterm-common
 Architecture: all
 Version: 2.9.5-1
@@ -3443,6 +3459,22 @@ Description: Secure Sockets Layer toolkit - shared libraries
  Internet.
  .
  It provides the libssl and libcrypto shared libraries.
+
+Package: dropboxgui
+Architecture: all
+Version: 1.0.5
+Priority: optional
+Section: utilities
+Maintainer: root
+Installed-Size: 87
+Depends: libc6, gtkdialog, gxmessage, yad
+Filename: ./Extra/dropboxgui_1.0.5_all.deb
+Size: 17580
+MD5sum: 83e7e04717f727155f25acb367f9f8fc
+SHA1: ff2d18d062554ad317afd24004a2c1af9f5e87cc
+SHA256: 5a57f3df306970e5cc28e89408edc575fb85b240bb00f3434a8c04c4c95ea1d6
+SHA512: 40f34df1b9b464d83aeb997442fab45107c264110e3b542e41e6bcea52c8e1989675f8f1474f3b847ba82109fb1c57d549dd9143a136dfb5c45e22a1c429214c
+Description: DropboxGUI, by mikeb
 
 Package: unzipper
 Architecture: all
