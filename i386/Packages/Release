@@ -6,24 +6,24 @@ Codename: stretch
 Architectures: i386
 Components: main
 Description: DebianDog repository
-Date: Tue, 26 Dec 2017 15:11:52 +0000
+Date: Tue, 26 Dec 2017 15:28:56 +0000
 MD5Sum:
  59eb048dca8265a491e85d064b874923           264794 Packages
- bba902d5376a62e8ae2ba42eb645740f            97698 Packages.gz
- 1f907c03a733a8f0ba4e72c21256a5e0              187 Release
- bba902d5376a62e8ae2ba42eb645740f            97698 Translation-en.gz
+ 6f24c74bd0332f99992982c4822bd9d2            97698 Packages.gz
+ b7a85c82bec88d601d6760d29ff6a424              187 Release
+ 6f24c74bd0332f99992982c4822bd9d2            97698 Translation-en.gz
 SHA1:
  5cde943361af3a69762219c482c0b5007e31b140           264794 Packages
- 5f0a9d8937a23c0acb295f23fe5c28f9391e0157            97698 Packages.gz
- afff06d1a4d0a089aefa96df04f17e1047c8cbf2              187 Release
- 5f0a9d8937a23c0acb295f23fe5c28f9391e0157            97698 Translation-en.gz
+ cc835d864be3ecb86e7c522a0df78132e090dfbd            97698 Packages.gz
+ e02283fd8ce1a5172b967b141963bd7f24196f0f              187 Release
+ cc835d864be3ecb86e7c522a0df78132e090dfbd            97698 Translation-en.gz
 SHA256:
  6a3b5dd713320c151e109d4905b456d9ee5b55f969dc55b5ec6b2627689e52c3           264794 Packages
- 7741a7df69f7cb0f544157da4b2bcb02976eff02cf4903613c55d79ebc059179            97698 Packages.gz
- ee3b45bea40724d372633b06406b0c406b3dad6b85d5ecec6658ddabf3a53d46              187 Release
- 7741a7df69f7cb0f544157da4b2bcb02976eff02cf4903613c55d79ebc059179            97698 Translation-en.gz
+ 7bbc9cdd33a429e1c050b5e6a3c13686e7bb61727afcc5a58ac4aeb6fce019a0            97698 Packages.gz
+ 6546cc0cb6bb4e50fe54c8ee52a6aafc5dd5afebe78c27d9f3d4bf9892d26c7c              187 Release
+ 7bbc9cdd33a429e1c050b5e6a3c13686e7bb61727afcc5a58ac4aeb6fce019a0            97698 Translation-en.gz
 SHA512:
  8a4e919929309088b9efd9ec0290054b67522f0a99872c997aaa32961f54163a09db029d1573a743a7914810a9378dd029c5b718961a05c0a8d521b05cd18347           264794 Packages
- f8c101aa708a5572f43452a4560268deb09dc24b72b717eb0b44005c083b42db801dbb1d2eec08cdd0190edc7368e4720f2e0578676ebedc2b4e0e3e37aae8ac            97698 Packages.gz
- d47e3cab72e299d8591c7f7947e5a6f1da4c9469c68dc383f0e9f28cefbec2dc80a4789fa3f4e0d607ed2af4cdc4e541a1070ae739bb87d6992c04a1d493fc16              187 Release
- f8c101aa708a5572f43452a4560268deb09dc24b72b717eb0b44005c083b42db801dbb1d2eec08cdd0190edc7368e4720f2e0578676ebedc2b4e0e3e37aae8ac            97698 Translation-en.gz
+ 5eafbcd49119d0b9cea06961dd93f62eb0fd1470bad684ebbe1ff579bbc28cbbd49cd16b9d2f8a32d4062093af0fd044f2b315d0948ac8d844848b9f4c1b68d7            97698 Packages.gz
+ fee07dcfbcb3d5d7c08eb55f4e1b68f43bd663edf02c4e1d4bc96e1e1068670fbc4bc41740e24788fec309972a59098a758f127f51bf7e3bdeb0244a2ef0c4dc              187 Release
+ 5eafbcd49119d0b9cea06961dd93f62eb0fd1470bad684ebbe1ff579bbc28cbbd49cd16b9d2f8a32d4062093af0fd044f2b315d0948ac8d844848b9f4c1b68d7            97698 Translation-en.gz
