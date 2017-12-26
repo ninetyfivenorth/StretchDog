@@ -3873,11 +3873,11 @@ Maintainer: root
 Installed-Size: 87
 Depends: libc6, gtkdialog, gxmessage, yad
 Filename: ./Extra/dropboxgui_1.0.5_all.deb
-Size: 17580
-MD5sum: 83e7e04717f727155f25acb367f9f8fc
-SHA1: ff2d18d062554ad317afd24004a2c1af9f5e87cc
-SHA256: 5a57f3df306970e5cc28e89408edc575fb85b240bb00f3434a8c04c4c95ea1d6
-SHA512: 40f34df1b9b464d83aeb997442fab45107c264110e3b542e41e6bcea52c8e1989675f8f1474f3b847ba82109fb1c57d549dd9143a136dfb5c45e22a1c429214c
+Size: 17624
+MD5sum: 9132331174155e2f3fb2bf191154435e
+SHA1: 05605562380e627c3b35cb33d810d784f12ee7ad
+SHA256: 4cdc24d937c406429b8d731e4c7aa5567777eee77862b8da3356b07dac3b9571
+SHA512: e301238aaa52a9916e343978d31be9dff27de6bdb3e71c0ca4b81714c4e1920ddcc147f6f112a35411784b81225ea6a579cf6e4ae3184275ad780ad2efbf2294
 Description: DropboxGUI, by mikeb
 
 Package: youtube-get2
@@ -4232,6 +4232,21 @@ SHA512: 18add3856737d4e288ad470ea6cb5e7a34ee5c15b8299d9700401f4bdf9458fd53f72933
 Description: scrox is a fork of the scrot command line screen capture utility 
  including identical functionality plus can output coordinate information for
  full screen or the selected rectangular area.
+
+Package: hplip-print-scan
+Architecture: i386
+Version: 3.17.9
+Priority: optional
+Section: base
+Maintainer: rcrsn51
+Depends: cups, sane-utils, peasyscan, libjpeg8
+Filename: ./Extra/hplip-print-scan_3.17.9_i386.deb
+Size: 744434
+MD5sum: fa589dd782b9a8ff83c369d8efca27fb
+SHA1: b1c23f94c95d5a37bbb06e6cccd9dd23d2b85f87
+SHA256: 08e3da1a1392280fff1915f78ff266c33c5b0507492b8db5dc33a97b89260db3
+SHA512: f44309ff396b5a912c26b89a6cebc6456221bab3e80377c32e6369827d28552b83cd6c0d82190c5b29c9cf2fd3c356b3449e763004b3fba1ceaad0724b602305
+Description: HP print/scan driver
 
 Package: mount-wizard-2
 Architecture: i386
