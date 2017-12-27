@@ -6,24 +6,24 @@ Codename: stretch
 Architectures: i386
 Components: main
 Description: DebianDog repository
-Date: Tue, 26 Dec 2017 15:09:41 +0000
+Date: Wed, 27 Dec 2017 11:26:20 +0000
 MD5Sum:
- 3631b4d5b083a16c11eb941e88c552f3           221591 Packages
- 86ce67ec2448750fe2762348ef1c07c4            80898 Packages.gz
- 186904f88bb7a362d17d70ca6a04626c              187 Release
- 86ce67ec2448750fe2762348ef1c07c4            80898 Translation-en.gz
+ 1bde87351f66003a3e937a0b3b1da58c           222148 Packages
+ 277a4ae678f3c4283fc96652d649e9a6            81110 Packages.gz
+ 30149136073f0c0477dbc94a930ec2f9              187 Release
+ 277a4ae678f3c4283fc96652d649e9a6            81110 Translation-en.gz
 SHA1:
- 9912df3dcb9f9e960572ff12389da3e6120ee01d           221591 Packages
- 29fa92a6eaf9659e57f0720fc05f76a86a6687a7            80898 Packages.gz
- d2991f48b873fefa7427efd3323a5dccc5df49df              187 Release
- 29fa92a6eaf9659e57f0720fc05f76a86a6687a7            80898 Translation-en.gz
+ ea135ac241dec46862c1d4a459a096cece662fe6           222148 Packages
+ fc81feffbbf97d8ae601af6c62b9a3f477392694            81110 Packages.gz
+ dd5e0acf06d31cb022562806f4f1a7c56dc62320              187 Release
+ fc81feffbbf97d8ae601af6c62b9a3f477392694            81110 Translation-en.gz
 SHA256:
- b8a6fd8a29dfd6ab56aba247bf4ff8e2b31871d6cb888d82baa9ba5935881381           221591 Packages
- fad49e0c9c412539fb7cf31bfc1f41c582b6af75a9799eea841e88a33fdde747            80898 Packages.gz
- 86bfa9cdd224ca36ccfb6056b38b516f7c922dad2d3d0df14bbac0999446c33c              187 Release
- fad49e0c9c412539fb7cf31bfc1f41c582b6af75a9799eea841e88a33fdde747            80898 Translation-en.gz
+ f7bd8011f80a7b4d5e4a02932b787d482c01b4e7eeb6bfeeeebb7435cc8883c0           222148 Packages
+ 9a98e0b7472f3955aea1065f2f61df5068128ab8392b118d91ae37f25cc9255b            81110 Packages.gz
+ d6fb047e6c7bdfdaa755bf2f5804824a1d5cc9049c5177e1f6bb1356c2e0fcbe              187 Release
+ 9a98e0b7472f3955aea1065f2f61df5068128ab8392b118d91ae37f25cc9255b            81110 Translation-en.gz
 SHA512:
- 47833204aec9e17686029fe141ae5fd7c23387fbf555f11cfa485828c3290e7d5eecbba5a43aed0e5b96094d0b1b74b4545b17b8408270b1327c4f0fb991a615           221591 Packages
- 653b0f650ecda9160685709be21c31d363b98cc5333d0a37fb2c8c3765d023d191aabcbe101ed7fbd3e48bc749ebf5bd92ae1d3df659755acf22fbca97cf4112            80898 Packages.gz
- 1e3a20e909f7abfff39b06f633459989e3679db4278a48e26cd05f71be81cdc60fa3e4881b1d33b6814d448f9db4c34f84642f1b1eebd9d015df1516a66de923              187 Release
- 653b0f650ecda9160685709be21c31d363b98cc5333d0a37fb2c8c3765d023d191aabcbe101ed7fbd3e48bc749ebf5bd92ae1d3df659755acf22fbca97cf4112            80898 Translation-en.gz
+ 2ea4279bdfb3c49a1ef5ee1167f6b28ef32ffc8bcaacd6216d60f26aff73d7c00e3c5601de4719206e473fa379f1dabdd95159b7dc2073cf8e31c5f956c2ca78           222148 Packages
+ fbf811675c57978f5551b7ea540ed97adc08cbe3edb17afecc33d7c563128e43ffd6b4919815a13f85cfdf81d845af146ae7d5568bbae2bd4c8b172fecd2417b            81110 Packages.gz
+ 5e85f7cc6c29653258f62c779a2e9a4af38ad305da9790967a63a954f0f3b14e6dbdf76b1f07ba7f75ae000046c906ced490dce0ab8043c94b7328fc6a48890a              187 Release
+ fbf811675c57978f5551b7ea540ed97adc08cbe3edb17afecc33d7c563128e43ffd6b4919815a13f85cfdf81d845af146ae7d5568bbae2bd4c8b172fecd2417b            81110 Translation-en.gz

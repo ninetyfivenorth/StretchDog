@@ -4367,6 +4367,22 @@ SHA256: 81f6aafce7f3b09693c244ad36c3e2953f38750259482dee900fc79f5587d4a7
 SHA512: b7fa275ddf4d7e47d5904d2234646a92b252385909d7c461801a8a9696651ac6e339fd23a621aa52f841164eed855455feafec20bf811663f09f8e6e8ac6b422
 Description: weX AV and X11 recorder
 
+Package: dropboxgui
+Architecture: all
+Version: 1.0.6
+Priority: optional
+Section: utilities
+Maintainer: root
+Installed-Size: 87
+Depends: libc6, gtkdialog, gxmessage, yad
+Filename: ./Extra/dropboxgui_1.0.6_all.deb
+Size: 17626
+MD5sum: 17639031915e098c480a5369fb4c6862
+SHA1: ef04e3038182750b67694429a8ace43ab90e37f6
+SHA256: 8d5224b735ee55af329edb70eebace77ab4c0a9107e8b779ae0718f15f79aacf
+SHA512: d4f1cab4e683544a6f9d3c119ac230cb80fa4e1f2c7c8f9a9453667db4ab8646f6cbbbf89e364bbe76f882d2909970b958d0bc69a785fc720fa7b227eb9a9430
+Description: DropboxGUI, by mikeb
+
 Package: gmplayer
 Architecture: amd64
 Version: 37957-6.3.0
